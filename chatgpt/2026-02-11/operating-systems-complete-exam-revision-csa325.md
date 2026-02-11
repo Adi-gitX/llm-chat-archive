@@ -1,6 +1,6 @@
 # OPERATING SYSTEMS — COMPLETE EXAM REVISION (CSA325)
 
-> **Platform:** CHATGPT | **Date:** 11/02/2026, 12:41:22 | **Turns:** 262
+> **Platform:** CHATGPT | **Date:** 11/02/2026, 12:48:04 | **Turns:** 262
 > **Source:** [Open Original](https://chatgpt.com/c/6965bc80-a728-8321-8aa3-875cfaa57923)
 
 ---
@@ -1569,7 +1569,7 @@ Registers → Cache → Main Memory → Disk
 **Address Translation**
 
 ```
-Copy codePhysical Address = Frame Number × Page Size + Offset
+mathematicaCopy codePhysical Address = Frame Number × Page Size + Offset
 ```
 
 **Page Tables**
@@ -2002,7 +2002,7 @@ A **race condition** occurs when **multiple threads access shared data concurren
 **Example**
 
 ```
-Copy codebalance = balance + 1
+iniCopy codebalance = balance + 1
 ```
 
 Steps:
@@ -2372,7 +2372,7 @@ Time during which process performs I/O.
 **Execution Pattern**
 
 ```
-Copy codeCPU Burst → I/O Burst → CPU Burst → ...
+mathematicaCopy codeCPU Burst → I/O Burst → CPU Burst → ...
 ```
 
 **Workload Types**
@@ -3756,7 +3756,7 @@ Yes 👍 — there **is a simple trick to write Completion Time (CT)** that work
 🔹 **Visual Memory Trick**
 
 ```
-Copy code| P1 | P2 | P1 | P3 |
+markdownCopy code| P1 | P2 | P1 | P3 |
 0    2    4    6    9
                  ↑
               CT of P3
@@ -4913,7 +4913,7 @@ A **critical section** is a part of the program where a process accesses **share
 **Structure of a process**
 
 ```
-Copy codeEntry Section
+cssCopy codeEntry Section
 Critical Section
 Exit Section
 Remainder Section
@@ -5001,7 +5001,7 @@ A **lock variable** is a shared variable used to control access to the critical 
 **Pseudo-logic**
 
 ```
-Copy codewhile (lock == 1);
+csharpCopy codewhile (lock == 1);
 lock = 1;
 /* critical section */
 lock = 0;
@@ -5721,7 +5721,7 @@ Here’s a **clear, complete, exam-ready list** of the **basic / software critic
 Example:
 
 ```
-Copy codewhile (turn != i);
+arduinoCopy codewhile (turn != i);
 CS
 turn = j;
 ```
@@ -9382,7 +9382,7 @@ Why circular?
 If buffer size = `N`:
 
 ```
-Copy code0 → 1 → 2 → ... → N-1 → 0 → 1 → ...
+mathematicaCopy code0 → 1 → 2 → ... → N-1 → 0 → 1 → ...
 ```
 
 Pointers:
@@ -9395,7 +9395,7 @@ Pointers:
 Update rule:
 
 ```
-Copy codein  = (in + 1) % N
+iniCopy codein  = (in + 1) % N
 out = (out + 1) % N
 ```
 
@@ -10064,7 +10064,7 @@ Naive Semaphore Solution (Why It Fails)
 - Each philosopher does:
 
 ```
-Copy codewait(left_chopstick);
+scssCopy codewait(left_chopstick);
 wait(right_chopstick);
 eat();
 signal(left_chopstick);
@@ -11972,7 +11972,7 @@ A philosopher eats only if:
 Condition:
 
 ```
-Copy codeif state[i] == HUNGRY
+perlCopy codeif state[i] == HUNGRY
 and state[left(i)] != EATING
 and state[right(i)] != EATING
 → allow philosopher i to eat
@@ -13177,7 +13177,7 @@ R3 → P3 → R1
 Putting everything together:
 
 ```
-Copy codeR1 → P1 → R2 → P2 → R3 → P3 → R1
+nginxCopy codeR1 → P1 → R2 → P2 → R3 → P3 → R1
 ```
 
 This forms a **perfect cycle**.
@@ -13242,14 +13242,14 @@ R2 has 2 dots → means 2 printers / 2 CPUs available.
 Request Edge:
 
 ```
-Copy codePi → Rj
+mathematicaCopy codePi → Rj
 ```
 
 Process is **waiting for** resource.
 Assignment Edge:
 
 ```
-Copy codeRj → Pi
+mathematicaCopy codeRj → Pi
 ```
 
 Resource is **allocated to** process.
@@ -13276,7 +13276,7 @@ Cycle + Resource Instances
 Example:
 
 ```
-Copy codeP1 → R1 → P2
+nginxCopy codeP1 → R1 → P2
 ```
 
 Result:
@@ -13290,7 +13290,7 @@ If no cycle exists → deadlock cannot happen.
 Example:
 
 ```
-Copy codeR1 → P1 → R2 → P2 → R3 → P3 → R1
+nginxCopy codeR1 → P1 → R2 → P2 → R3 → P3 → R1
 ```
 
 Result:
