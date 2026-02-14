@@ -1,6 +1,6 @@
 # Brandstorm Video Script & Filming Tips
 
-> **Platform:** GEMINI | **Date:** 14/02/2026, 22:54:01 | **Turns:** 2
+> **Platform:** GEMINI | **Date:** 14/02/2026, 22:55:51 | **Turns:** 3
 > **Source:** [Open Original](https://gemini.google.com/app/2af914d2dab012bd?hl=en-IN)
 
 ---
@@ -15,7 +15,13 @@ You said  Here is a complete video concept and script for your L'Oréal Brandsto
 
 I am generating a video based on the script and image you provided.
 Your video is ready!
- 0:00 / 0:00
+ 0:00 / 0:08
+
+---
+
+## USER
+
+You said  make it better professional and better as a video editor more professional and best exitig and best
 
 
 ---
