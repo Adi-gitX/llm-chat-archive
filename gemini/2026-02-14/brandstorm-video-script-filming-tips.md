@@ -1,33 +1,13 @@
 # Brandstorm Video Script & Filming Tips
 
-> **Platform:** GEMINI | **Date:** 14/02/2026, 22:55:59 | **Turns:** 4
-> **Source:** [Open Original](https://gemini.google.com/app/2af914d2dab012bd?hl=en-IN)
+> **Platform:** GEMINI | **Date:** 14/02/2026, 23:17:00 | **Turns:** 1
+> **Source:** [Open Original](https://gemini.google.com/app/b0b21feed1cd7566?hl=en-IN)
 
 ---
 
 ## USER
 
-You said  Here is a complete video concept and script for your L'Oréal Brandstorm "Team Presentation" submission.  Since your team name is listed as Éclat Labs (meaning "brilliance" or "burst"), this concept plays on that theme—presenting your team as a fusion of different energies coming together.  Video Concept: "The Alchemy of Éclat"  Style: Documentary/Vlog hybrid. Fast cuts, energetic background music, mixing "talking head" shots with B-roll of you working (brainstorming, sketching, coding, arguing playfully, high-fiving).  Setting: A collaborative space (library, coffee shop, or a dorm room setup to look like a "Lab").  Duration: 3 Minutes (approx. 450-500 words at a natural pace).  The Team:  Aditya (You): The Tech/Structure Lead (Since you are in AI/CS).  Teammate 2: The Creative/Design Lead.  Teammate 3: The Strategy/Market Lead.  Full Video Transcript  (0:00-0:25) INTRO: Who We Are  (Visual: Fast montage of the team working. Quick cuts of sticky notes, laptop screens, and coffee cups. Music starts with a strong beat.)  All Together: We are Éclat Labs!  Aditya: Hi, I’m Aditya. I’m the builder—bridging the gap between code and reality.  Teammate 2: I’m [Name], the designer. I turn complex ideas into visual stories.  Teammate 3: And I’m [Name], the strategist. I make sure our wild ideas actually fit the market.  Aditya: We aren't just three students; we are a lab of colliding perspectives. We're here to show you exactly how we operate.  (0:25-0:55) Q1: JUDGMENT (Decision Making)  (Visual: Shot of the team looking at a whiteboard filled with two opposing ideas. Someone circles one options decisively.)  Teammate 3 (Strategist): Complex situations are where we thrive. When we faced a crossroads on our core feature, we couldn't rely on guessing.  Aditya: We adopted a "Data over Ego" policy. We didn't ask "Who is right?" we asked "What works?"  Teammate 3: We used rapid A/B testing on a small scale. My gut said 'A', Aditya’s data said 'B'.  Aditya: We went with B. It wasn't about winning an argument; it was about trusting the evidence to guide our judgment.  (0:55-1:25) Q2: RESILIENCE (Hurdles)  (Visual: B-Roll of the team looking tired, head in hands, maybe a clock showing late night. Then, a shot of someone bringing snacks and the energy shifting.)  Teammate 2 (Designer): But it wasn't a straight line. Halfway through, we realized our initial design for the user journey was completely technically unfeasible. It was a massive blocker.  Aditya: Honestly? We panicked for about an hour. But then we pivoted.  Teammate 2: We stripped the idea down to its "MVP" (Minimum Viable Product). We realized the hurdle wasn't the tech; it was our own over-complication.  Aditya: We overcame it by simplifying. We turned a wall into a door just by changing our perspective.  (1:25-1:55) Q3: AMBITION (Vision)  (Visual: The team sitting outside or looking out a window, speaking passionately. Slower, more inspiring music swells.)  Teammate 3 (Strategist): Our vision for Éclat Labs isn't just to win a competition.  Aditya: We looked at the fragrance market and saw a gap in personalization. Our long-term goal is to democratize how people experience scent using technology.  Teammate 2: We want to build something that lasts beyond this semester. A solution that feels human, but scales globally. That is the ambition driving every slide in our pitch.  (1:55-2:25) Q4: EMPATHY (Support)  (Visual: Genuine footage of the team laughing. Maybe sharing food or one person helping another fix a tie/collar.)  Aditya: High ambition comes with high stress. That's where empathy comes in.  Teammate 2: We have a rule: "Life happens." When I had a deadline clash with exams, the team didn't just push me to work harder—they took my load.  Teammate 3: We support each other by listening. We do daily check-ins not just on work, but on wellness. We know that a burnt-out team can't build a brilliant product.  (2:25-2:50) Q5: LEARNING AGILITY (Unfamiliar Topics)  (Visual: Shot of Aditya reading a book about Fragrance chemistry or Teammate 3 looking at AI code. Showing cross-learning.)  Aditya: Coming from a tech background, I knew nothing about "olfactory notes" or the fragrance supply chain.  Teammate 3: And I had never looked at a line of code in my life.  Aditya: We had to be agile. We taught each other. I gave a crash course on tech feasibility; they gave me a masterclass in consumer psychology.  Teammate 2: We didn't shy away from what we didn't know. We attacked it. We turned our ignorance into our learning curve.  (2:50-3:00) OUTRO  (Visual: Team standing together, confident smile.)  Aditya: Resilience. Empathy. Agility.  Teammate 2: We are ready to disrupt.  All Together: We are Éclat Labs. See you at Brandstorm!  (Fade to Black with Team Name & Logo)  Filming Tips for "Éclat Labs"  Audio is Key: Use a quiet room. If you don't have a mic, use a second phone recorded close to the speaker as a "voice memo" and sync it later.  Lighting: Face a window. Natural light is your best friend.  B-Roll: Spend 20 minutes acting out "working scenes" (typing, pointing at screens, drawing). You will overlay these while you are talking so the video isn't just 3 minutes of staring at faces.  Adobe Express: Since you have the license, use it to add simple captions for the 5 keywords (e.g., when you talk about Resilience, have the word RESILIENCE appear on screen).  Would you like me to generate a checklist of B-roll shots you should film to match this script?
-
----
-
-## ASSISTANT
-
-I am generating a video based on the script and image you provided.
-Your video is ready!
- 0:00 / 0:08
-
----
-
-## USER
-
-You said  make it better professional and better as a video editor more professional and best exitig and best
-
----
-
-## ASSISTANT
-
-I'm generating your video. This could take a few minutes, so check back to see when your video is ready.Generating your video…This can take 1–2 mins
+You said  give me this exat image more enhances and dark black background coplour
 
 
 ---
