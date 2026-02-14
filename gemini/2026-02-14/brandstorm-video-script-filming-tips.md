@@ -1,6 +1,6 @@
 # Brandstorm Video Script & Filming Tips
 
-> **Platform:** GEMINI | **Date:** 14/02/2026, 22:55:51 | **Turns:** 3
+> **Platform:** GEMINI | **Date:** 14/02/2026, 22:55:59 | **Turns:** 4
 > **Source:** [Open Original](https://gemini.google.com/app/2af914d2dab012bd?hl=en-IN)
 
 ---
@@ -22,6 +22,12 @@ Your video is ready!
 ## USER
 
 You said  make it better professional and better as a video editor more professional and best exitig and best
+
+---
+
+## ASSISTANT
+
+I'm generating your video. This could take a few minutes, so check back to see when your video is ready.Generating your video…This can take 1–2 mins
 
 
 ---
