@@ -1,19 +1,19 @@
 # Brandstorm Video Script & Filming Tips
 
-> **Platform:** GEMINI | **Date:** 14/02/2026, 23:17:47 | **Turns:** 2
-> **Source:** [Open Original](https://gemini.google.com/app/b0b21feed1cd7566?hl=en-IN)
+> **Platform:** GEMINI | **Date:** 14/02/2026, 23:20:05 | **Turns:** 2
+> **Source:** [Open Original](https://gemini.google.com/app/abf6592b63a6630c?hl=en-IN)
 
 ---
 
 ## USER
 
-You said  give me this exat image more enhances and dark black background coplour
+You said  A minimalist, luxury laboratory setting with iridescent glass perfume bottles. Soft cinematic lighting, aesthetic laboratory equipment mixed with organic flower petals and liquid silk textures. High-end, futuristic, 'Éclat Labs' branding style, 8k resolution best and black themed dark black background futurestic and 3d
 
 ---
 
 ## USER
 
-You said  Éclat Labs is building the next era of identity-driven fragrance—where personalization, emotion, and sustainable luxury converge. We’re looking for ambitious teammates ready to create a finalist-level Brandstorm innovation. also create a baner
+You said  A minimalist, luxury laboratory setting with iridescent glass perfume bottles. Soft cinematic lighting, aesthetic laboratory equipment mixed with organic flower petals and liquid silk textures. High-end, futuristic, 'Éclat Labs' branding style, 8k resolution best and black themed dark black background futurestic and 3d
 
 
 ---
