@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:58:50 | **Turns:** 153
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 17:00:39 | **Turns:** 154
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5883,6 +5883,12 @@ Done ✅
 Here is your Markdown file with proper code boxes and math blocks:
 👉 **Download:** [GMM_EM_Notes.md]()
 If you want, I can make the same **MD file** for **AR / MA / ARIMA + ACF/PACF** next.
+
+---
+
+## ASSISTANT
+
+Analyzing image
 
 
 ---
