@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:49:03 | **Turns:** 138
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:49:27 | **Turns:** 139
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5073,6 +5073,75 @@ If you want, I can show the **actual derivative steps** (full calculus) for one 
 ## USER
 
 differentiate e.r.t pi meu, and sigma, and set it to i willl get 3 equations which involve a term responsiblity , so lets, do responsiblity first , - probablity that the given observation belongs to kth cluster gaama(znk) = p (z=k|xn) = pi k N(X/meu,vark square  whole div by sum j=1 to k pi j N(x|meuj,, sigma 2
+
+---
+
+## ASSISTANT
+
+YES. Perfect. You’ve said it exactly like the lecture flow. 🔥
+Let me write it super clean and small:
+
+✅ Step 1: Differentiate → Responsibility appears
+When we differentiate the log-likelihood w.r.t.
+
+- πk\pi_kπk​
+
+- μk\mu_kμk​
+
+- σk2\sigma_k^2σk2​
+
+
+we get equations that involve the hidden variable term:
+γnk\gamma_{nk}γnk​
+So first we define **responsibility**.
+
+✅ Responsibility (E-step)
+Probability that observation xnx_nxn​ belongs to cluster kkk:
+γnk=P(z=k∣xn)\gamma_{nk}=P(z=k\mid x_n)γnk​=P(z=k∣xn​)
+γnk=πk N(xn∣μk,σk2)∑j=1Kπj N(xn∣μj,σj2)\boxed{
+\gamma_{nk}=
+\frac{\pi_k \, \mathcal{N}(x_n\mid \mu_k,\sigma_k^2)}
+{\sum_{j=1}^{K}\pi_j \, \mathcal{N}(x_n\mid \mu_j,\sigma_j^2)}
+}γnk​=∑j=1K​πj​N(xn​∣μj​,σj2​)πk​N(xn​∣μk​,σk2​)​​
+Meaning:
+
+- Numerator = probability from cluster kkk
+
+- Denominator = total probability from all clusters
+
+
+
+✅ Then M-step Equations (after setting derivatives = 0)
+1️⃣ Mean update
+μk=∑n=1Nγnkxn∑n=1Nγnk\boxed{
+\mu_k=
+\frac{\sum_{n=1}^{N}\gamma_{nk}x_n}
+{\sum_{n=1}^{N}\gamma_{nk}}
+}μk​=∑n=1N​γnk​∑n=1N​γnk​xn​​​
+
+2️⃣ Variance update
+σk2=∑n=1Nγnk(xn−μk)2∑n=1Nγnk\boxed{
+\sigma_k^2=
+\frac{\sum_{n=1}^{N}\gamma_{nk}(x_n-\mu_k)^2}
+{\sum_{n=1}^{N}\gamma_{nk}}
+}σk2​=∑n=1N​γnk​∑n=1N​γnk​(xn​−μk​)2​​
+
+3️⃣ Mixing weight update
+πk=∑n=1NγnkN\boxed{
+\pi_k=
+\frac{\sum_{n=1}^{N}\gamma_{nk}}{N}
+}πk​=N∑n=1N​γnk​​​
+
+✅ Final EM Loop
+
+1. **E-step:** compute γnk\gamma_{nk}γnk​
+
+2. **M-step:** update μk,σk2,πk\mu_k,\sigma_k^2,\pi_kμk​,σk2​,πk​
+Repeat until convergence.
+
+
+
+If you want, I can show the exact derivative of log-likelihood w.r.t. μk\mu_kμk​ step-by-step (full proof style).
 
 
 ---
