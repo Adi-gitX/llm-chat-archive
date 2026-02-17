@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:55:47 | **Turns:** 149
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:57:03 | **Turns:** 150
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5761,6 +5761,12 @@ M-Step:
 Update:
 μk,σk2,πk\mu_k,\sigma_k^2,\pi_kμk​,σk2​,πk​
 Stop when parameters stabilize.
+
+---
+
+## USER
+
+give in notionn friendly format that i can paaste
 
 
 ---
