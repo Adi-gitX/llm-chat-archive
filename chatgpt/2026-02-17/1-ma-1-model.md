@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:38:32 | **Turns:** 135
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:40:18 | **Turns:** 136
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -4966,6 +4966,12 @@ Then EM algorithm starts:
 
 If you want, I can write the **next exact board step** after this slide:
 **log-likelihood + hidden variable zikz_{ik}zik​ introduction**, which is the real EM start.
+
+---
+
+## USER
+
+diffierenciate with resp to pi meu and sigma next
 
 
 ---
