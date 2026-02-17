@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:57:03 | **Turns:** 150
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:57:50 | **Turns:** 152
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5767,6 +5767,113 @@ Stop when parameters stabilize.
 ## USER
 
 give in notionn friendly format that i can paaste
+
+---
+
+## ASSISTANT
+
+Absolutely — here is the **Notion-ready clean paste format** (exactly your slide content, no extra).
+
+Gaussian Mixture Model (GMM) + EM Algorithm Notes
+
+1. Normal Distribution
+X∼N(μ,σ2)X \sim \mathcal{N}(\mu,\sigma^2)X∼N(μ,σ2)
+PDF:
+f(x)=12πσexp⁡(−(x−μ)22σ2)f(x)=\frac{1}{\sqrt{2\pi}\sigma}\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)f(x)=2π​σ1​exp(−2σ2(x−μ)2​)
+
+- **μ** = mean
+
+- **σ²** = variance
+
+
+
+2. Gaussian Mixture Model (GMM)
+Any data point can belong to **K normal distributions**.
+Mixed Density:
+p(x)=∑k=1KπkN(x∣μk,σk2)p(x)=\sum_{k=1}^{K}\pi_k\mathcal{N}(x\mid\mu_k,\sigma_k^2)p(x)=k=1∑K​πk​N(x∣μk​,σk2​)
+
+- **πₖ** = weight of the k-th distribution
+
+- Mixing weights satisfy:
+
+
+∑k=1Kπk=1\sum_{k=1}^{K}\pi_k=1k=1∑K​πk​=1
+
+3. Main Question
+How to get best parameters:
+(πk,μk,σk)(\pi_k,\mu_k,\sigma_k)(πk​,μk​,σk​)
+for each Gaussian distribution?
+
+4. Likelihood
+Probability of an observation:
+p(x∣π,μ,σ)p(x\mid\pi,\mu,\sigma)p(x∣π,μ,σ)
+This is also called **Likelihood (L)**.
+Objective:
+Maximize Likelihood\text{Maximize Likelihood}Maximize Likelihood
+
+5. IID Assumption
+All data points are independent:
+x1,x2,…,xNx_1,x_2,\dots,x_Nx1​,x2​,…,xN​
+
+6. Likelihood Function
+L=∏i=1Np(xi)L=\prod_{i=1}^{N}p(x_i)L=i=1∏N​p(xi​)
+Substitute mixture density:
+L=∏i=1N(∑k=1KπkN(xi∣μk,σk2))L=\prod_{i=1}^{N}\left(\sum_{k=1}^{K}\pi_k\mathcal{N}(x_i\mid\mu_k,\sigma_k^2)\right)L=i=1∏N​(k=1∑K​πk​N(xi​∣μk​,σk2​))
+
+7. Latent Variable (Cluster Indicator)
+Cluster assignment is hidden:
+z∈{1,2,3,…,K}z\in\{1,2,3,\dots,K\}z∈{1,2,3,…,K}
+
+8. Responsibility (E-Step)
+Definition:
+Probability that observation belongs to k-th cluster:
+γ(znk)=P(z=k∣xn)\gamma(z_{nk})=P(z=k\mid x_n)γ(znk​)=P(z=k∣xn​)
+Formula:
+γnk=πkN(xn∣μk,σk2)∑j=1KπjN(xn∣μj,σj2)\gamma_{nk}
+=
+\frac{
+\pi_k\mathcal{N}(x_n\mid\mu_k,\sigma_k^2)
+}{
+\sum_{j=1}^{K}\pi_j\mathcal{N}(x_n\mid\mu_j,\sigma_j^2)
+}γnk​=∑j=1K​πj​N(xn​∣μj​,σj2​)πk​N(xn​∣μk​,σk2​)​
+
+9. Maximization Step (M-Step)
+Differentiate log-likelihood w.r.t. **π, μ, σ**
+Set equal to zero → get 3 update equations.
+Define:
+Nk=∑n=1NγnkN_k=\sum_{n=1}^{N}\gamma_{nk}Nk​=n=1∑N​γnk​
+
+(1) Mean Update
+μknew=∑n=1NγnkxnNk\mu_k^{new}
+=
+\frac{\sum_{n=1}^{N}\gamma_{nk}x_n}{N_k}μknew​=Nk​∑n=1N​γnk​xn​​
+
+(2) Variance Update
+(σk2)new=∑n=1Nγnk(xn−μk)2Nk(\sigma_k^2)^{new}
+=
+\frac{\sum_{n=1}^{N}\gamma_{nk}(x_n-\mu_k)^2}{N_k}(σk2​)new=Nk​∑n=1N​γnk​(xn​−μk​)2​
+
+(3) Mixing Weight Update
+πknew=NkN\pi_k^{new}
+=
+\frac{N_k}{N}πknew​=NNk​​
+
+10. EM Algorithm Summary
+Repeat until convergence:
+E-Step:
+γnk=P(z=k∣xn)\gamma_{nk}=P(z=k\mid x_n)γnk​=P(z=k∣xn​)
+M-Step:
+Update:
+μk,σk2,πk\mu_k,\sigma_k^2,\pi_kμk​,σk2​,πk​
+Stop when parameters stabilize.
+
+If you want, I can make the **same Notion paste** for AR / MA / ARIMA lecture also.
+
+---
+
+## USER
+
+give in md file with code boxes and all
 
 
 ---
