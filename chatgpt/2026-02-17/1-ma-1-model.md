@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 17:02:11 | **Turns:** 157
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 17:03:28 | **Turns:** 160
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -6018,6 +6018,487 @@ Send the next slide (variance + π update) and I’ll continue exactly same way.
 ## USER
 
 give it like tou were giving before not like this and give me complete notes again that i can read
+
+---
+
+## ASSISTANT
+
+Got you. Here is the clean **lecture-style** complete notes again, exactly readable like class flow (same tone as before), no weird formatting, no drama.
+
+Okay. So till now we have reached here.
+We started with one Normal Distribution:
+N(x | μ, σ²)
+This means:
+X is a random variable, and it follows a Gaussian distribution with:
+μ = mean
+σ² = variance
+The probability density function was:
+f(x) = (1 / √(2πσ²)) * exp( -(x−μ)² / (2σ²) )
+
+Then we said, in real clustering problems, one distribution is not enough.
+So we move to Gaussian Mixture Model (GMM).
+In GMM:
+Any data point can belong to K different normal distributions.
+So the mixed density becomes:
+p(x) = Σ (k=1 to K) πk N(x | μk, σk²)
+Where:
+πk = weight of kth Gaussian
+μk = mean of kth Gaussian
+σk² = variance of kth Gaussian
+And:
+Σ πk = 1
+
+Now the main question is:
+How to get the best πk, μk, σk² for each distribution?
+That is the learning problem.
+So we define the likelihood.
+Probability of an observation given parameters:
+P(x | π, μ, σ)
+This is called Likelihood (L)
+And our objective is:
+Maximize this likelihood.
+
+Now important assumption:
+All data points are independent and identically distributed (i.i.d.)
+So
+
+---
+
+## USER
+
+Absolutely — here is the **Notion-ready clean paste format** (exactly your slide content, no extra).
+
+---
+
+# Gaussian Mixture Model (GMM) + EM Algorithm Notes
+
+---
+
+## 1. Normal Distribution
+
+[
+X \sim \mathcal{N}(\mu,\sigma^2)
+]
+
+PDF:
+
+[
+f(x)=\frac{1}{\sqrt{2\pi}\sigma}\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)
+]
+
+* **μ** = mean
+* **σ²** = variance
+
+---
+
+## 2. Gaussian Mixture Model (GMM)
+
+Any data point can belong to **K normal distributions**.
+
+### Mixed Density:
+
+[
+p(x)=\sum_{k=1}^{K}\pi_k\mathcal{N}(x\mid\mu_k,\sigma_k^2)
+]
+
+* **πₖ** = weight of the k-th distribution
+* Mixing weights satisfy:
+
+[
+\sum_{k=1}^{K}\pi_k=1
+]
+
+---
+
+## 3. Main Question
+
+How to get best parameters:
+
+[
+(\pi_k,\mu_k,\sigma_k)
+]
+
+for each Gaussian distribution?
+
+---
+
+## 4. Likelihood
+
+Probability of an observation:
+
+[
+p(x\mid\pi,\mu,\sigma)
+]
+
+This is also called **Likelihood (L)**.
+
+### Objective:
+
+[
+\text{Maximize Likelihood}
+]
+
+---
+
+## 5. IID Assumption
+
+All data points are independent:
+
+[
+x_1,x_2,\dots,x_N
+]
+
+---
+
+## 6. Likelihood Function
+
+[
+L=\prod_{i=1}^{N}p(x_i)
+]
+
+Substitute mixture density:
+
+[
+L=\prod_{i=1}^{N}\left(\sum_{k=1}^{K}\pi_k\mathcal{N}(x_i\mid\mu_k,\sigma_k^2)\right)
+]
+
+---
+
+## 7. Latent Variable (Cluster Indicator)
+
+Cluster assignment is hidden:
+
+[
+z\in{1,2,3,\dots,K}
+]
+
+---
+
+## 8. Responsibility (E-Step)
+
+### Definition:
+
+Probability that observation belongs to k-th cluster:
+
+[
+\gamma(z_{nk})=P(z=k\mid x_n)
+]
+
+### Formula:
+
+[
+\gamma_{nk}
+===========
+
+\frac{
+\pi_k\mathcal{N}(x_n\mid\mu_k,\sigma_k^2)
+}{
+\sum_{j=1}^{K}\pi_j\mathcal{N}(x_n\mid\mu_j,\sigma_j^2)
+}
+]
+
+---
+
+## 9. Maximization Step (M-Step)
+
+Differentiate log-likelihood w.r.t. **π, μ, σ**
+Set equal to zero → get 3 update equations.
+
+Define:
+
+[
+N_k=\sum_{n=1}^{N}\gamma_{nk}
+]
+
+---
+
+### (1) Mean Update
+
+[
+\mu_k^{new}
+===========
+
+\frac{\sum_{n=1}^{N}\gamma_{nk}x_n}{N_k}
+]
+
+---
+
+### (2) Variance Update
+
+[
+(\sigma_k^2)^{new}
+==================
+
+\frac{\sum_{n=1}^{N}\gamma_{nk}(x_n-\mu_k)^2}{N_k}
+]
+
+---
+
+### (3) Mixing Weight Update
+
+[
+\pi_k^{new}
+===========
+
+\frac{N_k}{N}
+]
+
+---
+
+## 10. EM Algorithm Summary
+
+Repeat until convergence:
+
+### E-Step:
+
+[
+\gamma_{nk}=P(z=k\mid x_n)
+]
+
+### M-Step:
+
+Update:
+
+[
+\mu_k,\sigma_k^2,\pi_k
+]
+
+Stop when parameters stabilize.
+
+---
+
+If you want, I can make the **same Notion paste** for AR / MA / ARIMA lecture also. give in this way complete notes
+
+---
+
+## ASSISTANT
+
+Oh perfect — you want the **same Notion-clean paste style** but now for:
+PACF, ACF, AR, MA, ARIMA, stationarity, p q d, lag, differencing, forecasting.
+Here are the **complete short lecture notes** exactly in that format.
+
+Time Series + AR / MA / ARIMA Notes (Notion Ready)
+
+1. Time Series
+A **time series** is a sequence of observations recorded over time:
+X1,X2,X3,…,XTX_1, X_2, X_3, \dots, X_TX1​,X2​,X3​,…,XT​
+Key point:
+
+- Order matters
+
+- Cannot shuffle the data
+
+
+Examples:
+
+- Temperature over days
+
+- Stock prices
+
+- City energy demand
+
+- Web traffic
+
+
+
+2. Components of Time Series
+A time series can be decomposed into:
+Xt=Trend+Seasonality+NoiseX_t = Trend + Seasonality + NoiseXt​=Trend+Seasonality+Noise
+Trend
+Long-term increase or decrease.
+Seasonality
+Repeating patterns (daily, weekly, yearly).
+Noise
+Random fluctuations or unexpected events.
+
+3. Stationary vs Non-Stationary
+Stationary Time Series
+A series is stationary if:
+
+- Mean is constant
+
+- Variance is constant
+
+- Correlation depends only on lag
+
+
+Formally:
+E[Xt]=constantE[X_t] = constantE[Xt​]=constant
+Var(Xt)=constantVar(X_t) = constantVar(Xt​)=constant
+Corr(Xt,Xt−k)=function(k)Corr(X_t, X_{t-k}) = function(k)Corr(Xt​,Xt−k​)=function(k)
+Example:
+
+- Temperature inside a fridge
+
+
+
+Non-Stationary Time Series
+Mean or variance changes over time.
+Example:
+
+- Stock market prices
+
+- Outdoor temperature
+
+
+
+4. Lag Concept
+Lag means comparing present value with past value.
+Lag kkk:
+Xt compared with Xt−kX_t \text{ compared with } X_{t-k}Xt​ compared with Xt−k​
+Example:
+
+- Lag 1 → yesterday
+
+- Lag 7 → last week
+
+
+
+5. Correlation in Time Series
+We calculate:
+Corr(Xt,Xt−k)Corr(X_t, X_{t-k})Corr(Xt​,Xt−k​)
+If correlation is high → past influences future.
+
+6. Autocorrelation Function (ACF)
+ACF measures correlation between:
+Xt and Xt−kX_t \text{ and } X_{t-k}Xt​ and Xt−k​
+for all lags kkk.
+ACF(k)=Corr(Xt,Xt−k)ACF(k)=Corr(X_t,X_{t-k})ACF(k)=Corr(Xt​,Xt−k​)
+Interpretation:
+
+- Shows **direct + indirect** influence
+
+- Used for identifying **MA models**
+
+
+
+7. Partial Autocorrelation Function (PACF)
+PACF measures correlation between:
+Xt and Xt−kX_t \text{ and } X_{t-k}Xt​ and Xt−k​
+after removing intermediate lags.
+Interpretation:
+
+- Shows **direct influence only**
+
+- Used for identifying **AR models**
+
+
+
+8. AR Model (Autoregressive)
+AR means current value depends on past values.
+AR(p) model:
+Xt=c+ϕ1Xt−1+ϕ2Xt−2+⋯+ϕpXt−p+ϵtX_t = c + \phi_1 X_{t-1} + \phi_2 X_{t-2} + \dots + \phi_p X_{t-p} + \epsilon_tXt​=c+ϕ1​Xt−1​+ϕ2​Xt−2​+⋯+ϕp​Xt−p​+ϵt​
+Where:
+
+- ppp = number of lags
+
+- ϵt\epsilon_tϵt​ = white noise
+
+
+
+AR Identification Rule
+PACF cuts off after lag ppp.
+
+9. MA Model (Moving Average)
+MA means current value depends on past errors.
+MA(q) model:
+Xt=c+ϵt+θ1ϵt−1+θ2ϵt−2+⋯+θqϵt−qX_t = c + \epsilon_t + \theta_1 \epsilon_{t-1} + \theta_2 \epsilon_{t-2} + \dots + \theta_q \epsilon_{t-q}Xt​=c+ϵt​+θ1​ϵt−1​+θ2​ϵt−2​+⋯+θq​ϵt−q​
+Where:
+
+- qqq = number of error terms
+
+
+
+MA Identification Rule
+ACF cuts off after lag qqq.
+
+10. ARMA Model
+Combination of AR and MA:
+ARMA(p,q)ARMA(p,q)ARMA(p,q)
+Xt=c+∑i=1pϕiXt−i+∑j=1qθjϵt−j+ϵtX_t = c + \sum_{i=1}^{p}\phi_iX_{t-i} + \sum_{j=1}^{q}\theta_j\epsilon_{t-j} + \epsilon_tXt​=c+i=1∑p​ϕi​Xt−i​+j=1∑q​θj​ϵt−j​+ϵt​
+Works only if series is stationary.
+
+11. Differencing
+Used to convert non-stationary series into stationary.
+First difference:
+Yt=Xt−Xt−1Y_t = X_t - X_{t-1}Yt​=Xt​−Xt−1​
+Second difference:
+Yt=(Xt−Xt−1)−(Xt−1−Xt−2)Y_t = (X_t - X_{t-1}) - (X_{t-1} - X_{t-2})Yt​=(Xt​−Xt−1​)−(Xt−1​−Xt−2​)
+Differencing order = ddd
+
+12. ARIMA Model
+ARIMA stands for:
+
+- AR → Autoregression
+
+- I → Integrated (Differencing)
+
+- MA → Moving Average
+
+
+ARIMA(p,d,q):
+ARIMA(p,d,q)ARIMA(p,d,q)ARIMA(p,d,q)
+Where:
+
+- ppp = AR order (from PACF)
+
+- ddd = differencing order
+
+- qqq = MA order (from ACF)
+
+
+
+13. Choosing p, d, q
+Step 1: Make series stationary
+Find ddd using differencing.
+Step 2: Use PACF for p
+PACF cutoff → AR order
+Step 3: Use ACF for q
+ACF cutoff → MA order
+
+14. Forecasting Example: City Energy Demand
+Goal:
+Predict future electricity demand:
+Demandt+1,Demandt+2,…Demand_{t+1}, Demand_{t+2}, \dotsDemandt+1​,Demandt+2​,…
+Why useful?
+
+- Smart grid planning
+
+- Peak load prediction
+
+- Cost optimization
+
+
+ARIMA helps model:
+
+- Trend in demand
+
+- Weekly seasonality
+
+- Random spikes
+
+
+
+15. Final Summary
+
+- Lag = past dependency
+
+- Stationarity needed for ARMA/ARIMA
+
+- ACF → MA structure
+
+- PACF → AR structure
+
+- Differencing → removes trend
+
+- ARIMA(p,d,q) = full forecasting model
+
+
+
+If you want, I can make the **next Notion paste** for:
+✅ Seasonal ARIMA (SARIMA)
+✅ Forecasting pipeline steps
+✅ Full ACF/PACF graph interpretation examples
 
 
 ---
