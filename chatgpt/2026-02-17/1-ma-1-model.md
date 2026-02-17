@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 17:01:29 | **Turns:** 156
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 17:02:11 | **Turns:** 157
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -6012,6 +6012,12 @@ Meaning:
 
 
 Send the next slide (variance + π update) and I’ll continue exactly same way.
+
+---
+
+## USER
+
+give it like tou were giving before not like this and give me complete notes again that i can read
 
 
 ---
