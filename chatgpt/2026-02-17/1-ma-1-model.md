@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:54:02 | **Turns:** 147
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:54:37 | **Turns:** 147
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5560,7 +5560,107 @@ after this mpving back to those 3 equations
 
 ## ASSISTANT
 
-Analyzing image
+Got it 🔥 you’re exactly at the right point.
+You have defined **Responsibility**:
+γnk=P(zn=k∣xn)=πkN(xn∣μk,σk2)∑j=1KπjN(xn∣μj,σj2)\gamma_{nk}=P(z_n=k\mid x_n)
+=
+\frac{
+\pi_k \mathcal{N}(x_n\mid\mu_k,\sigma_k^2)
+}{
+\sum_{j=1}^{K}\pi_j \mathcal{N}(x_n\mid\mu_j,\sigma_j^2)
+}γnk​=P(zn​=k∣xn​)=∑j=1K​πj​N(xn​∣μj​,σj2​)πk​N(xn​∣μk​,σk2​)​
+Now after this, we **move back to the 3 equations** (the ones you get after differentiating log-likelihood w.r.t. π,μ,σ\pi,\mu,\sigmaπ,μ,σ).
+Here is the exact continuation in notes form:
+
+✅ Moving Back to the 3 Parameter Update Equations
+We said:
+To maximize likelihood,
+∂log⁡L∂πk=0∂log⁡L∂μk=0∂log⁡L∂σk2=0\frac{\partial \log L}{\partial \pi_k}=0
+\qquad
+\frac{\partial \log L}{\partial \mu_k}=0
+\qquad
+\frac{\partial \log L}{\partial \sigma_k^2}=0∂πk​∂logL​=0∂μk​∂logL​=0∂σk2​∂logL​=0
+After solving, we get **three update equations**, all involving responsibility γnk\gamma_{nk}γnk​.
+
+✅ Define Effective Cluster Points
+First define:
+Nk=∑n=1NγnkN_k=\sum_{n=1}^{N}\gamma_{nk}Nk​=n=1∑N​γnk​
+This means:
+
+- Total responsibility mass of cluster kkk
+
+
+
+✅ Equation 1: Update Mean μk\mu_kμk​
+μknew=∑n=1NγnkxnNk\mu_k^{new}
+=
+\frac{
+\sum_{n=1}^{N}\gamma_{nk}x_n
+}{
+N_k
+}μknew​=Nk​∑n=1N​γnk​xn​​
+So mean is a **weighted average** of points.
+
+✅ Equation 2: Update Variance σk2\sigma_k^2σk2​
+(σk2)new=∑n=1Nγnk(xn−μk)2Nk(\sigma_k^2)^{new}
+=
+\frac{
+\sum_{n=1}^{N}\gamma_{nk}(x_n-\mu_k)^2
+}{
+N_k
+}(σk2​)new=Nk​∑n=1N​γnk​(xn​−μk​)2​
+So variance is the **weighted spread** around mean.
+
+✅ Equation 3: Update Mixing Weight πk\pi_kπk​
+πknew=NkN\pi_k^{new}
+=
+\frac{
+N_k
+}{N}πknew​=NNk​​
+So weight is:
+
+- fraction of total points belonging to cluster kkk
+
+
+
+✅ Final EM Loop
+So the algorithm becomes:
+
+Step 1: E-Step
+Compute responsibilities:
+γnk=P(zn=k∣xn)\gamma_{nk}=P(z_n=k\mid x_n)γnk​=P(zn​=k∣xn​)
+
+Step 2: M-Step
+Update parameters:
+μk,  σk2,  πk\mu_k,\;\sigma_k^2,\;\pi_kμk​,σk2​,πk​
+using the 3 equations above.
+
+Repeat until convergence
+Stop when:
+
+- parameters stop changing
+
+- likelihood becomes stable
+
+
+
+✅ One-Line Summary
+Responsibilities connect the likelihood derivatives to the final 3 update rules:
+γnk→μk,σk2,πk\boxed{
+\gamma_{nk}\rightarrow
+\mu_k,\sigma_k^2,\pi_k
+}γnk​→μk​,σk2​,πk​​
+
+If you want, I can write this exactly as the next slide would show:
+
+- full log-likelihood form
+
+- differentiation steps
+
+- how γnk\gamma_{nk}γnk​ appears naturally
+
+
+Just say **“derive mean equation fully”**.
 
 
 ---
