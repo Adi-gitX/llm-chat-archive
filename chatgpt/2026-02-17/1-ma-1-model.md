@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 17:00:39 | **Turns:** 154
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 17:01:29 | **Turns:** 156
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5888,7 +5888,130 @@ If you want, I can make the same **MD file** for **AR / MA / ARIMA + ACF/PACF** 
 
 ## ASSISTANT
 
-Analyzing image
+```
+mdCopy code## Moving back to the 3 update equations (M–Step)
+
+After computing **responsibilities** in the E–Step:
+
+\[
+\gamma(z_{nk}) = P(z=k \mid x_n)
+\]
+
+we go back to update the **three parameters**:
+
+- Mean \(\mu_k\)
+- Variance \(\sigma_k^2\)
+- Mixing weight \(\pi_k\)
+
+---
+
+# (ii) Equation for Mean \(\mu_k\)
+
+### Update rule:
+
+\[
+\mu_k^{new} = \frac{1}{N_k}\sum_{n=1}^{N} \gamma(z_{nk})\,x_n
+\]
+
+---
+
+### Where:
+
+\[
+N_k = \sum_{n=1}^{N} \gamma(z_{nk})
+\]
+
+So \(N_k\) is the **effective number of points** assigned to cluster \(k\).
+
+---
+
+## Expanded form (like in the slide)
+
+Suppose we have:
+
+| Obs | \(x\) | \(\gamma\) |
+|-----|------|------------|
+| 1   | \(x_1\) | \(\gamma_{1k}\) |
+| 2   | \(x_2\) | \(\gamma_{2k}\) |
+| 3   | \(x_3\) | \(\gamma_{3k}\) |
+| 4   | \(x_4\) | \(\gamma_{4k}\) |
+
+Then:
+
+\[
+\mu_k^{new} =
+\frac{x_1\gamma_{1k} + x_2\gamma_{2k} + x_3\gamma_{3k} + x_4\gamma_{4k}}
+{\gamma_{1k}+\gamma_{2k}+\gamma_{3k}+\gamma_{4k}}
+\]
+
+---
+
+### Interpretation
+
+- Points with higher responsibility contribute more.
+- This is a **weighted mean**.
+
+---
+```
+
+Next image is variance + pi update. Send it and I’ll write the
+
+---
+
+## USER
+
+give me nots in chat not md or anything
+
+---
+
+## ASSISTANT
+
+Got it. Here are the exact notes in plain chat format (no MD, no extra drama):
+
+Moving back to the three equations (M-Step)
+After we compute responsibilities in the E-Step:
+γ(zₙk) = P(z = k | xₙ)
+we update the three parameters:
+
+1. Mean μk
+
+2. Variance σk²
+
+3. Mixing weight πk
+
+
+
+(ii) Equation for Mean μk
+Update rule:
+μk(new) = (1 / Nk) * Σ (from n=1 to N) [ γ(zₙk) * xₙ ]
+
+Where:
+Nk = Σ (from n=1 to N) γ(zₙk)
+Nk is the effective number of points belonging to cluster k.
+
+Expanded form (like slide example)
+Suppose we have:
+Observation    x        Responsibility
+1              x1       γ1k
+2              x2       γ2k
+3              x3       γ3k
+4              x4       γ4k
+Then:
+μk(new) = (x1γ1k + x2γ2k + x3γ3k + x4γ4k)
+--------------------------------
+(γ1k + γ2k + γ3k + γ4k)
+
+Meaning:
+
+- This is a weighted average
+
+- Points with higher responsibility contribute more
+
+- This gives the updated mean of cluster k
+
+
+
+Send the next slide (variance + π update) and I’ll continue exactly same way.
 
 
 ---
