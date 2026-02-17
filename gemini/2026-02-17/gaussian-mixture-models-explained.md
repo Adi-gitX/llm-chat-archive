@@ -1,6 +1,6 @@
 # Gaussian Mixture Models Explained
 
-> **Platform:** GEMINI | **Date:** 17/02/2026, 17:07:11 | **Turns:** 2
+> **Platform:** GEMINI | **Date:** 17/02/2026, 17:23:38 | **Turns:** 3
 > **Source:** [Open Original](https://gemini.google.com/app/9e0813bf4670d2b2?hl=en-IN)
 
 ---
@@ -29,6 +29,12 @@ The sum of responsibilities for cluster k across all data points:Nk​=n=1∑N�
 The weighted average of data points, weighted by their responsibility:μkNew​=Nk​1​n=1∑N​γ(znk​)⋅xn​*(Expanded logic: γ1k​+γ2k​+...+γnk​x1​γ1k​+x2​γ2k​+...+xn​γnk​​)***Step C: Update Variance ((σkNew​)2)**
 The weighted variance based on the new mean:(σkNew​)2=Nk​1​n=1∑N​γ(znk​)(xn​−μkNew​)2**Step D: Update Weights (πkNew​)**
 The fraction of total points effectively assigned to cluster k:πkNew​=NNk​​
+
+---
+
+## USER
+
+You said what doubts cani ask
 
 
 ---
