@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:33:12 | **Turns:** 134
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:33:47 | **Turns:** 134
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -4774,7 +4774,116 @@ If you want, I can write the **full next part of your notes exactly in slide sty
 
 ## ASSISTANT
 
-Analyzing image
+Got it — this is exactly the **next correct continuation** of EM/GMM derivation.
+I’ll explain it in the same clean lecture-note style, short and crisp.
+
+✅ Where we are now
+We have written:
+Question:
+How to get best parameters (π,μ,σ)(\pi, \mu, \sigma)(π,μ,σ) for each Gaussian?
+We define:
+P(x∣π,μ,σ)P(x \mid \pi,\mu,\sigma)P(x∣π,μ,σ)
+This probability is called the **Likelihood (L)**.
+
+✅ Objective
+Maximize the likelihood of observations\boxed{\text{Maximize the likelihood of observations}}Maximize the likelihood of observations​
+So:
+max⁡L\boxed{\max L}maxL​
+Meaning:
+
+Choose parameters such that data becomes most probable under the model.
+
+Same idea as Logistic Regression:
+
+- maximize likelihood
+
+- take log
+
+- optimize
+
+
+
+✅ Step 1: Write the Likelihood Function Properly
+First we need the actual likelihood formula.
+
+Important Assumption: IID
+We assume all data points are:
+x1,x2,…,xNx_1,x_2,\dots,x_Nx1​,x2​,…,xN​
+are **Independent and Identically Distributed (IID)**.
+So joint probability becomes product:
+P(X∣θ)=∏i=1NP(xi∣θ)P(X \mid \theta)=\prod_{i=1}^{N}P(x_i\mid \theta)P(X∣θ)=i=1∏N​P(xi​∣θ)
+Where:
+θ=(π,μ,σ)\theta = (\pi,\mu,\sigma)θ=(π,μ,σ)
+
+✅ Likelihood for GMM
+Each point can come from **any Gaussian component**.
+So:
+P(xi)=∑k=1KπkN(xi∣μk,σk2)P(x_i)=\sum_{k=1}^{K}\pi_k \mathcal{N}(x_i\mid \mu_k,\sigma_k^2)P(xi​)=k=1∑K​πk​N(xi​∣μk​,σk2​)
+Thus total likelihood:
+L=∏i=1N∑k=1KπkN(xi∣μk,σk2)L=\prod_{i=1}^{N}\sum_{k=1}^{K}\pi_k \mathcal{N}(x_i\mid \mu_k,\sigma_k^2)L=i=1∏N​k=1∑K​πk​N(xi​∣μk​,σk2​)
+This is the full likelihood function.
+
+✅ Step 2: Log-Likelihood
+Product is hard, so we take log:
+log⁡L=∑i=1Nlog⁡(∑k=1KπkN(xi∣μk,σk2))\log L=\sum_{i=1}^{N}\log\left(\sum_{k=1}^{K}\pi_k \mathcal{N}(x_i\mid \mu_k,\sigma_k^2)\right)logL=i=1∑N​log(k=1∑K​πk​N(xi​∣μk​,σk2​))
+Now objective becomes:
+max⁡log⁡L\boxed{\max \log L}maxlogL​
+
+🚨 Problem
+The log has a **sum inside**, so direct derivative is messy:
+log⁡(∑k...)\log\left(\sum_k ...\right)log(k∑​...)
+So we cannot optimize directly.
+
+✅ Solution: EM Algorithm
+We introduce a hidden variable:
+zikz_{ik}zik​
+Meaning:
+
+Which Gaussian generated point xix_ixi​
+
+Then EM does:
+
+E-Step
+Compute responsibility:
+γ(zik)=πkN(xi∣μk,σk2)∑j=1KπjN(xi∣μj,σj2)\gamma(z_{ik})=
+\frac{\pi_k\mathcal{N}(x_i\mid \mu_k,\sigma_k^2)}
+{\sum_{j=1}^{K}\pi_j\mathcal{N}(x_i\mid \mu_j,\sigma_j^2)}γ(zik​)=∑j=1K​πj​N(xi​∣μj​,σj2​)πk​N(xi​∣μk​,σk2​)​
+
+M-Step
+Update parameters:
+Mean
+μk=∑iγ(zik)xi∑iγ(zik)\mu_k=
+\frac{\sum_i\gamma(z_{ik})x_i}
+{\sum_i\gamma(z_{ik})}μk​=∑i​γ(zik​)∑i​γ(zik​)xi​​
+Variance
+σk2=∑iγ(zik)(xi−μk)2∑iγ(zik)\sigma_k^2=
+\frac{\sum_i\gamma(z_{ik})(x_i-\mu_k)^2}
+{\sum_i\gamma(z_{ik})}σk2​=∑i​γ(zik​)∑i​γ(zik​)(xi​−μk​)2​
+Weight
+πk=1N∑iγ(zik)\pi_k=
+\frac{1}{N}\sum_i\gamma(z_{ik})πk​=N1​i∑​γ(zik​)
+
+✅ Final Summary (Slide Style)
+
+- Likelihood:
+
+
+L=∏i=1N∑k=1KπkN(xi∣μk,σk2)L=\prod_{i=1}^{N}\sum_{k=1}^{K}\pi_k\mathcal{N}(x_i\mid\mu_k,\sigma_k^2)L=i=1∏N​k=1∑K​πk​N(xi​∣μk​,σk2​)
+
+- Maximize log-likelihood:
+
+
+max⁡log⁡L\max \log LmaxlogL
+
+- Direct optimization is hard → Use EM
+
+- EM alternates:
+
+
+E-step→M-stepE\text{-step} \rightarrow M\text{-step}E-step→M-step
+until convergence.
+
+If you want, I can write the **exact next board continuation** after IID assumption, including hidden variable zzz introduction (perfect for notes).
 
 
 ---
