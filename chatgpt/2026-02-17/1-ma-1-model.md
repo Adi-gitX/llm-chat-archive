@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:57:50 | **Turns:** 152
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:58:50 | **Turns:** 153
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5874,6 +5874,15 @@ If you want, I can make the **same Notion paste** for AR / MA / ARIMA lecture al
 ## USER
 
 give in md file with code boxes and all
+
+---
+
+## ASSISTANT
+
+Done ✅
+Here is your Markdown file with proper code boxes and math blocks:
+👉 **Download:** [GMM_EM_Notes.md]()
+If you want, I can make the same **MD file** for **AR / MA / ARIMA + ACF/PACF** next.
 
 
 ---
