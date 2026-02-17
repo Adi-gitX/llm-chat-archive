@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:49:27 | **Turns:** 139
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:50:08 | **Turns:** 140
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5142,6 +5142,12 @@ Repeat until convergence.
 
 
 If you want, I can show the exact derivative of log-likelihood w.r.t. μk\mu_kμk​ step-by-step (full proof style).
+
+---
+
+## USER
+
+z is latent variable which can take values from z belongs to 1, 2,3 ...K} ,
 
 
 ---
