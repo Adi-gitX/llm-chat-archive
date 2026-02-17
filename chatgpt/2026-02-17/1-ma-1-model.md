@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:50:42 | **Turns:** 142
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:51:33 | **Turns:** 143
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5206,6 +5206,187 @@ Want me to connect this directly to the complete-data likelihood form?
 ## USER
 
 give e complete notes best what. i gave in images exatly in besnotion friendly format
+
+---
+
+## ASSISTANT
+
+Absolutely Aditya 🔥
+You gave the exact lecture flow in your images — I’ll convert it into **perfect clean exam-style notes**, same notation, super friendly, step-by-step.
+
+✅ Gaussian Mixture Model (GMM) + EM Algorithm
+*(Complete Notes — exactly from your class images)*
+
+1. Normal Distribution (Single Gaussian)
+A random variable XXX follows a normal distribution:
+X∼N(μ,σ2)X \sim \mathcal{N}(\mu,\sigma^2)X∼N(μ,σ2)
+Probability Density Function (PDF)
+f(x)=12πσ  e−(x−μ)22σ2f(x)=\frac{1}{\sqrt{2\pi}\sigma}\;
+e^{-\frac{(x-\mu)^2}{2\sigma^2}}f(x)=2π​σ1​e−2σ2(x−μ)2​
+Where:
+
+- μ\muμ = mean
+
+- σ2\sigma^2σ2 = variance
+
+- σ\sigmaσ = standard deviation
+
+
+
+2. Gaussian Mixture Model (GMM)
+Key Idea:
+A data point can belong to **multiple Gaussian distributions**.
+Any data point can belong to K normal distributions\text{Any data point can belong to }K\text{ normal distributions}Any data point can belong to K normal distributions
+
+Mixed Density Function
+p(x)=∑k=1Kπk  N(x∣μk,σk2)p(x)=\sum_{k=1}^{K}\pi_k\;\mathcal{N}(x\mid \mu_k,\sigma_k^2)p(x)=k=1∑K​πk​N(x∣μk​,σk2​)
+Where:
+
+- KKK = number of Gaussian components (clusters)
+
+- πk\pi_kπk​ = weight of the kthk^{th}kth Gaussian
+
+- μk\mu_kμk​ = mean of cluster kkk
+
+- σk2\sigma_k^2σk2​ = variance of cluster kkk
+
+
+
+Mixing Weight Condition
+0≤πk≤10\le \pi_k \le 10≤πk​≤1
+∑k=1Kπk=1\sum_{k=1}^{K}\pi_k = 1k=1∑K​πk​=1
+
+3. Main Question in GMM
+Question:
+**How to get the best parameters?**
+(πk,μk,σk)(\pi_k,\mu_k,\sigma_k)(πk​,μk​,σk​)
+for each distribution.
+
+4. Likelihood Objective
+We want to maximize the probability of the observation:
+P(X∣π,μ,σ)P(X\mid \pi,\mu,\sigma)P(X∣π,μ,σ)
+This is called the **Likelihood**:
+L=P(X∣π,μ,σ)L = P(X\mid \pi,\mu,\sigma)L=P(X∣π,μ,σ)
+Objective:
+Maximize L\boxed{\text{Maximize }L}Maximize L​
+
+5. IID Assumption
+All data points are assumed:
+
+- Independent
+
+- Identically Distributed
+
+
+So:
+X1,X2,…,XN are IIDX_1,X_2,\dots,X_N \text{ are IID}X1​,X2​,…,XN​ are IID
+
+6. Likelihood Function
+For NNN observations:
+L=∏i=1Np(xi)L=\prod_{i=1}^{N} p(x_i)L=i=1∏N​p(xi​)
+Substitute mixture density:
+L=∏i=1N(∑k=1Kπk  N(xi∣μk,σk2))L=\prod_{i=1}^{N}
+\left(
+\sum_{k=1}^{K}
+\pi_k\;\mathcal{N}(x_i\mid \mu_k,\sigma_k^2)
+\right)L=i=1∏N​(k=1∑K​πk​N(xi​∣μk​,σk2​))
+
+7. Latent Variable zzz
+Cluster assignment is hidden:
+zn∈{1,2,…,K}z_n \in \{1,2,\dots,K\}zn​∈{1,2,…,K}
+Meaning:
+
+- zn=kz_n=kzn​=k → point xnx_nxn​ belongs to cluster kkk
+
+
+
+8. EM Algorithm (Expectation Maximization)
+We cannot directly maximize likelihood, so we use EM:
+
+Step 0: Initialization
+GMM starts with:
+
+- K-means for initial clusters
+
+- Initial values:
+
+
+πk,μk,σk\pi_k,\mu_k,\sigma_kπk​,μk​,σk​
+Example:
+π1=π2=0.5\pi_1=\pi_2=0.5π1​=π2​=0.5
+
+9. E-Step (Expectation)
+Compute Responsibilities
+Responsibility = probability that point belongs to cluster kkk:
+γnk=P(zn=k∣xn)\gamma_{nk}=P(z_n=k\mid x_n)γnk​=P(zn​=k∣xn​)
+Formula:
+γnk=πk  N(xn∣μk,σk2)∑j=1Kπj  N(xn∣μj,σj2)\gamma_{nk}
+=
+\frac{
+\pi_k\;\mathcal{N}(x_n\mid \mu_k,\sigma_k^2)
+}{
+\sum_{j=1}^{K}
+\pi_j\;\mathcal{N}(x_n\mid \mu_j,\sigma_j^2)
+}γnk​=∑j=1K​πj​N(xn​∣μj​,σj2​)πk​N(xn​∣μk​,σk2​)​
+Meaning:
+
+- Cluster kkk gives how much probability to point xnx_nxn​
+
+
+
+10. M-Step (Maximization)
+Now update parameters using responsibilities.
+
+(a) Update Mean
+μknew=∑n=1Nγnkxn∑n=1Nγnk\mu_k^{new}
+=
+\frac{
+\sum_{n=1}^{N}\gamma_{nk}x_n
+}{
+\sum_{n=1}^{N}\gamma_{nk}
+}μknew​=∑n=1N​γnk​∑n=1N​γnk​xn​​
+
+(b) Update Variance
+(σk2)new=∑n=1Nγnk(xn−μk)2∑n=1Nγnk(\sigma_k^2)^{new}
+=
+\frac{
+\sum_{n=1}^{N}\gamma_{nk}(x_n-\mu_k)^2
+}{
+\sum_{n=1}^{N}\gamma_{nk}
+}(σk2​)new=∑n=1N​γnk​∑n=1N​γnk​(xn​−μk​)2​
+
+(c) Update Mixing Weight
+πknew=∑n=1NγnkN\pi_k^{new}
+=
+\frac{
+\sum_{n=1}^{N}\gamma_{nk}
+}{N}πknew​=N∑n=1N​γnk​​
+
+11. Iteration Until Convergence
+Repeat:
+
+- E-Step
+
+- M-Step
+
+
+Until:
+
+- Parameters stabilize
+
+
+μ,σ,π stop changing\mu,\sigma,\pi \text{ stop changing}μ,σ,π stop changing
+Then model is trained.
+
+✅ Final Summary (1-Line)
+GMM does soft clustering using probabilities, trained via EM.\boxed{
+\text{GMM does soft clustering using probabilities, trained via EM.}
+}GMM does soft clustering using probabilities, trained via EM.​
+
+Quick Exam Keywords
+TermMeaningπk\pi_kπk​mixing weightμk\mu_kμk​mean of Gaussianσk2\sigma_k^2σk2​variance of Gaussianznz_nzn​latent cluster variableγnk\gamma_{nk}γnk​responsibilityEMiterative likelihood maximization
+
+If you want, I can make this into a **1-page PDF cheat sheet** for your exam or continue the derivation step where we differentiate likelihood w.r.t π,μ,σ\pi,\mu,\sigmaπ,μ,σ.
 
 
 ---
