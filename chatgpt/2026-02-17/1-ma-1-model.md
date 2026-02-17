@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:52:21 | **Turns:** 145
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:54:02 | **Turns:** 147
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5549,6 +5549,18 @@ If you want, I can now write the **exact differentiation step** from the slide:
 \quad
 \frac{\partial \log L}{\partial \pi_k}=0∂μk​∂logL​=0,∂σk​∂logL​=0,∂πk​∂logL​=0
 Just say **“next slide derivation”**.
+
+---
+
+## USER
+
+after this mpving back to those 3 equations
+
+---
+
+## ASSISTANT
+
+Analyzing image
 
 
 ---
