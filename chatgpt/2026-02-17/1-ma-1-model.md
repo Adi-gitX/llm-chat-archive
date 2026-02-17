@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:28:32 | **Turns:** 132
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:33:12 | **Turns:** 134
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -4643,6 +4643,132 @@ If you want, I can make a **one-page EM + GMM formula sheet** for your exam.
 ## USER
 
 how to get the Gaussian mixture model, how to get the parameters. Okay. So, last last main aapko yaad hoga, last lecture main jo bhi aaya ho, to waha pe humare paas kya tha? ek dataset tha. Dataset mein jeetna humare paas ek problem thi, jahan pe hume plant height ko Gaussian mixture model ke through map karna tha. Yaad aaya? Aur waha pe humne kya kiya tha? Model khud se de diya. Humne aapko pi de diya, pi1, pi2, sigma1, sigma2 aur mu1, mu2 bhi de diya. Humne bola tha ki yeh model hai, assume kar lo, kaise aaya wo baad mein dekhenge. Aur ab kya kaam karna? Mixed densities estimate karo, aur kya bola tha? Reliability that a particular observation is belonging to a particular cluster. Usme percent chance. Yeh nahi kaha tha wo 89 percent hoga, 87 percent hoga. Yaad aake? Uske baad humne humne kaafi saare lectures hue hain humare. Toh ab hum us speed mein pohoch gaye hain, ki hum parameters ko khud se nikaal payenge. Kyunki humne lecture mein discuss kar liya hai. I know ho sakta hai thoda bahut dimaag mein cheezen na aayi ho, toh usko dubara se dekhiyega, kya kiya tha humne. Dekhe, main link link jo dal dunga aapko. Yahan se start karte hain. Sabse pehle toh humare paas kya tha? Mixed density ka formula. Mixed density se pehle bhi normal distribution ka formula kya tha? Iska yeh iska kya matlab hota hai? Probability that X is following a normal distribution. probability, मतलब यह normal distribution का representation है, जो कि x variable, this is a random variable जो मेरा follow करता है और यह mu क्या होता है इसका mean, sigma square is the variance. ठीक है? और इसको अगर मैं एक function की form में लिखूँ, यह है probability density function, कैसे लिखते थे? 1 upon under root 2 pi sigma e raised to the power minus x minus mu whole square upon 2 times of sigma square. यही होता था, यहाँ तक देखा था. फिर हमने यहाँ से क्या build किया था? कि अब GMM के अंदर हमारे पास कि normal distribution हो सकते हैं हर एक data point, any data point can follow k normal distribution. Any data point can belong to any data point can belong to k normal distribution. देखा था हमने तो इनकी जो mixed density है, वो कैसे आ जाएगी mixed density? Mixed density can be calculated using the formula this. Summation pi k, summation pi k into. Normal distribution having the parameters mu k and sigma k whole square. And k ki value kahan se kahan tak chalegi? One se leke. Yeh tha? Isme. Yeh tak yaha tak humne last class me last layer me kiya hai. Theek hai? Yeh pi kya bata raha hai? Pi is the weight of kth distribution. Yeh bata raha hai. In mixed density. Theek hai? Ab hamara jo main question hai, wo kya kya raha hai? Question. Yeh wala kuch, yeh note kar liya? Note kar lo. Note karte rahna jo jo likha hoon pura. Jo jo likha hai slides hai na usko aaj hum matlab aise hi ki kam sketch me aur uska summary bhi. Question kya raha hai? How to get best pi, mu and sigma for each distribution. Yeh raha mera question. Agar mujhe yeh pata lag jaye mera model a gaya Yes or no? These things are to be estimated. Every distribution, every distribution, how much weight is there, how much is the average and how much is the standard deviation. This is what we have to find. This is my part till here. Now the part after this, we will fill it. Till here, note it down.
+
+---
+
+## ASSISTANT
+
+Got it Aditya — this slide is the **perfect starting point** of GMM.
+Let me answer your exact question:
+
+**How do we get the best πk,μk,σk\pi_k, \mu_k, \sigma_kπk​,μk​,σk​ for each Gaussian?**
+
+That is literally the core of **Gaussian Mixture Models**, and the answer is:
+
+✅ How to Get GMM Parameters?
+We estimate parameters using the **EM Algorithm**:
+Expectation-Maximization (EM)\boxed{\text{Expectation-Maximization (EM)}}Expectation-Maximization (EM)​
+Because in GMM:
+
+- We don’t know which point belongs to which Gaussian
+
+- So we cannot directly compute mean/variance like normal stats
+
+
+So EM solves it iteratively.
+
+Step 0: Model Definition
+We assume:
+p(x)=∑k=1KπkN(x∣μk,σk2)p(x)=\sum_{k=1}^{K}\pi_k \mathcal{N}(x|\mu_k,\sigma_k^2)p(x)=k=1∑K​πk​N(x∣μk​,σk2​)
+Where:
+
+- πk\pi_kπk​ = weight of Gaussian kkk
+
+- μk\mu_kμk​ = mean of Gaussian kkk
+
+- σk2\sigma_k^2σk2​ = variance of Gaussian kkk
+
+
+
+✅ Main Question
+How to find best πk,μk,σk?\boxed{\text{How to find best } \pi_k,\mu_k,\sigma_k?}How to find best πk​,μk​,σk​?​
+Answer:
+Use EM Algorithm\boxed{\text{Use EM Algorithm}}Use EM Algorithm​
+
+1️⃣ Initialize Parameters
+Start with guesses:
+
+- μ1,μ2,...\mu_1,\mu_2,...μ1​,μ2​,...
+
+- σ12,σ22,...\sigma_1^2,\sigma_2^2,...σ12​,σ22​,...
+
+- π1,π2,...\pi_1,\pi_2,...π1​,π2​,...
+
+
+Usually initialized using **K-Means**.
+
+2️⃣ E-Step (Expectation)
+Compute **responsibility**:
+γ(zik)=P(k∣xi)\gamma(z_{ik})=P(k|x_i)γ(zik​)=P(k∣xi​)
+Meaning:
+
+Probability that point xix_ixi​ belongs to Gaussian kkk
+
+Formula:
+γ(zik)=πkN(xi∣μk,σk2)∑j=1KπjN(xi∣μj,σj2)\gamma(z_{ik})=
+\frac{\pi_k\mathcal{N}(x_i|\mu_k,\sigma_k^2)}
+{\sum_{j=1}^{K}\pi_j\mathcal{N}(x_i|\mu_j,\sigma_j^2)}γ(zik​)=∑j=1K​πj​N(xi​∣μj​,σj2​)πk​N(xi​∣μk​,σk2​)​
+So now every point has soft membership.
+Example:
+
+- Point belongs 0.8 to cluster 1
+
+- 0.2 to cluster 2
+
+
+
+3️⃣ M-Step (Maximization)
+Now update parameters using responsibilities:
+
+Update Mean
+μk=∑i=1nγ(zik)xi∑i=1nγ(zik)\mu_k=
+\frac{\sum_{i=1}^{n}\gamma(z_{ik})x_i}
+{\sum_{i=1}^{n}\gamma(z_{ik})}μk​=∑i=1n​γ(zik​)∑i=1n​γ(zik​)xi​​
+
+Update Variance
+σk2=∑i=1nγ(zik)(xi−μk)2∑i=1nγ(zik)\sigma_k^2=
+\frac{\sum_{i=1}^{n}\gamma(z_{ik})(x_i-\mu_k)^2}
+{\sum_{i=1}^{n}\gamma(z_{ik})}σk2​=∑i=1n​γ(zik​)∑i=1n​γ(zik​)(xi​−μk​)2​
+
+Update Weight
+πk=1n∑i=1nγ(zik)\pi_k=
+\frac{1}{n}\sum_{i=1}^{n}\gamma(z_{ik})πk​=n1​i=1∑n​γ(zik​)
+
+4️⃣ Repeat Until Convergence
+We repeat:
+E-step→M-step→E-step...E\text{-step} \rightarrow M\text{-step} \rightarrow E\text{-step}...E-step→M-step→E-step...
+Until:
+
+- μk\mu_kμk​ stops changing
+
+- σk\sigma_kσk​ stabilizes
+
+- πk\pi_kπk​ becomes stable
+
+
+Then:
+We got the best GMM parameters\boxed{\text{We got the best GMM parameters}}We got the best GMM parameters​
+
+✅ Final One-Line Summary (Exam Ready)
+GMM parameters are learned using EM:\boxed{
+\text{GMM parameters are learned using EM:}
+}GMM parameters are learned using EM:​
+
+- **E-step:** compute cluster probabilities (responsibilities)
+
+- **M-step:** update mean, variance, weights
+
+- Repeat until stable
+
+
+
+If you want, I can write the **full next part of your notes exactly in slide style** (continuation after “Question:”).
+
+---
+
+## USER
+
+इसको किस तरीके से सेंड करेंगे या पहले यह बात समझाएंगे, कि यहाँ तक ठीक है. अब आगे बढ़ते हैं. मेरा मकसद क्या है, मेरा मकसद यह है कि मैं इस प्रॉबेबिलिटी को मैक्सीमाइज करूँ. इस ओवरऑल फंक्शन को मुझे मैक्सीमाइज करना है. क्योंकि उससे क्या होगा, प्रॉबेबिलिटी इंक्रीज हो जाएगी. अगर प्रॉबेबिलिटी इंक्रीज हो जाएगी तो इसका मतलब सबसे बढ़िया तरीके से मैंने उसको क्लासिफाई कर दिया. यही तो मेरा मक्सद है. इसी चीज को हम क्या बोलते हैं लाइकलीहुड, इसको हम लाइकलीहुड भी कहते हैं. इसको मैं रिप्रेजेंट कर सकता हूँ कैसिन. यही है लाइकलीहुड. इसको मुझे क्या करना है? मैक्सीमाइज. याद आया कुछ? आई वांट यू मैक्सीमाइज इस लाइकलीहुड अफ अब्जर्वेशन एल. यह है मेरा ओब्जेक्टिव. यह कई जगह देखा जैसे कि लाइकलीहुड और लाइकलीहुड को मैक्सीमाइजेशन करना है. पहले कहीं तो पढ़ा है लॉजिस्टिक रिग्रेशन में लॉजिस्टिक रिग्रेशन में क्या करते थे, लाइकलीहुड को मैक्सीमाइज करते थे, फिर उसका लॉग लेते थे, फिर क्या करते थे उसको मैक्सीमाइज. यहाँ पर भी सिमिलर प्रोसेस है, ठीक है? कैसे हुआ देखते हैं। अब देखो मुझे इस प्रॉबेबिलिटी को मैक्सीमाइज करना है जो लिखी हुई है एल। सबसे पहले मैक्सीमाइज करने के लिए मुझे इसका फंक्शन तो पता होना चाहिए कि एक्चुअली में फंक्शन दिखता कैसे है। लेकिन मैंने रिप्रेजेंट किया है ऐसे, इसलिए यह नॉर्मल फंक्शन नहीं है। फंक्शन एक्चुअली में दिखेगा कैसे मैथेमेटिकल फंक्शन। अगर मुझे वो पता लग जाए, फिर मैं क्या कर सकता हूँ उसको लॉग ले के डेरिवेट कर सकता हूँ। कैल्कुलस का हेल्प कर, कि हेल्प से उसको क्या कर सकते हैं मैक्सीमाइज कर सकते हैं। तो पहले मुझे उसका फंक्शन बनाना चाहिए। इसका फंक्शन कैसे लिखेंगे? देखो, इसका फंक्शन लिखने से पहले, इससे पहले यहाँ पर मैं एक चीज लिख रहा हूँ। How to get the function of likelihood. सबसे पहले तो मुझे ये बताना चाहिए, ठीक है? अब यहाँ पे एक नोट करने वाली चीज क्या है? ये जाँच से देखना, all of my variables are independent and identically distributed. ये मेरा assumption है। All of my variables जितने भी variables होंगे, variables मतलब data points इसको मैं बोल सकता हूँ data points. Variables कह दूं या फिर कह दूं all of my data points जितने भी मेरे data points हैं x1, x2, x3 up to कितने data points हैं? N.
 
 ---
 
