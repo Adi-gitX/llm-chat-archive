@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:40:52 | **Turns:** 137
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:49:03 | **Turns:** 138
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5067,6 +5067,12 @@ We:
 
 
 If you want, I can show the **actual derivative steps** (full calculus) for one parameter, like μk\mu_kμk​, exactly like exam proof.
+
+---
+
+## USER
+
+differentiate e.r.t pi meu, and sigma, and set it to i willl get 3 equations which involve a term responsiblity , so lets, do responsiblity first , - probablity that the given observation belongs to kth cluster gaama(znk) = p (z=k|xn) = pi k N(X/meu,vark square  whole div by sum j=1 to k pi j N(x|meuj,, sigma 2
 
 
 ---
