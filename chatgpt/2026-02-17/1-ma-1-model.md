@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:17:58 | **Turns:** 130
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:28:32 | **Turns:** 132
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -4637,6 +4637,18 @@ GMM has converged\boxed{\text{GMM has converged}}GMM has converged​
 
 
 If you want, I can make a **one-page EM + GMM formula sheet** for your exam.
+
+---
+
+## USER
+
+how to get the Gaussian mixture model, how to get the parameters. Okay. So, last last main aapko yaad hoga, last lecture main jo bhi aaya ho, to waha pe humare paas kya tha? ek dataset tha. Dataset mein jeetna humare paas ek problem thi, jahan pe hume plant height ko Gaussian mixture model ke through map karna tha. Yaad aaya? Aur waha pe humne kya kiya tha? Model khud se de diya. Humne aapko pi de diya, pi1, pi2, sigma1, sigma2 aur mu1, mu2 bhi de diya. Humne bola tha ki yeh model hai, assume kar lo, kaise aaya wo baad mein dekhenge. Aur ab kya kaam karna? Mixed densities estimate karo, aur kya bola tha? Reliability that a particular observation is belonging to a particular cluster. Usme percent chance. Yeh nahi kaha tha wo 89 percent hoga, 87 percent hoga. Yaad aake? Uske baad humne humne kaafi saare lectures hue hain humare. Toh ab hum us speed mein pohoch gaye hain, ki hum parameters ko khud se nikaal payenge. Kyunki humne lecture mein discuss kar liya hai. I know ho sakta hai thoda bahut dimaag mein cheezen na aayi ho, toh usko dubara se dekhiyega, kya kiya tha humne. Dekhe, main link link jo dal dunga aapko. Yahan se start karte hain. Sabse pehle toh humare paas kya tha? Mixed density ka formula. Mixed density se pehle bhi normal distribution ka formula kya tha? Iska yeh iska kya matlab hota hai? Probability that X is following a normal distribution. probability, मतलब यह normal distribution का representation है, जो कि x variable, this is a random variable जो मेरा follow करता है और यह mu क्या होता है इसका mean, sigma square is the variance. ठीक है? और इसको अगर मैं एक function की form में लिखूँ, यह है probability density function, कैसे लिखते थे? 1 upon under root 2 pi sigma e raised to the power minus x minus mu whole square upon 2 times of sigma square. यही होता था, यहाँ तक देखा था. फिर हमने यहाँ से क्या build किया था? कि अब GMM के अंदर हमारे पास कि normal distribution हो सकते हैं हर एक data point, any data point can follow k normal distribution. Any data point can belong to any data point can belong to k normal distribution. देखा था हमने तो इनकी जो mixed density है, वो कैसे आ जाएगी mixed density? Mixed density can be calculated using the formula this. Summation pi k, summation pi k into. Normal distribution having the parameters mu k and sigma k whole square. And k ki value kahan se kahan tak chalegi? One se leke. Yeh tha? Isme. Yeh tak yaha tak humne last class me last layer me kiya hai. Theek hai? Yeh pi kya bata raha hai? Pi is the weight of kth distribution. Yeh bata raha hai. In mixed density. Theek hai? Ab hamara jo main question hai, wo kya kya raha hai? Question. Yeh wala kuch, yeh note kar liya? Note kar lo. Note karte rahna jo jo likha hoon pura. Jo jo likha hai slides hai na usko aaj hum matlab aise hi ki kam sketch me aur uska summary bhi. Question kya raha hai? How to get best pi, mu and sigma for each distribution. Yeh raha mera question. Agar mujhe yeh pata lag jaye mera model a gaya Yes or no? These things are to be estimated. Every distribution, every distribution, how much weight is there, how much is the average and how much is the standard deviation. This is what we have to find. This is my part till here. Now the part after this, we will fill it. Till here, note it down.
+
+---
+
+## ASSISTANT
+
+Analyzing image
 
 
 ---
