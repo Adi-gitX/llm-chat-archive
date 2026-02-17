@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:51:33 | **Turns:** 143
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:52:21 | **Turns:** 145
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -5387,6 +5387,168 @@ Quick Exam Keywords
 TermMeaningπk\pi_kπk​mixing weightμk\mu_kμk​mean of Gaussianσk2\sigma_k^2σk2​variance of Gaussianznz_nzn​latent cluster variableγnk\gamma_{nk}γnk​responsibilityEMiterative likelihood maximization
 
 If you want, I can make this into a **1-page PDF cheat sheet** for your exam or continue the derivation step where we differentiate likelihood w.r.t π,μ,σ\pi,\mu,\sigmaπ,μ,σ.
+
+---
+
+## USER
+
+exatly what wasin images
+
+---
+
+## ASSISTANT
+
+Got it ❤️ you want the notes **exactly in the same order + wording style** as your lecture images — not extra, not compressed, not different structure.
+Here is the **image-to-notes exact format**, clean and copy-ready:
+
+✅ Gaussian Mixture Model (GMM) — Exact Class Notes Style
+
+1. Normal Distribution
+We start with a **normal distribution**.
+Probability that a random variable XXX follows a normal distribution:
+X∼N(μ,σ2)X \sim \mathcal{N}(\mu,\sigma^2)X∼N(μ,σ2)
+Where:
+
+- μ\muμ is the **mean**
+
+- σ2\sigma^2σ2 is the **variance**
+
+
+
+Probability Density Function
+p(x)=12πσ  e−(x−μ)22σ2p(x)=
+\frac{1}{\sqrt{2\pi}\sigma}
+\;e^{-\frac{(x-\mu)^2}{2\sigma^2}}p(x)=2π​σ1​e−2σ2(x−μ)2​
+This is the **density function** of the Gaussian distribution.
+
+2. Mixed Density in GMM
+Now in GMM, any data point can belong to **K normal distributions**.
+So the mixed density becomes:
+p(x)=∑k=1Kπk  N(x∣μk,σk2)p(x)=\sum_{k=1}^{K}\pi_k\;
+\mathcal{N}(x\mid\mu_k,\sigma_k^2)p(x)=k=1∑K​πk​N(x∣μk​,σk2​)
+
+Meaning of terms
+
+- KKK = number of Gaussian components
+
+- πk\pi_kπk​ = weight of the kthk^{th}kth Gaussian
+
+- μk\mu_kμk​ = mean of the kthk^{th}kth Gaussian
+
+- σk2\sigma_k^2σk2​ = variance of the kthk^{th}kth Gaussian
+
+
+
+Mixing weights condition
+0≤πk≤10 \le \pi_k \le 10≤πk​≤1
+∑k=1Kπk=1\sum_{k=1}^{K}\pi_k = 1k=1∑K​πk​=1
+
+3. Main Question
+Now the main question is:
+How to get best values of:
+πk,  μk,  σk\pi_k,\;\mu_k,\;\sigma_kπk​,μk​,σk​
+for each distribution?
+These parameters have to be **estimated**.
+
+4. Likelihood Objective
+My मकसद यह है कि मैं इस probability को maximize करूँ.
+This is called the **likelihood**:
+L=P(X∣π,μ,σ)L = P(X\mid \pi,\mu,\sigma)L=P(X∣π,μ,σ)
+Objective:
+Maximize Likelihood L\boxed{\text{Maximize Likelihood }L}Maximize Likelihood L​
+
+5. IID Assumption
+All my observations are:
+Independent and Identically Distributed (IID)
+x1,x2,…,xN are IIDx_1,x_2,\dots,x_N \text{ are IID}x1​,x2​,…,xN​ are IID
+
+6. Likelihood Function
+For NNN observations:
+L=∏i=1N(∑k=1KπkN(xi∣μk,σk2))L=\prod_{i=1}^{N}
+\left(
+\sum_{k=1}^{K}
+\pi_k\mathcal{N}(x_i\mid\mu_k,\sigma_k^2)
+\right)L=i=1∏N​(k=1∑K​πk​N(xi​∣μk​,σk2​))
+
+7. Latent Variable zzz
+We introduce a latent variable:
+zn∈{1,2,…,K}z_n \in \{1,2,\dots,K\}zn​∈{1,2,…,K}
+Meaning:
+
+- zn=kz_n=kzn​=k indicates observation xnx_nxn​ belongs to cluster kkk
+
+
+
+8. EM Algorithm
+We cannot directly maximize likelihood, so we use:
+Expectation Maximization (EM)
+
+✅ E-Step (Expectation)
+In E-step, we calculate **responsibilities**.
+Responsibility = probability that point belongs to cluster kkk:
+γnk=P(zn=k∣xn)\gamma_{nk}=P(z_n=k\mid x_n)γnk​=P(zn​=k∣xn​)
+Formula:
+γnk=πkN(xn∣μk,σk2)∑j=1KπjN(xn∣μj,σj2)\gamma_{nk}
+=
+\frac{
+\pi_k\mathcal{N}(x_n\mid\mu_k,\sigma_k^2)
+}{
+\sum_{j=1}^{K}
+\pi_j\mathcal{N}(x_n\mid\mu_j,\sigma_j^2)
+}γnk​=∑j=1K​πj​N(xn​∣μj​,σj2​)πk​N(xn​∣μk​,σk2​)​
+This tells:
+
+- Cluster kkk में point होने की probability
+
+
+
+✅ M-Step (Maximization)
+Now we update parameters:
+
+Update Mean
+μknew=∑n=1Nγnkxn∑n=1Nγnk\mu_k^{new}
+=
+\frac{
+\sum_{n=1}^{N}\gamma_{nk}x_n
+}{
+\sum_{n=1}^{N}\gamma_{nk}
+}μknew​=∑n=1N​γnk​∑n=1N​γnk​xn​​
+
+Update Variance
+(σk2)new=∑n=1Nγnk(xn−μk)2∑n=1Nγnk(\sigma_k^2)^{new}
+=
+\frac{
+\sum_{n=1}^{N}\gamma_{nk}(x_n-\mu_k)^2
+}{
+\sum_{n=1}^{N}\gamma_{nk}
+}(σk2​)new=∑n=1N​γnk​∑n=1N​γnk​(xn​−μk​)2​
+
+Update Weight
+πknew=∑n=1NγnkN\pi_k^{new}
+=
+\frac{
+\sum_{n=1}^{N}\gamma_{nk}
+}{N}πknew​=N∑n=1N​γnk​​
+
+✅ Final Iteration
+We repeat:
+
+- E-step
+
+- M-step
+
+
+Until:
+π,μ,σ stabilize\pi,\mu,\sigma \text{ stabilize}π,μ,σ stabilize
+Then the GMM model converges.
+
+If you want, I can now write the **exact differentiation step** from the slide:
+∂log⁡L∂μk=0,∂log⁡L∂σk=0,∂log⁡L∂πk=0\frac{\partial \log L}{\partial \mu_k}=0,
+\quad
+\frac{\partial \log L}{\partial \sigma_k}=0,
+\quad
+\frac{\partial \log L}{\partial \pi_k}=0∂μk​∂logL​=0,∂σk​∂logL​=0,∂πk​∂logL​=0
+Just say **“next slide derivation”**.
 
 
 ---
