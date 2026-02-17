@@ -1,6 +1,6 @@
 # 1️⃣ MA(1) Model
 
-> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:40:18 | **Turns:** 136
+> **Platform:** CHATGPT | **Date:** 17/02/2026, 16:40:52 | **Turns:** 137
 > **Source:** [Open Original](https://chatgpt.com/c/696f06a3-7324-8322-a4d3-621032b10e58)
 
 ---
@@ -4972,6 +4972,101 @@ If you want, I can write the **next exact board step** after this slide:
 ## USER
 
 diffierenciate with resp to pi meu and sigma next
+
+---
+
+## ASSISTANT
+
+Got it — you’re asking the **next step**:
+
+Differentiate the log-likelihood w.r.t.
+πk, μk, σk\pi_k,\ \mu_k,\ \sigma_kπk​, μk​, σk​
+
+This is exactly where **EM algorithm** comes from.
+I’ll keep it clean + direct.
+
+✅ Log-Likelihood
+We have:
+L=∏i=1N(∑k=1KπkN(xi∣μk,σk2))L=\prod_{i=1}^{N}
+\left(
+\sum_{k=1}^{K}\pi_k \mathcal{N}(x_i\mid \mu_k,\sigma_k^2)
+\right)L=i=1∏N​(k=1∑K​πk​N(xi​∣μk​,σk2​))
+Take log:
+log⁡L=∑i=1Nlog⁡(∑k=1KπkN(xi∣μk,σk2))\log L=\sum_{i=1}^{N}
+\log\left(
+\sum_{k=1}^{K}\pi_k \mathcal{N}(x_i\mid \mu_k,\sigma_k^2)
+\right)logL=i=1∑N​log(k=1∑K​πk​N(xi​∣μk​,σk2​))
+
+🚨 Problem
+You **cannot directly differentiate** because:
+log⁡(∑k...)\log\left(\sum_k ...\right)log(k∑​...)
+is messy.
+So we introduce hidden variable:
+
+✅ Responsibility (E-step)
+Define:
+γik=P(z=k∣xi)\gamma_{ik}=P(z=k\mid x_i)γik​=P(z=k∣xi​)
+γik=πkN(xi∣μk,σk2)∑j=1KπjN(xi∣μj,σj2)\boxed{
+\gamma_{ik}=
+\frac{\pi_k \mathcal{N}(x_i\mid \mu_k,\sigma_k^2)}
+{\sum_{j=1}^{K}\pi_j \mathcal{N}(x_i\mid \mu_j,\sigma_j^2)}
+}γik​=∑j=1K​πj​N(xi​∣μj​,σj2​)πk​N(xi​∣μk​,σk2​)​​
+This is what makes differentiation possible.
+
+✅ Now Differentiation Results (M-step)
+Once γik\gamma_{ik}γik​ is known, maximize w.r.t parameters.
+
+1️⃣ Differentiate w.r.t. Mean μk\mu_kμk​
+Set derivative = 0:
+μk=∑i=1Nγikxi∑i=1Nγik\boxed{
+\mu_k=
+\frac{\sum_{i=1}^{N}\gamma_{ik}x_i}
+{\sum_{i=1}^{N}\gamma_{ik}}
+}μk​=∑i=1N​γik​∑i=1N​γik​xi​​​
+👉 Mean is weighted average.
+
+2️⃣ Differentiate w.r.t. Variance σk2\sigma_k^2σk2​
+σk2=∑i=1Nγik(xi−μk)2∑i=1Nγik\boxed{
+\sigma_k^2=
+\frac{\sum_{i=1}^{N}\gamma_{ik}(x_i-\mu_k)^2}
+{\sum_{i=1}^{N}\gamma_{ik}}
+}σk2​=∑i=1N​γik​∑i=1N​γik​(xi​−μk​)2​​
+👉 Variance is weighted spread.
+
+3️⃣ Differentiate w.r.t. Mixing Weight πk\pi_kπk​
+Constraint:
+∑k=1Kπk=1\sum_{k=1}^{K}\pi_k=1k=1∑K​πk​=1
+Using Lagrange multiplier:
+πk=∑i=1NγikN\boxed{
+\pi_k=
+\frac{\sum_{i=1}^{N}\gamma_{ik}}{N}
+}πk​=N∑i=1N​γik​​​
+👉 Weight = fraction of points belonging to cluster.
+
+✅ Final EM Updates Summary
+E-step:
+γik=πkN(xi∣μk,σk2)∑j=1KπjN(xi∣μj,σj2)\gamma_{ik}=
+\frac{\pi_k \mathcal{N}(x_i\mid \mu_k,\sigma_k^2)}
+{\sum_{j=1}^{K}\pi_j \mathcal{N}(x_i\mid \mu_j,\sigma_j^2)}γik​=∑j=1K​πj​N(xi​∣μj​,σj2​)πk​N(xi​∣μk​,σk2​)​
+M-step:
+μk=∑iγikxi∑iγik\mu_k=
+\frac{\sum_i\gamma_{ik}x_i}{\sum_i\gamma_{ik}}μk​=∑i​γik​∑i​γik​xi​​
+σk2=∑iγik(xi−μk)2∑iγik\sigma_k^2=
+\frac{\sum_i\gamma_{ik}(x_i-\mu_k)^2}{\sum_i\gamma_{ik}}σk2​=∑i​γik​∑i​γik​(xi​−μk​)2​
+πk=∑iγikN\pi_k=
+\frac{\sum_i\gamma_{ik}}{N}πk​=N∑i​γik​​
+
+🔥 Key Point
+We do NOT directly differentiate raw likelihood.
+We:
+
+1. Compute responsibilities (soft cluster assignment)
+
+2. Then maximize → closed-form updates
+
+
+
+If you want, I can show the **actual derivative steps** (full calculus) for one parameter, like μk\mu_kμk​, exactly like exam proof.
 
 
 ---
