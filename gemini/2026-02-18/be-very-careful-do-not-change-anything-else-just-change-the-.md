@@ -1,0 +1,14 @@
+# be very careful do not change anything else just change the date on this from 20/7/25 to 4/01/26 same writing same everything do
+
+> **Platform:** GEMINI | **Date:** 18/02/2026, 14:53:24 | **Turns:** 1
+> **Source:** [Open Original](https://gemini.google.com/app/1fa6f554ad093a29?hl=en-IN)
+
+---
+
+## USER
+
+You said be very careful do not change anything else just change the date on this from 20/7/25 to 4/01/26 same writing same everything do not change or edit anything else be as catious as possible
+
+
+---
+*Archived by [StoreChat](https://github.com/Adi-gitX/StoreChat) on 2026-02-18*
