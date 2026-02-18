@@ -1,6 +1,6 @@
 # OPERATING SYSTEMS — COMPLETE EXAM REVISION (CSA325)
 
-> **Platform:** CHATGPT | **Date:** 18/02/2026, 10:59:40 | **Turns:** 309
+> **Platform:** CHATGPT | **Date:** 18/02/2026, 11:10:39 | **Turns:** 311
 > **Source:** [Open Original](https://chatgpt.com/c/6965bc80-a728-8321-8aa3-875cfaa57923)
 
 ---
@@ -18616,6 +18616,260 @@ Today you learned:
 
 
 If you want, I can convert this into a **1-page PDF exam sheet** or a **proper handwritten-style notes format**.
+
+---
+
+## USER
+
+Basically, there are five core services of operating systems. First, process management. Process management we spent a lot of time on because we saw CPU scheduling, we saw a lot of process synchronization, process deadlocks, and we saw a lot of things in processes. Second, the most important thing was memory management. We spent about 2.5 lectures on memory management. Then, security. Security is embedded into everything. And then file system. File system is also a part of memory system where we see how we are isolating, how we are distributing, those kinds of things. Final service, final service that we have to learn is input-output management. Input-output management basically what is it telling me that in any given system, in your laptop for example, there are multiple things that are giving it input and multiple things that are giving it as an output. Keyboard is an input, mouse is an input, your touch devices, auxiliary port, USB, all sort of things are inputs. Your monitor is an output, your speaker is an output, the process computation that it is giving you, that is an output. So multiple types of inputs and outputs that exist. Now, someone has to be there to manage these kind of activities and that's where that is the task of operating system. So, what it basically does is, it controls and coordinates input and output devices and acts as a bridge between hardware and the application. So, basically, there are three things that we have to learn in input-output management. Three things. How these inputs and outputs go. एकदम आम भाषा में आते हैं, एकदम साधारण, सीधी, सिंपल भाषा में अगर बात करते हैं, कोई भी इम्पुट-आउटपुट डिवाइस है, ठीक है, आप बताइए जेंटलमेन, इनपुट डिवाइस क्या करेगा? इनपुट देगा, आउटपुट डिवाइस क्या करेगा? बताइए आप इनपुट देगा या आउटपुट लेगा? ये दोनों ऐसे एक चीज़ होगी, ठीक है? अगर आपको आम भाषा में उसको प्रोग्रामिंग लैंग्वेज में लिखना है, तो ईथर, आर यू गोइंग टू रीड और यू आर गोइंग टू राइट? करेक्ट? सो वन इस गोइंग टू बी अ रीड ऑपरेशन और वन इस गोइंग टू बी अ राइट ऑपरेशन, यह दोनों चीज़ हो गई और यह दोनों का पूरा खेल है इम्पुट-आउटपुट मैनेजमेंट में। डिफरेंस यह है कि अलग-अलग डिवाइसेस अलग-अलग टाइप के इंपुट्स लेंगे और अलग-अलग डिवाइसेस अलग-अलग टाइप के आउटपुट्स लेंगे। स्पीकर ऑडियो फॉर्म का आउटपुट लेगा, मॉनिटर स्क्रीन फॉर्म का आउटपुट लेगा, कीबोर्ड कैरेक्टर फॉर्म में इम्पुट देगा और एसएसडी पूरा ब्लॉक का ब्लॉक ऑफ डेटा देगा। ऑल ऑफ़ इस डिफरेंट टाइप ऑफ़ थिंग्स आर गिविंग डिफरेंट टाइप्स ऑफ़ इम्पुट एंड आउटपुट एंड वहाँ पर सबसे बड़ा खेल है। करेक्ट? सबसे आसान भाषा में यही है इम्पुट-आउटपुट। तीन तरीके हैं इम्पुट-आउटपुट को आपको मैनेज करने के लिए। पोलिंग, इंटरप्ट और डीएमए। पोलिंग, इंटरप्ट और डीएमए। क्विकली विल गो थ्रू इच वन ऑफ़ देम। बेसिकली, पोलिंग का मतलब ऐसा है, गाइज, पोलिंग का मतलब ऐसा है, आप इमेजिन करो कि यू हैव गॉन टू मैकडॉनल्ड्स, ठीक है, आइल गिव यू ए वेरी स्ट्रेट्स फॉरवर्ड इग्जाम्पल। लेट्स से यू हैव गॉन टू मैकडॉनल्ड, आप काउंटर पर गए, काउंटर पर जाके आपने बोला कि प्लीज गिव मी वन रेगुलर मैकालू टिक्की, एक रेगुलर फ्रेंच फ्राइज़ और एक रेगुलर साइज कोल्ड ड्रिंक। मैंने ये तीनों का एक मील बनाया और मुझे ये चाहिए, ठीक है? पोलिंग का मतलब कैसा है, मैंने जैसे ही ये ऑर्डर दिया और मैं काउंटर पर खड़ा हूँ और मैं काउंटर वाले को पूछू, बन गया? ओके, ओके, ओके, ओके, ओके। इच सेकंड, इच सेकंड आई एम आस्किंग, हो गया, हो गया, हो गया, हो गया। सो पोलिंग बेसिकली वॉट इज़ हैपनिंग, देर आर टू थिंग्स, इम्पुट एंड आउटपुट। पोलिंग इज़ कॉन्स्टेंटली आस्किंग। Are you done? kya input hai, ready hai? De diya, le do, le do, le do, le do. It's constantly asking, simply like this. Constantly like this, while the keyboard status is not ready, just wait for it. Wait for something to get received. Matlab aap constantly wait karte jaa rahe ho, constantly poochte jaa rahe ho. In that active time, you are not doing anything active at all. Dekha? Example samajh mein aaya? That is your polling. Polling is, you are constantly asking and your CPU is not doing anything productive in that. Of course, this is a terrible method. Of course, this is a terrible method because it is such wasteful. But when to use this? There are certain cases where it might make sense to use it, where things are fast enough. Ki matlab whether your wait time is not big enough, to in that case, wait kar lo. Theek hai, ek second mein. Matlab aise jaate usne tidah dene hi wala hai. So, teek hai, my answer is wait for it. Us then you don't have to think about anything else. You just wait for it. Ek second mein aake answer khatam ho gaya. Theek hai, your complete transaction is finished. Real-time systems mein, jahan pe aapko real-time interactive cheez aapko output de rahi hai, wahan pe polling might make sense to you. Small embedded systems jahan pe aapko extra hardware nahi dalna hai, very easy to include. So, acceptable if combined with like I said sleep, yield jaise cheezon ke saath combine karoge. Polling is acceptable, but in general, it's a very, very horrible way of taking things. Second approach, interrupt. Main McDonald's mein gaya. Maine McDonald's ko bola, ki bhai mujhe burger, fries aur coke do. Main counter pe gaya aur maine usko order diya. And now I will turn aside and do my work. When the food is completed, that guy is going to tap on my shoulder ki bhai sahab aapka order ready ho gaya hai aur aap main leke jaaunga. So, it is an interrupted driven. So, my CPU will give some task to some kind of input-output. We will give some task to input-output and then my CPU is going to do some other task. When the task is completed, the gentleman is going to tap on my shoulders and he will say कि हाँ भाई, आपका हो गया है, order आ गया है, आप consume करो. Makes sense what is input-output? Interrupt-driven. Interrupt-driven का मतलब simply यह है कि basically how it works is CPU will start input-output. CPU will start input-output. Then device works independently. Independently input-output device अपना काम करेगा, CPU अपना काम करेगा. जैसे ही काम खतम हो गया तो interrupt आएगा उसको. CPU को एक interrupt मिलेगा कि भाई हमारा काम हो गया है और CPU क्या करेगा? CPU उसको हैंडल करेगा. Steps याद रख लो. Step number one. Device ने जैसे ही आपको interrupt भेजा, उस टाइम पे ऐसा जरूरी थोड़ी है कि CPU कुछ भी नहीं है, CPU वेला ही बैठा है. CPU कुछ ना कुछ काम कर रहा है, correct? हो सकता है कि आप कोई मीटिंग में बैठे हो जब वो बंदे ने आपको बताया है कि भाई आपका order ready हो गया है. ठीक है? आप McDonald's में मीटिंग में बैठे हो. तो what is the first normal thing you are going to do? You are going to call, मतलब ऐसे unmute करोगे, Hey, just give me a second, I have to collect my order. और आप एक context सेव करके जाते हो. So When an interrupt is detected, what you are going to do is you are going to first of all give an acknowledgement. जैसे उसने ऐसा आपको बोला कि भैया रैडी हो गया है तो आप बोलोगे एक मिनट हौ ऐसे आपने acknowledge कर दिया कि उसने आपको बताया मैंने उसको acknowledge कर दिया है मैंने context save कर लिया मैं यहाँ पर जो काम चल रहा था ऐसा नहीं है बीच में मैं सीधा छोड़ के चला जाऊँगा मैं उसको context save करूँगा जो भी प्रोसेस चल रहा है उसको मैंने context सेव कर दिया ठीक है? Context saved. Then I am going to look at interrupt vector table. Interrupt vector table का मतलब है कि वो मुझे किस काम के लिए बुला रहा है हो सकता है he is going to ask me कि आपको बर्गर में कौन सा सॉस चाहिए था आपको कौन से टाइप के फ्राइज चाहिए आपको crispy फ्राइज चाहिए, long fries चाहिए, barbecue फ्राइज चाहिए जो भी फालान लिखना जो भी एक्सेस करता है ठीक है? So I will look into it कि वो बंदा मेरे को किस काम के लिए बुला रहा है जैसे ही मुझे पता चलेगा कौन से काम के लिए बुला रहा है मैं वो काम execute कर लूँगा Let's say उसने मुझे बोला है कि आपका ऑर्डर ready हो गया है So that is going to be one type of action in my mind और मैं जाऊँगा और उसका interrupt service routine interrupt vector table is going to tell me what are the things that I need to perform for what type of interrupt that it has given me ठीक है Let's say अगर भैया ने मेरे को ऑर्डर बनाया और उसने मेरे को पत्थर फेंक के मारा Rather than मेरे को ऑर्डर दें वो उसने मुझे पत्थर फेंक के मारा तो उसके लिए मेरे पास आउटपुट मुझे गुस्सा आएगा ना आपने मेरे को पत्थर फेंक के मारा So all of these things, all of these things, different type of actions will require different type of different type of interrupts will require different type of actions that is going to be stored in interrupt vector table What to do, what to do exactly is going to be stored in interrupt service routine And then जैसे ही सारा आपका transaction हो गया Let's say अच्छा ही भैया था उसने आपको खाना दे दिया आपने खाना लेकर आगे और यहाँ पर आपके भी Meeting resume कर दिया And that is आपका context save के बाद वापस से resume करोगे Does it make sense? Interrupt समझ आ गया है, कोलीग समझ आ गया है, correct? ये चीज़ है जो शायद आपको थोड़ा सा सेल्फ स्टडी करना पड़े। There are multiple types of interrupts that exist. Hardware interrupt होता है, software interrupt होता है, operating system का interrupt होता है, तो अलग-अलग टाइप के interrupts है, अलग-अलग तरीके से डील की जाते हैं Priority होती है interrupts की, कि अगर एक साथ 10-15 interrupt आ जाए तो क्या करोगे तो उसमें बेस्ट on priority आप डील करते जाओगे कि कौन सा interrupt ज़्यादा important है, और उसके बेसिस पर आप डील करते जाओगे थोड़ा सा सेल्फ स्टडी करना पड़ेगा, बट ठीक है, it is not that hard, you will manage. So, let me
+
+---
+
+## ASSISTANT
+
+Absolutely — this is a *really* clean lecture chunk. Here are **full crisp notes in English**, using the **same wording + examples** from your class, structured perfectly for revision.
+
+✅ OS Core Services + I/O Management Notes (Today)
+
+⭐ Five Core Services of an Operating System
+Operating systems provide **five major core services**:
+
+1. **Process Management**
+
+
+CPU Scheduling
+
+
+Process Synchronization
+
+
+Deadlocks
+
+2. **Memory Management**
+
+
+Allocation, Deallocation
+
+
+Fragmentation, Paging, Virtual Memory
+
+3. **Security**
+
+
+Embedded into everything
+
+
+Isolation and Protection
+
+4. **File System Management**
+
+
+Organizing, distributing, isolating files
+
+5. **Input–Output (I/O) Management**
+
+
+Final major OS service
+
+
+Controls all input and output devices
+
+
+
+✅ Input–Output Management (I/O Management)
+In any system, there are multiple **input devices** and **output devices**:
+
+- **Inputs:** Keyboard, Mouse, USB, Touch devices
+
+- **Outputs:** Monitor, Speaker, Computation results
+
+
+So OS acts as a **bridge between hardware and applications**.
+The entire I/O game is basically:
+
+- **Read Operation**
+
+- **Write Operation**
+
+
+Different devices handle different kinds of data:
+
+- Speaker → Audio output
+
+- Monitor → Screen output
+
+- Keyboard → Character input
+
+- SSD → Block of data
+
+
+
+✅ Three Methods to Manage I/O
+Operating system manages I/O using **three techniques**:
+
+1. **Polling**
+
+2. **Interrupts**
+
+3. **DMA (Direct Memory Access)**
+
+
+
+
+1️⃣ Polling
+Meaning:
+Polling means the CPU is **constantly asking**:
+
+“Are you ready? Are you done? Are you done?”
+
+McDonald’s Example:
+You order:
+
+- Burger
+
+- Fries
+
+- Coke
+
+
+And you stand at the counter asking every second:
+
+“Ho gaya? Ho gaya? Ho gaya?”
+
+That is **polling**.
+Key Idea:
+
+- CPU keeps checking device status again and again
+
+- CPU does nothing productive during waiting
+
+
+Problem:
+
+- Very wasteful
+
+- CPU time is wasted
+
+
+When Polling Makes Sense:
+
+- If wait time is very small
+
+- Real-time interactive systems
+
+- Small embedded systems
+
+- Easy to implement (no extra hardware)
+
+
+Polling is acceptable if combined with:
+
+- Sleep
+
+- Yield
+
+
+But overall:
+
+Polling is a horrible method.
+
+
+
+2️⃣ Interrupt-Driven I/O
+Meaning:
+Instead of constantly asking, CPU does this:
+
+- Starts the I/O request
+
+- Continues doing other work
+
+- Device works independently
+
+- When finished → device sends an interrupt
+
+
+McDonald’s Example:
+You order food and then sit aside doing your work.
+When food is ready, the worker taps your shoulder:
+
+“Sir, your order is ready.”
+
+That is **interrupt-driven I/O**.
+
+Steps of Interrupt Handling
+Step 1: Device Sends Interrupt
+CPU is not idle — CPU is doing something else.
+Step 2: Acknowledgement + Context Save
+CPU says:
+
+“Just give me a second.”
+
+It saves the running process state:
+
+- Context saved
+
+
+Step 3: Interrupt Vector Table Lookup
+CPU checks:
+
+“What type of interrupt is this?”
+
+Interrupt Vector Table tells which service routine to run.
+Step 4: Interrupt Service Routine (ISR)
+ISR performs the required action:
+
+- Food ready → collect order
+
+- Different interrupt → different action
+
+
+Step 5: Resume Execution
+After servicing, CPU returns back:
+
+- Restore context
+
+- Resume the original task
+
+
+
+Extra Notes on Interrupts
+
+- Many types exist:
+
+
+Hardware interrupts
+
+
+Software interrupts
+
+
+OS interrupts
+
+- Interrupts have **priority**
+
+
+If 10–15 interrupts arrive together
+
+
+CPU handles the most important first
+
+
+
+
+3️⃣ DMA (Direct Memory Access) *(Next Topic)*
+DMA will solve the next big issue:
+
+- CPU should not waste time moving large blocks of data
+
+- Device transfers directly between memory and I/O
+
+
+(Your lecture will cover this next.)
+
+✅ Quick Summary
+MethodCPU RoleWaste?ExamplePollingKeeps asking repeatedlyHigh waste“Ho gaya?”InterruptCPU works, device interrupts when readyEfficientTap on shoulderDMADevice transfers data directlyBest for large transfersDisk/SSD blocks
+
+If you want, I can write **DMA full notes** in the same style as soon as your next lecture continues.
 
 
 ---
