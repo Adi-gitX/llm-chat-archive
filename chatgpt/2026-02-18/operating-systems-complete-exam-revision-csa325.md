@@ -1,6 +1,6 @@
 # OPERATING SYSTEMS — COMPLETE EXAM REVISION (CSA325)
 
-> **Platform:** CHATGPT | **Date:** 18/02/2026, 10:46:17 | **Turns:** 301
+> **Platform:** CHATGPT | **Date:** 18/02/2026, 10:49:12 | **Turns:** 303
 > **Source:** [Open Original](https://chatgpt.com/c/6965bc80-a728-8321-8aa3-875cfaa57923)
 
 ---
@@ -18053,6 +18053,57 @@ If you want, I can finish the last missing part cleanly:
 ✅ Miss-case full EAT derivation
 ✅ Numerical problems on hit ratio
 ✅ Typical exam question patterns
+
+---
+
+## USER
+
+tlb hit = 0.96, access time e = 2ns, main memory =80ns cal eat
+
+---
+
+## ASSISTANT
+
+Got it 😤 let’s calculate this cleanly like an OS topper.
+Given:
+
+- **TLB hit ratio (α)** = 0.96
+
+- **TLB access time (ε)** = 2 ns
+
+- **Main memory access time** = 80 ns
+
+
+
+✅ Formula for Effective Access Time (EAT)
+When paging with TLB:
+**Hit case**
+TLB lookup + 1 memory access:
+ϵ+M\epsilon + Mϵ+M
+**Miss case**
+TLB lookup + page table memory + actual memory:
+ϵ+2M\epsilon + 2Mϵ+2M
+So overall:
+EAT=α(ϵ+M)+(1−α)(ϵ+2M)EAT = \alpha(\epsilon + M) + (1-\alpha)(\epsilon + 2M)EAT=α(ϵ+M)+(1−α)(ϵ+2M)
+
+Substitute values
+Hit time:
+2+80=82 ns2 + 80 = 82\ ns2+80=82 ns
+Miss time:
+2+2(80)=2+160=162 ns2 + 2(80) = 2 + 160 = 162\ ns2+2(80)=2+160=162 ns
+
+Now compute EAT:
+EAT=0.96(82)+0.04(162)EAT = 0.96(82) + 0.04(162)EAT=0.96(82)+0.04(162)
+Step 1:
+0.96×82=78.720.96 \times 82 = 78.720.96×82=78.72
+Step 2:
+0.04×162=6.480.04 \times 162 = 6.480.04×162=6.48
+Final:
+EAT=78.72+6.48=85.2 nsEAT = 78.72 + 6.48 = 85.2\ nsEAT=78.72+6.48=85.2 ns
+
+✅ Effective Access Time = **85.2 ns**
+🔥 With 96% hit ratio, paging overhead becomes almost negligible.
+Want me to give you the shortcut method for exams?
 
 
 ---
