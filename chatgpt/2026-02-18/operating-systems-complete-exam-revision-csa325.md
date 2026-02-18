@@ -1,6 +1,6 @@
 # OPERATING SYSTEMS — COMPLETE EXAM REVISION (CSA325)
 
-> **Platform:** CHATGPT | **Date:** 18/02/2026, 10:25:06 | **Turns:** 297
+> **Platform:** CHATGPT | **Date:** 18/02/2026, 10:36:07 | **Turns:** 299
 > **Source:** [Open Original](https://chatgpt.com/c/6965bc80-a728-8321-8aa3-875cfaa57923)
 
 ---
@@ -17755,7 +17755,171 @@ This is the actual RAM location OS updates.
 - Address translation maps:
 
 
-(Page, Offset)\rightarr(Page,\ Offset) \rightarr(Page, Offset)\rightarr
+(Page, Offset)→(Frame, Offset)(Page,\ Offset) \rightarrow (Frame,\ Offset)(Page, Offset)→(Frame, Offset)
+
+- Page table enables OS to locate correct frame
+
+
+
+If you want, next notes can cover:
+✅ Page Fault
+✅ Valid/Invalid bit
+✅ TLB (Translation Lookaside Buffer)
+✅ Multi-level paging in more depth
+
+---
+
+## USER
+
+Is there any doubt about this? No. Correct? During the allocation of data, So frame table is a way of operating system to keep a track of what page is stored in which frame. Because operating system is the only system which knows about every process's memory. Yes, correct. Correct. Anything else? Anything else guys? This was the fastest recap I could have given for yesterday's whole lectures. Now, guys, guys, Let's come to the important crux part of today's lecture. Paging we have established. Why paging is important, that is understood. For paging, we need two things. Page table and frame table. Page table to track the process of where my pages are. Frame table to track the OS of what is empty, what is full, all these things. These two things. Now, when I introduce these two new layers, these two new layers of accounting in the between, that is going to inherently slow me down in my search of writing the information. Correct? In one continuous allocation, I exactly knew which frame I have, which memory location I have to write in. Right? Because if I was given a memory block of 100, 150, and I had to write in 120, I knew exactly where 120 was and where 123 was. But now it is not the same, because it is possible that if I have 1 to 10 pages, it is possible that my page number 9 is physically stored above page number 1. Right? Because I don't know. I don't know right now. Right? So this is going to slow me down in my access to either read memory or write memory. Because now I have to go through two tables. I have to go through two tables to actually access the physical location of the memory. Do you understand the problem? When it was one continuous allocation, I didn't have to go through anything. I would know exactly if it is 120, it is going to be at 120. If it is now my page table and frame table, it is making me go through multiple levels of accounting, right? That's why paging is slow because first, paging is slow because first, I have to access the table. I have to access the table, then I have to translate the table. That this overall process, this overall process has slowed me down a bit, right? कि अगर let's say memory access को मुझे 100 nanosecond लगता था, initially memory nanosecond को 100 nanosecond लगता था, but now what has happened is, let's say to access page table, it takes me another 100 nanosecond. So I have effectively doubled my access time. Are you understanding the trade-off between these two? So either I can have faster memory access or either I can have better memory utilization, right? Better memory utilization या फिर faster access, ये दोनों के बीच में trade-off बन रहा है currently, ठीक है? And ये क्यों बन रहा है? क्योंकि मुझे accounting के थ्रू जाना पड़ रहा है इस के बीच में. So it creates what? It creates higher latency, poor CPU utilization and unacceptable core modern system. Just always remember this one example. It doesn't matter how fast you can do any sort of multiplication or addition. It doesn't matter if you can do 5 plus 6 fast enough. If it takes you very long time to access that file, access that 6 and add it and then store it to somewhere, it is overall user के लिए user को नहीं फर्क पड़ रहा है कि आपने fast addition मतलब 5 plus 6 का process कितना fast कर दिया. Access करने का time भी तो overall output time में add होते जाता है न लिखने का time भी तो output में add हो जाता है. And that's why you cannot sacrifice on something called as कि कितना time में कितने time में process start हुआ, इतने time में process खतम हुआ. That always has to be your number one priority because all we are trying to do is, in the entire Silicon Valley, all we are trying to do is make it faster computation and make it faster access time. Right? Paging is brilliant because paging gives you more of a scarce resource. Memory is a very scarce resource. It is finite in nature. In your system, it is finite. Yes. Celebrity definitely, yes. Yes, celebrity bhi hai Keshuda, jiske liye humne multilevel paging pada tha. Just yesterday. Of course, this is going to demand a lot of revision from your end. Matlab aise... Yes. No, no, no, no. So again, page table is not for operating system. So what I am saying is, you have hundred processes in your system and one of the very underlined standard condition that you have put on each process is, me as process 1 shouldn't be able to interfere into memory locations of process 2. Correct? So I have to be separated and that is that isolation level that should be there. So now, I cannot get access to frame table because I will exactly know where each process is stored in what information and where my physical memory is. And I can, if I have malicious intent, I can corrupt someone else's data. So to protect those kind of things, it is recommended that some processes will only know about where their pages are stored and where, how will process know where their pages are stored by something called as page table. So page table doesn't exist for operating system. Operating system has frame table, so it knows everything. But processes cannot know everything because processes can have malicious intent and it can corrupt someone else's data. Does it answer your question? Anything else? ठीक है? So, दो चीज़ें करनी थी हमको. Computation fast करना था और memory access fast करना था. Paging solves one thing कि उसने आपको memory को save करने का option दिया.
+
+---
+
+## ASSISTANT
+
+Got it — this part is the **real crux** of paging. Let me give you **perfect exam-style notes** in clean English, using the exact lecture logic and words.
+
+✅ Paging Trade-Off: Why Paging Becomes Slow (Important Notes)
+
+**1. Paging Requires Extra Accounting**
+Paging is important because it improves **memory utilization**, but it introduces two new accounting structures:
+
+- **Page Table** → process keeps track of where its pages are
+
+- **Frame Table** → OS keeps track of which frames are free/full
+
+
+So paging needs:
+✅ Page Table
+✅ Frame Table
+
+**2. Continuous Allocation Was Faster**
+In **contiguous (continuous) allocation**:
+
+- Process gets one continuous block like **100–150**
+
+- If it wants to write at address **120**, it directly writes there
+
+
+No translation needed.
+So memory access was simple:
+120→120120 \rightarrow 120120→120
+
+**3. Paging Breaks Continuity**
+In paging:
+
+- Pages are stored **randomly** in physical memory
+
+- Page 9 may be stored above page 1
+
+- Process does not know the real physical location
+
+
+So now:
+Logical Address ≠ Physical Address
+
+**4. Paging Requires Address Translation**
+To access memory, the system must:
+
+1. Access the page table
+
+2. Translate page → frame
+
+3. Then access actual physical memory
+
+
+So every memory access becomes a **two-step process**:
+
+- Table lookup
+
+- Actual memory read/write
+
+
+
+**5. Paging Increases Memory Access Time**
+Example:
+
+- Normal memory access time = **100 ns**
+
+- Page table access time = **100 ns**
+
+
+So effective access time becomes:
+100+100=200 ns100 + 100 = 200\ ns100+100=200 ns
+Paging has effectively **doubled** the access time.
+
+**6. Trade-Off Created by Paging**
+Paging creates a clear trade-off:
+Option 1:
+✅ Faster memory access
+❌ Poor memory utilization (fragmentation)
+Option 2:
+✅ Better memory utilization
+❌ Slower access due to translation overhead
+So trade-off is:
+Better Memory Use  vs  Faster AccessBetter\ Memory\ Use \; vs \; Faster\ AccessBetter Memory UsevsFaster Access
+
+**7. Why This Matters in Modern Systems**
+Modern systems cannot sacrifice speed because:
+
+- CPU may compute very fast
+
+- But memory access time dominates total performance
+
+
+Even if addition is fast:
+5+65 + 65+6
+If it takes too long to fetch 5 and 6 from memory, overall system becomes slow.
+Access time + write time always add to total execution time.
+
+**8. Paging Causes Higher Latency**
+Paging introduces:
+
+- Higher latency
+
+- Poor CPU utilization
+
+- Unacceptable delay if not optimized
+
+
+Because system spends extra time in bookkeeping.
+
+**9. Why Processes Cannot Access Frame Table**
+Operating system knows everything using the **frame table**.
+But processes cannot know physical memory layout because:
+
+- Processes may have malicious intent
+
+- They could corrupt other process memory
+
+- Isolation is required
+
+
+So:
+
+- Process knows only its **page table**
+
+- OS maintains the **frame table**
+
+
+This ensures protection and separation.
+
+⭐ Final Summary
+Paging is brilliant because it saves memory and reduces fragmentation, but:
+
+- It requires page table + frame table
+
+- Address translation adds overhead
+
+- Memory access becomes slower
+
+- Trade-off: utilization vs speed
+
+
+
+If you want, next lecture notes are:
+✅ TLB (Translation Lookaside Buffer) — the real solution to paging slowdown
+Because TLB is exactly what fixes this problem.
 
 
 ---
