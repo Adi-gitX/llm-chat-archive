@@ -1,6 +1,6 @@
 # OPERATING SYSTEMS — COMPLETE EXAM REVISION (CSA325)
 
-> **Platform:** CHATGPT | **Date:** 18/02/2026, 10:59:04 | **Turns:** 307
+> **Platform:** CHATGPT | **Date:** 18/02/2026, 10:59:40 | **Turns:** 309
 > **Source:** [Open Original](https://chatgpt.com/c/6965bc80-a728-8321-8aa3-875cfaa57923)
 
 ---
@@ -18342,6 +18342,280 @@ Random is used in practice because it is simple and efficient.
 
 
 If you want, I can make a **full one-page Memory Management + Paging + TLB + Replacement Policies** cheat sheet for your exam in perfect format.
+
+---
+
+## USER
+
+todays coplrtr notes
+
+---
+
+## ASSISTANT
+
+Got you 😄
+Here are **today’s complete short & crisp notes** (exactly from what you studied):
+**Compaction + Coalescing + Swapping + Overlay + Paging + Page Table + Frame Table + TLB + Replacement Policies**
+
+✅ Today’s Complete Computer OS Notes (Short + Precise)
+
+1. **Fragmentation (Swiss Cheese Problem)**
+
+- Memory gets broken into many **tiny holes** due to repeated load/unload.
+
+- Total free memory may exist, but it is **not usable** because holes are scattered.
+
+- This is called **external fragmentation**.
+
+
+
+2. **Compaction**
+
+- Compaction moves all processes to one side and all free memory to the other side.
+
+- Creates **one big free block**.
+
+
+Pros:
+
+- Allocates large process successfully after merging holes.
+
+
+Cons:
+
+- Very expensive because it requires **relocating gigabytes of memory**.
+
+- CPU must stop during shifting.
+
+- Used only as a **last resort**.
+
+
+
+3. **Coalescing**
+
+- Coalescing merges **adjacent free holes** into one larger hole.
+
+
+Key Idea:
+
+- Check only **left and right neighbors**.
+
+- Combine free blocks when a process finishes.
+
+
+Pros:
+
+- Very fast.
+
+- No process relocation required.
+
+
+Cons:
+
+- Does not remove old fragmentation completely.
+
+
+
+4. **Swapping**
+
+- When RAM is full, OS kicks one process out to disk.
+
+
+Process:
+
+- Swap-out: RAM → Disk
+
+- Swap-in: Disk → RAM
+
+
+Pros:
+
+- Allows more processes than RAM size.
+
+
+Cons:
+
+- Very expensive because disk is much slower than RAM.
+
+- Takes seconds, which is huge in computation.
+
+
+
+5. **Overlay**
+
+- Break process into modules.
+
+- Only required module is loaded into RAM.
+
+
+Advantage:
+
+- Runs large programs on small RAM.
+
+
+Disadvantage:
+
+- Programmer-controlled and very difficult to implement.
+
+
+
+6. **Paging (OS Version of Overlay)**
+
+- OS breaks process into fixed-size blocks called **pages**.
+
+- Physical memory is divided into **frames**.
+
+- One page fits into one frame.
+
+
+Benefits:
+
+- Removes external fragmentation.
+
+- Only last page may waste space (max ~2KB).
+
+
+
+7. **Page Table vs Frame Table**
+**Frame Table (OS maintains)**
+
+- Tracks which frame contains which page.
+
+
+**Page Table (Process maintains)**
+
+- Tracks where each page of the process is located.
+
+
+
+8. **Page Table Entry (PTE)**
+Each page entry contains:
+
+- Frame number
+
+- Valid/Invalid bit
+
+- Protection bits (Read/Write/Execute)
+
+- Dirty bit (modified or not)
+
+- Reference bit (how often used)
+
+- Cache-disable bit
+
+
+
+9. **Address Translation**
+Logical address = (Page number P, Offset D)
+Steps:
+
+1. Extract page number + offset
+
+2. Use page table to find frame number
+
+3. Physical address = (Frame + Offset)
+
+
+Formula:
+Physical=Frame×PageSize+OffsetPhysical = Frame \times PageSize + OffsetPhysical=Frame×PageSize+Offset
+
+10. **Paging Trade-Off**
+Advantage:
+
+- Efficient memory use + virtual memory support
+
+
+Disadvantage:
+
+- Slower access because page table lookup adds delay.
+
+
+Memory access becomes:
+
+- Page table access + Actual memory access
+
+
+
+11. **TLB (Translation Lookaside Buffer)**
+
+- Special fastest cache that stores recent page→frame translations.
+
+- Avoids repeated page table lookup.
+
+
+TLB Hit:
+
+- Very fast access
+
+
+TLB Miss:
+
+- Must go to page table → slower
+
+
+
+12. **Effective Access Time (EAT)**
+EAT=HitRatio×(TLB+Memory)+MissRatio×(TLB+2×Memory)EAT = HitRatio \times (TLB + Memory) + MissRatio \times (TLB + 2 \times Memory)EAT=HitRatio×(TLB+Memory)+MissRatio×(TLB+2×Memory)
+
+13. **TLB Context Switch Problem**
+
+- Different processes have same page numbers.
+
+- TLB may give wrong translation after switch.
+
+
+Solutions:
+
+1. Flush TLB on context switch
+
+2. Use ASID (Address Space ID) tagging
+
+
+
+14. **TLB Replacement Policies**
+LRU (Least Recently Used)
+
+- Best mathematically but costly hardware.
+
+
+NMRU (Not Most Recently Used)
+
+- Best practical policy, low overhead.
+
+
+FIFO
+
+- Worst approach, removes useful entries.
+
+
+Random
+
+- Simple and works well.
+
+
+
+⭐ Final Summary
+Today you learned:
+
+- Fragmentation → Compaction & Coalescing
+
+- RAM shortage → Swapping
+
+- Programmer method → Overlay
+
+- OS solution → Paging
+
+- Page table + Frame table
+
+- Address translation
+
+- TLB cache for speed
+
+- Replacement policies
+
+
+
+If you want, I can convert this into a **1-page PDF exam sheet** or a **proper handwritten-style notes format**.
 
 
 ---
