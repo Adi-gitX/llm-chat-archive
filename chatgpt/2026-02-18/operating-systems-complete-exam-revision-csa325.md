@@ -1,6 +1,6 @@
 # OPERATING SYSTEMS — COMPLETE EXAM REVISION (CSA325)
 
-> **Platform:** CHATGPT | **Date:** 18/02/2026, 10:56:32 | **Turns:** 305
+> **Platform:** CHATGPT | **Date:** 18/02/2026, 10:59:04 | **Turns:** 307
 > **Source:** [Open Original](https://chatgpt.com/c/6965bc80-a728-8321-8aa3-875cfaa57923)
 
 ---
@@ -18241,6 +18241,107 @@ Best modern solution
 
 
 If you want, I can make a **1-page handwritten-style OS notes sheet** for TLB + ASID + Hit/Miss + EAT formulas.
+
+---
+
+## USER
+
+100 options, if one option is least used, just take that out and we'll put in something new over there. And that is least recently used, that is the best strategy that mathematically exists in the system. The only downside is, all the entries that I have in my TLB, I have to keep a specific track of each one. If I have 200 entries, I have to check each of the 200 entries to see which one has been used the most. I have to keep track of each entry. That adds a lot of hardware cost, that adds a lot of complexity. I don't want to do that. Second, second approach, not most recently used. Choose anything, but the one that is used the most, don't remove that one. Remove any other one randomly, but don't remove the one that is used the most. Not most recently used, I just have to keep track of what is recently used. Instead of keeping track of one out of 100 entries, I just have to keep track of recently used. Instead of keeping track of hundreds, I just have to keep track of one. So not most recently used is ideal. This is the best policy that is used. You can not read the rest of the entries, but FIFO first come first serve is the worst approach. This is the worst approach out of there because it is not like that if it came earlier, then it is not used more. It could be absolutely dumb. So FIFO is the worst, don't use this. And random is, random also works really well because in random case you don't have to add any hardware at all. And in most cases, it works significantly well. So random also is used in a lot of systems, but NMRU is the best used replacement policy, even in cache. Any doubts in these four? No? So, guys, memory is over now. Memory is over now.
+
+---
+
+## ASSISTANT
+
+Got you — this is the **TLB Replacement Policy** wrap-up, and honestly this part is super exam-friendly. Here are **clean short notes in the exact same words/style** you wrote, but in proper English.
+
+✅ TLB Replacement Policies (Short Notes)
+When the **TLB becomes full**, we need to remove one old entry to bring in a new page→frame translation.
+So the OS/hardware uses **replacement policies**.
+
+1. **LRU (Least Recently Used)**
+
+- If there are **100 options**, remove the one that is **least used**.
+
+- Put the new translation entry there.
+
+- **LRU is the best strategy mathematically.**
+
+
+Downside:
+
+- To implement LRU, you must keep track of **every entry**.
+
+- If there are **200 entries**, you must monitor all 200.
+
+- This adds **huge hardware cost** and **complexity**.
+
+
+So LRU is great in theory, but expensive in practice.
+
+2. **NMRU (Not Most Recently Used)**
+
+- Second approach: **Don’t remove the most recently used entry.**
+
+- Remove **any other entry randomly**, but not the one used most recently.
+
+
+Advantage:
+
+- Instead of tracking all entries, you only track **the recently used one**.
+
+- Very low hardware overhead.
+
+
+Important:
+
+- **NMRU is the most ideal practical policy.**
+
+- This is why it is widely used in real systems.
+
+
+
+3. **FIFO (First In First Out)**
+
+- Remove the entry that came first.
+
+
+Why it is worst:
+
+- Just because something came earlier doesn’t mean it is unused.
+
+- FIFO can remove very important entries.
+
+- **FIFO is dumb and should not be used.**
+
+
+
+4. **Random Replacement**
+
+- Pick any entry randomly and replace it.
+
+
+Why it works:
+
+- Requires almost **no hardware tracking**.
+
+- Surprisingly works well in many systems.
+
+
+Random is used in practice because it is simple and efficient.
+
+⭐ Final Conclusion
+
+- **LRU** = Best mathematically, but costly
+
+- **NMRU** = Best practical replacement policy
+
+- **FIFO** = Worst approach
+
+- **Random** = Simple and works well
+
+
+
+If you want, I can make a **full one-page Memory Management + Paging + TLB + Replacement Policies** cheat sheet for your exam in perfect format.
 
 
 ---
