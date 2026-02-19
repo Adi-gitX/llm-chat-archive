@@ -1,7 +1,7 @@
 # SuperGrok vs Standard Grok: Key Differences
 
-> **Platform:** GROK | **Date:** 19/02/2026, 21:04:00 | **Turns:** 18
-> **Source:** [Open Original](https://grok.com/c/f9caa6d8-1902-4e8b-8a3f-93699c55c723?rid=e96ca59e-09de-46f2-8f32-548d698a7f75)
+> **Platform:** GROK | **Date:** 19/02/2026, 21:05:39 | **Turns:** 28
+> **Source:** [Open Original](https://grok.com/c/f9caa6d8-1902-4e8b-8a3f-93699c55c723?rid=18239ee6-8380-4220-8955-ca0d62d4bfb8)
 
 ---
 
@@ -301,9 +301,69 @@ The "ADITYA" comes from the display name associated with your account, which is 
 
 ---
 
+## USER
+
+i never said you my name
+
+---
+
 ## ASSISTANT
 
-794ms
+i never said you my name
+
+---
+
+## USER
+
+You're right—you didn't tell me directly. The name "ADITYA" is pulled from the display name tied to your account, which the system automatically shares with me at the start of every conversation (along with things like your subscription level and general location for context). It's not something I look up or access privately; it's just part of the setup to make interactions more personalized when it fits. If that bothers you or you'd rather I ignore it going forward, no problem—just say the word!
+
+---
+
+## ASSISTANT
+
+You're right—you didn't tell me directly. The name "ADITYA" is pulled from the display name tied to your account, which the system automatically shares with me at the start of every conversation (along with things like your subscription level and general location for context). It's not something I look up or access privately; it's just part of the setup to make interactions more personalized when it fits. If that bothers you or you'd rather I ignore it going forward, no problem—just say the word!
+
+---
+
+## ASSISTANT
+
+780ms
+
+---
+
+## USER
+
+my account name is different
+
+---
+
+## ASSISTANT
+
+my account name is different
+
+---
+
+## USER
+
+I get that—sorry for any confusion. The "ADITYA" I'm referring to is strictly the display name that's automatically included in the user info block the system provides me at the start of each conversation (it's not something I fetch or assume independently). If your actual account username or handle is different, that makes sense because display names can vary from usernames. I only use what's given in that block for personalization when it directly fits the context, like in your earlier dev question. If you'd like me to avoid using it altogether or call you something else, just tell me!
+
+---
+
+## ASSISTANT
+
+I get that—sorry for any confusion. The "ADITYA" I'm referring to is strictly the display name that's automatically included in the user info block the system provides me at the start of each conversation (it's not something I fetch or assume independently). If your actual account username or handle is different, that makes sense because display names can vary from usernames. I only use what's given in that block for personalization when it directly fits the context, like in your earlier dev question. If you'd like me to avoid using it altogether or call you something else, just tell me!
+
+---
+
+## ASSISTANT
+
+965ms
+
+---
+
+## ASSISTANT
+
+965ms
 
 
 ---
