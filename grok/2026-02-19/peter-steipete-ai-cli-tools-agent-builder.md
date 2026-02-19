@@ -1,7 +1,7 @@
 # Peter Steipete: AI CLI Tools & Agent Builder
 
-> **Platform:** GROK | **Date:** 20/02/2026, 00:41:50 | **Turns:** 29
-> **Source:** [Open Original](https://grok.com/c/7c947781-2c8c-4423-bf27-be05af7e1837?rid=c4177cf1-859f-4bdd-8874-233443699039)
+> **Platform:** GROK | **Date:** 20/02/2026, 00:43:45 | **Turns:** 37
+> **Source:** [Open Original](https://grok.com/c/7c947781-2c8c-4423-bf27-be05af7e1837?rid=abff85ed-bd01-4f67-ab4d-5697ee22ade6)
 
 ---
 
@@ -1749,8 +1749,621 @@ Legacy Work
 
 ## USER
 
-Upda
-- Discard outdated projects like QR code systems and e-commerce clones for a modern, professional README format.
+[Banner](https://github.com/Adi-gitX/Adi-gitX/assets/159440749/e51549d8-8390-46d5-939c-a937bc0f591d)
+
+Hi, I'm Adithya 👋
+📍 **Delhi, India** | 🤖 **AI Systems Architect & Research Explorer** | 🚀 **GSoC Alum & AI Safety Advocate**
+[Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+[PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+[Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+[Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+[AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+[PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+[Terraform](https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
+Third-year AI undergrad pushing boundaries in scalable ML infrastructure, generative models, and ethical AI. With a knack for turning complex systems into robust solutions, I'm bridging research and real-world impact through innovative tools and open-source contributions.
+🍭 **DevXAnonymous** (org) – Collaborative hub for developer tools and AI experiments.
+Current Projects
+
+- 🗄️ **DriveMerge** (live) - Smart cloud storage aggregator that shards data across providers for seamless, fault-tolerant transfers and quota management.
+
+- 👥 **PEOPLE** (live) - Secure platform connecting devs with vetted opportunities, emphasizing quality control and fair task distribution.
+
+- 📚 **AXIOM** (live) - Integrated ecosystem for student growth, streamlining skill-building, assessments, and career pathways.
+
+- 🛠️ **why-broke** - CLI powerhouse for diagnosing elusive bugs by snapshotting runtime states in distributed environments.
+
+- 💬 **StoreChat** - Effortless extension to archive and sync AI conversations directly to repos for easy reference.
+
+- 🎨 **ArtifyX** - Interactive canvas for pixel-perfect digital art, sparking creativity with intuitive tools.
+
+- 🧠 **ClasspilotAi** - On-the-fly AI tutor that boosts classroom confidence with instant, accurate responses.
+
+- 🛡️ **SkillSheild** - Intelligent monitor to counteract AI dependency by tracking and rebuilding core competencies.
+
+- 🌈 **colour-fun** - Quick generator for flawless solid backgrounds, customizable for any design need.
+
+- 🔮 **Oracle** - Insightful scanner demystifying API keys and their hidden potentials.
+
+- 📊 **floor-segmentation-svm** - High-precision ML model for indoor mapping, leveraging advanced features for top-tier accuracy.
+
+- ⚙️ **NetworkOptimizer** - Script suite to tweak and enhance network setups for peak performance.
+
+- 🔄 **uniloop** - Versatile JS library for efficient automation loops in dynamic apps.
+
+- ⏱️ **ZEN-pomodoro** - Zen-inspired timer app promoting deep focus and balanced breaks.
+
+- 📝 **DevNotes** - Streamlined note system tailored for coders, with quick search and integration.
+
+
+Research Projects
+
+- 🔍 **TransformerLens** (ongoing) - Framework dissecting transformer internals to uncover how models process language nuances.
+
+- 📈 **ForecastNet** - Advanced suite for predicting trends and spotting anomalies in time-based data streams.
+
+- 📖 **RAG Scholar** - AI-powered query engine over scholarly works, ensuring grounded and reliable insights.
+
+- 🤖 **MATS-Summer-2026-Preparation** - Curated resources and experiments gearing up for AI alignment challenges.
+
+- 🔬 **AIML-research-analysis-model** - Toolset for dissecting emerging AI trends through data-driven analysis.
+
+
+GitHub Activity
+[GitHub Contribution Graph](https://ghchart.rshah.org/Adi-gitX)
+What I'm Doing
+
+- **Advancing AI frontiers** - Crafting infrastructure for safe, interpretable models.
+
+- **Open-source innovation** - Enhancing global projects with practical contributions.
+
+- **Web3 integration** - Experimenting with decentralized AI for transparent systems.
+
+- **Prototyping swiftly** - From concept to deployment in record time.
+
+- **MATS prep** - Honing skills in alignment and governance for impactful research.
+
+
+Latest Blog Posts
+
+
+- [Demystifying Transformer Attention](https://adigitx.vercel.app/blog/transformer-attention)
+
+- [Scaling ML for Real-World Anomalies](https://adigitx.vercel.app/blog/ml-anomalies)
+
+- [Ethical AI in Web3 Ecosystems](https://adigitx.vercel.app/blog/ai-web3)
+
+- [Debugging Distributed Nightmares](https://adigitx.vercel.app/blog/distributed-debugging)
+
+- [From GSoC to AI Safety](https://adigitx.vercel.app/blog/gsoc-ai-safety)
+
+
+
+Connect
+[Website](https://adigitx.vercel.app/)
+[LinkedIn](https://www.linkedin.com/in/kammatiaditya/)
+[GitHub](https://github.com/Adi-gitX)
+[LeetCode](https://leetcode.com/user9233qs/)
+[Instagram](https://www.instagram.com/aditya_88899/)
+[YouTube](https://www.youtube.com/channel/UCxqTwHpFew146NP7HWEKkvA)
+
+Recognition
+
+- Google Summer of Code Contributor — Creative Commons (2024)
+
+- ML Alignment & Theory Scholars (MATS) — Progressed to Stage 2 in elite AI safety program
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR) — Championed innovation on global stage
+
+- 3rd Place, Stealth Fire Hackathon (2024)
+
+- Engineered reliability boosts at Disprz, slashing enterprise downtimes significantly
+
+
+Media
+
+- **AI Interpretability Deep Dive** - Exploring model mechanics (placeholder; add real links)
+
+- **GSoC Experience Talk** - Sharing open-source journeys
+
+
+Model Status
+
+- **What model is Adithya tinkering with?** Peek at live updates on [adigitx.vercel.app/models](https://adigitx.vercel.app/models)
+
+
+Philosophy
+"Scale with integrity – engineer solutions that empower without compromise. Innovation thrives at the intersection of curiosity and caution."
+Random Facts
+
+---
+
+## ASSISTANT
+
+[Banner](https://github.com/Adi-gitX/Adi-gitX/assets/159440749/e51549d8-8390-46d5-939c-a937bc0f591d)
+
+Hi, I'm Adithya 👋
+📍 **Delhi, India** | 🤖 **AI Systems Architect & Research Explorer** | 🚀 **GSoC Alum & AI Safety Advocate**
+[Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+[PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+[Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+[Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+[AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+[PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+[Terraform](https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
+Third-year AI undergrad pushing boundaries in scalable ML infrastructure, generative models, and ethical AI. With a knack for turning complex systems into robust solutions, I'm bridging research and real-world impact through innovative tools and open-source contributions.
+🍭 **DevXAnonymous** (org) – Collaborative hub for developer tools and AI experiments.
+Current Projects
+
+- 🗄️ **DriveMerge** (live) - Smart cloud storage aggregator that shards data across providers for seamless, fault-tolerant transfers and quota management.
+
+- 👥 **PEOPLE** (live) - Secure platform connecting devs with vetted opportunities, emphasizing quality control and fair task distribution.
+
+- 📚 **AXIOM** (live) - Integrated ecosystem for student growth, streamlining skill-building, assessments, and career pathways.
+
+- 🛠️ **why-broke** - CLI powerhouse for diagnosing elusive bugs by snapshotting runtime states in distributed environments.
+
+- 💬 **StoreChat** - Effortless extension to archive and sync AI conversations directly to repos for easy reference.
+
+- 🎨 **ArtifyX** - Interactive canvas for pixel-perfect digital art, sparking creativity with intuitive tools.
+
+- 🧠 **ClasspilotAi** - On-the-fly AI tutor that boosts classroom confidence with instant, accurate responses.
+
+- 🛡️ **SkillSheild** - Intelligent monitor to counteract AI dependency by tracking and rebuilding core competencies.
+
+- 🌈 **colour-fun** - Quick generator for flawless solid backgrounds, customizable for any design need.
+
+- 🔮 **Oracle** - Insightful scanner demystifying API keys and their hidden potentials.
+
+- 📊 **floor-segmentation-svm** - High-precision ML model for indoor mapping, leveraging advanced features for top-tier accuracy.
+
+- ⚙️ **NetworkOptimizer** - Script suite to tweak and enhance network setups for peak performance.
+
+- 🔄 **uniloop** - Versatile JS library for efficient automation loops in dynamic apps.
+
+- ⏱️ **ZEN-pomodoro** - Zen-inspired timer app promoting deep focus and balanced breaks.
+
+- 📝 **DevNotes** - Streamlined note system tailored for coders, with quick search and integration.
+
+
+Research Projects
+
+- 🔍 **TransformerLens** (ongoing) - Framework dissecting transformer internals to uncover how models process language nuances.
+
+- 📈 **ForecastNet** - Advanced suite for predicting trends and spotting anomalies in time-based data streams.
+
+- 📖 **RAG Scholar** - AI-powered query engine over scholarly works, ensuring grounded and reliable insights.
+
+- 🤖 **MATS-Summer-2026-Preparation** - Curated resources and experiments gearing up for AI alignment challenges.
+
+- 🔬 **AIML-research-analysis-model** - Toolset for dissecting emerging AI trends through data-driven analysis.
+
+
+GitHub Activity
+[GitHub Contribution Graph](https://ghchart.rshah.org/Adi-gitX)
+What I'm Doing
+
+- **Advancing AI frontiers** - Crafting infrastructure for safe, interpretable models.
+
+- **Open-source innovation** - Enhancing global projects with practical contributions.
+
+- **Web3 integration** - Experimenting with decentralized AI for transparent systems.
+
+- **Prototyping swiftly** - From concept to deployment in record time.
+
+- **MATS prep** - Honing skills in alignment and governance for impactful research.
+
+
+Latest Blog Posts
+
+
+- [Demystifying Transformer Attention](https://adigitx.vercel.app/blog/transformer-attention)
+
+- [Scaling ML for Real-World Anomalies](https://adigitx.vercel.app/blog/ml-anomalies)
+
+- [Ethical AI in Web3 Ecosystems](https://adigitx.vercel.app/blog/ai-web3)
+
+- [Debugging Distributed Nightmares](https://adigitx.vercel.app/blog/distributed-debugging)
+
+- [From GSoC to AI Safety](https://adigitx.vercel.app/blog/gsoc-ai-safety)
+
+
+
+Connect
+[Website](https://adigitx.vercel.app/)
+[LinkedIn](https://www.linkedin.com/in/kammatiaditya/)
+[GitHub](https://github.com/Adi-gitX)
+[LeetCode](https://leetcode.com/user9233qs/)
+[Instagram](https://www.instagram.com/aditya_88899/)
+[YouTube](https://www.youtube.com/channel/UCxqTwHpFew146NP7HWEKkvA)
+
+Recognition
+
+- Google Summer of Code Contributor — Creative Commons (2024)
+
+- ML Alignment & Theory Scholars (MATS) — Progressed to Stage 2 in elite AI safety program
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR) — Championed innovation on global stage
+
+- 3rd Place, Stealth Fire Hackathon (2024)
+
+- Engineered reliability boosts at Disprz, slashing enterprise downtimes significantly
+
+
+Media
+
+- **AI Interpretability Deep Dive** - Exploring model mechanics (placeholder; add real links)
+
+- **GSoC Experience Talk** - Sharing open-source journeys
+
+
+Model Status
+
+- **What model is Adithya tinkering with?** Peek at live updates on [adigitx.vercel.app/models](https://adigitx.vercel.app/models)
+
+
+Philosophy
+"Scale with integrity – engineer solutions that empower without compromise. Innovation thrives at the intersection of curiosity and caution."
+Random Facts
+
+---
+
+## ASSISTANT
+
+2.2s
+
+---
+
+## USER
+
+give me md file format complete
+
+---
+
+## ASSISTANT
+
+give me md file format complete
+
+---
+
+## USER
+
+Adithya Kammati's Resume
+Contact Information
+
+- **Phone**: +91 8919762587
+
+- **Location**: Hyderabad, India
+
+- **Email**: [kammati.a23csai@nst.rishihood.edu.in](mailto:kammati.a23csai@nst.rishihood.edu.in)
+
+- **LinkedIn**: linkedin.com/in/kammatiaditya
+
+- **GitHub**: github.com/Adi-gitX
+
+- **Portfolio**: adigitx.vercel.app
+
+
+Summary (Software Engineering Focus)
+Backend-focused Software Engineer with hands-on experience owning and debugging failure-prone distributed workflows involving authentication, file streaming, retries, and external APIs. Strong systems mindset with production exposure and a focus on correctness, reliability, and debuggability.
+Education
+
+- **Bachelor of Technology — Computer Science & Artificial Intelligence**
+Newton School of Technology, Rishihood University
+2023 – 2027
+
+
+Technical Skills
+
+- **Languages**: Python, JavaScript, TypeScript, SQL
+
+- **Backend**: Node.js, Express, REST APIs, Auth (JWT, OAuth 2.0), Async workflows
+
+- **Datastores**: PostgreSQL, MySQL, Firestore
+
+- **Systems**: File streaming, chunked uploads, retries, idempotency, failure handling
+
+- **Networking**: HTTP, TLS, OAuth flows, DNS, TCP/IP fundamentals
+
+- **Tools**: Git, Docker, Linux
+
+
+Experience
+
+- **Software Engineering Intern**
+Disprz, Chennai, India
+Feb 2025 – Jul 2025
+Owned investigation of recurring production failures across authentication and content delivery by tracing request flows across services, identifying token expiry and retry edge cases, and deploying fixes adopted in production.
+Redesigned large-file upload handling by fixing stream validation, corruption scenarios, and retry behavior, reducing upload-related failures by an estimated 30–40% for enterprise customers handling large media assets.
+Implemented role-based access control used by enterprise accounts, shipped with defensive validation and zero post-release access regressions.
+Added idempotent retry paths and input validation to ensure safe request replays under partial failures and network interruptions.
+
+
+Projects
+
+- **DriveMerge (live)** — Designed and shipped a quota-aware storage abstraction over multiple Google Drive accounts, handling provider limits via chunking, parallel uploads, OAuth token rotation, and resumable streaming downloads.
+
+- **PEOPLE (live)** — Built a controlled developer marketplace with gated onboarding, role isolation, and delivery accountability to reduce low-quality or unreliable task fulfillment.
+
+- **AXIOM (live)** — Developed structured learning and opportunity pipelines to centralize preparation, evaluation, and discovery for students across domains.
+
+
+Open Source & Achievements
+
+- Google Summer of Code Contributor — Creative Commons (2024).
+
+- Built why-broke, an open-source debugging CLI that captures environment, dependency, and configuration state to help reproduce non-deterministic build and runtime failures.
+
+- 3rd Place, Stealth Fire Hackathon (2024).
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR).
+
+
+
+Adithya Kammati's Research Profile
+Contact Information
+
+- **Location**: Hyderabad, India
+
+- **Phone**: +91 8919762587
+
+- **Email**: Email
+
+- **LinkedIn**: LinkedIn
+
+- **GitHub**: GitHub
+
+- **Portfolio**: Portfolio
+
+
+Research Profile
+Penultimate-year B.Tech student in Computer Science & Artificial Intelligence with strong experience in machine learning systems, scalable infrastructure, and research-aligned engineering. Actively interested in Natural Language Understanding, Generative AI, Time-Series Modeling, Optimization, and ML Interpretability. Demonstrated ability to execute exploratory projects end-to-end and contribute to global open-source and research communities.
+Education
+
+- **B.Tech in Computer Science and Artificial Intelligence**
+Newton School of Technology, Rishihood University, India
+2023 – 2027
+Relevant Coursework: Machine Learning, Deep Learning, NLP, Time Series (ARIMA/VAR), Optimization, Graph Theory, Algorithms, Operating Systems, Distributed Systems, Databases, AI Governance
+
+
+Research Interests
+Generative AI, Transformer Interpretability, Large-Scale ML Systems, Time-Series Forecasting, Optimization Foundations, Responsible AI, Human-Centered AI
+Research & Engineering Experience
+
+- **Software Engineering Intern (ML Platform + Systems)**
+Disprz — Enterprise AI Learning Platform, Chennai, India
+Feb 2025 – Jul 2025
+Improved reliability of enterprise-scale learning infrastructure supporting global organizations.
+Redesigned chunked upload and storage workflows with corruption detection and idempotent retry logic, reducing platform failures by 30–40%.
+Implemented secure multi-tenant RBAC systems ensuring safe isolation across enterprise customers.
+Collaborated across teams to deliver production-grade improvements under ambiguous, high-impact requirements.
+
+
+Machine Learning & Research Projects
+
+- **TransformerLens — Interpretability Toolkit for Attention Models (Ongoing Research Project)**
+Built an interpretability pipeline to analyze transformer attention heads, neuron activations, and feature attribution.
+Implemented probing experiments to study how language models encode syntactic and semantic information.
+Research direction aligned with mechanistic interpretability and responsible deployment of foundation models.
+
+- **ForecastNet — Time-Series Forecasting + Anomaly Detection System (ML Systems Project)**
+Developed forecasting models (ARIMA, LSTMs, Temporal CNNs) for real-world sequential data.
+Built anomaly detection framework using reconstruction error and statistical change-point methods.
+Relevant to applied ML research in healthcare, finance, and large-scale monitoring systems.
+
+- **RAG Scholar — Retrieval-Augmented Research Assistant for Papers (Generative AI Project)**
+Designed a retrieval-augmented generation (RAG) system to answer queries over academic papers using vector search.
+Integrated embedding models, document chunking, and evaluation metrics for factual consistency.
+Aligns with Google Research directions in grounded generation and scientific discovery.
+
+
+Systems & Infrastructure Projects
+
+- **DriveMerge — Distributed Cloud Storage + Transfer Optimization (Live)**
+Built scalable distributed storage abstraction using sharding, parallel chunk transfer, and fault tolerance.
+Explored infrastructure challenges similar to large-scale ML data pipelines.
+
+- **why-broke — Open-Source Debugging + Reproducibility Tool**
+Developed CLI tool improving reproducibility and debugging workflows across distributed engineering systems.
+
+
+Open Source & Research Community
+
+- Google Summer of Code Contributor (2024), Creative Commons — Delivered production-grade contributions to globally distributed open-source systems.
+
+- ML Alignment & Theory Scholars (MATS) — Stage 2 Clear Advanced through competitive AI safety fellowship selection, focusing on interpretability, governance, and frontier AI risk.
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR) — Represented India at an international innovation and research leadership forum.
+
+
+Technical Skills
+
+- **Languages**: Python, C++, Java, TypeScript
+
+- **Machine Learning**: Transformers, Deep Learning, Time-Series Models, Optimization, Model Evaluation
+
+- **Systems**: Distributed Systems, Cloud Infrastructure, Observability
+
+- **Tools**: PyTorch, HuggingFace, Docker, Kubernetes, AWS (EC2/S3), Terraform, PostgreSQL
+
+---
+
+## ASSISTANT
+
+Adithya Kammati's Resume
+Contact Information
+
+- **Phone**: +91 8919762587
+
+- **Location**: Hyderabad, India
+
+- **Email**: [kammati.a23csai@nst.rishihood.edu.in](mailto:kammati.a23csai@nst.rishihood.edu.in)
+
+- **LinkedIn**: linkedin.com/in/kammatiaditya
+
+- **GitHub**: github.com/Adi-gitX
+
+- **Portfolio**: adigitx.vercel.app
+
+
+Summary (Software Engineering Focus)
+Backend-focused Software Engineer with hands-on experience owning and debugging failure-prone distributed workflows involving authentication, file streaming, retries, and external APIs. Strong systems mindset with production exposure and a focus on correctness, reliability, and debuggability.
+Education
+
+- **Bachelor of Technology — Computer Science & Artificial Intelligence**
+Newton School of Technology, Rishihood University
+2023 – 2027
+
+
+Technical Skills
+
+- **Languages**: Python, JavaScript, TypeScript, SQL
+
+- **Backend**: Node.js, Express, REST APIs, Auth (JWT, OAuth 2.0), Async workflows
+
+- **Datastores**: PostgreSQL, MySQL, Firestore
+
+- **Systems**: File streaming, chunked uploads, retries, idempotency, failure handling
+
+- **Networking**: HTTP, TLS, OAuth flows, DNS, TCP/IP fundamentals
+
+- **Tools**: Git, Docker, Linux
+
+
+Experience
+
+- **Software Engineering Intern**
+Disprz, Chennai, India
+Feb 2025 – Jul 2025
+Owned investigation of recurring production failures across authentication and content delivery by tracing request flows across services, identifying token expiry and retry edge cases, and deploying fixes adopted in production.
+Redesigned large-file upload handling by fixing stream validation, corruption scenarios, and retry behavior, reducing upload-related failures by an estimated 30–40% for enterprise customers handling large media assets.
+Implemented role-based access control used by enterprise accounts, shipped with defensive validation and zero post-release access regressions.
+Added idempotent retry paths and input validation to ensure safe request replays under partial failures and network interruptions.
+
+
+Projects
+
+- **DriveMerge (live)** — Designed and shipped a quota-aware storage abstraction over multiple Google Drive accounts, handling provider limits via chunking, parallel uploads, OAuth token rotation, and resumable streaming downloads.
+
+- **PEOPLE (live)** — Built a controlled developer marketplace with gated onboarding, role isolation, and delivery accountability to reduce low-quality or unreliable task fulfillment.
+
+- **AXIOM (live)** — Developed structured learning and opportunity pipelines to centralize preparation, evaluation, and discovery for students across domains.
+
+
+Open Source & Achievements
+
+- Google Summer of Code Contributor — Creative Commons (2024).
+
+- Built why-broke, an open-source debugging CLI that captures environment, dependency, and configuration state to help reproduce non-deterministic build and runtime failures.
+
+- 3rd Place, Stealth Fire Hackathon (2024).
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR).
+
+
+
+Adithya Kammati's Research Profile
+Contact Information
+
+- **Location**: Hyderabad, India
+
+- **Phone**: +91 8919762587
+
+- **Email**: Email
+
+- **LinkedIn**: LinkedIn
+
+- **GitHub**: GitHub
+
+- **Portfolio**: Portfolio
+
+
+Research Profile
+Penultimate-year B.Tech student in Computer Science & Artificial Intelligence with strong experience in machine learning systems, scalable infrastructure, and research-aligned engineering. Actively interested in Natural Language Understanding, Generative AI, Time-Series Modeling, Optimization, and ML Interpretability. Demonstrated ability to execute exploratory projects end-to-end and contribute to global open-source and research communities.
+Education
+
+- **B.Tech in Computer Science and Artificial Intelligence**
+Newton School of Technology, Rishihood University, India
+2023 – 2027
+Relevant Coursework: Machine Learning, Deep Learning, NLP, Time Series (ARIMA/VAR), Optimization, Graph Theory, Algorithms, Operating Systems, Distributed Systems, Databases, AI Governance
+
+
+Research Interests
+Generative AI, Transformer Interpretability, Large-Scale ML Systems, Time-Series Forecasting, Optimization Foundations, Responsible AI, Human-Centered AI
+Research & Engineering Experience
+
+- **Software Engineering Intern (ML Platform + Systems)**
+Disprz — Enterprise AI Learning Platform, Chennai, India
+Feb 2025 – Jul 2025
+Improved reliability of enterprise-scale learning infrastructure supporting global organizations.
+Redesigned chunked upload and storage workflows with corruption detection and idempotent retry logic, reducing platform failures by 30–40%.
+Implemented secure multi-tenant RBAC systems ensuring safe isolation across enterprise customers.
+Collaborated across teams to deliver production-grade improvements under ambiguous, high-impact requirements.
+
+
+Machine Learning & Research Projects
+
+- **TransformerLens — Interpretability Toolkit for Attention Models (Ongoing Research Project)**
+Built an interpretability pipeline to analyze transformer attention heads, neuron activations, and feature attribution.
+Implemented probing experiments to study how language models encode syntactic and semantic information.
+Research direction aligned with mechanistic interpretability and responsible deployment of foundation models.
+
+- **ForecastNet — Time-Series Forecasting + Anomaly Detection System (ML Systems Project)**
+Developed forecasting models (ARIMA, LSTMs, Temporal CNNs) for real-world sequential data.
+Built anomaly detection framework using reconstruction error and statistical change-point methods.
+Relevant to applied ML research in healthcare, finance, and large-scale monitoring systems.
+
+- **RAG Scholar — Retrieval-Augmented Research Assistant for Papers (Generative AI Project)**
+Designed a retrieval-augmented generation (RAG) system to answer queries over academic papers using vector search.
+Integrated embedding models, document chunking, and evaluation metrics for factual consistency.
+Aligns with Google Research directions in grounded generation and scientific discovery.
+
+
+Systems & Infrastructure Projects
+
+- **DriveMerge — Distributed Cloud Storage + Transfer Optimization (Live)**
+Built scalable distributed storage abstraction using sharding, parallel chunk transfer, and fault tolerance.
+Explored infrastructure challenges similar to large-scale ML data pipelines.
+
+- **why-broke — Open-Source Debugging + Reproducibility Tool**
+Developed CLI tool improving reproducibility and debugging workflows across distributed engineering systems.
+
+
+Open Source & Research Community
+
+- Google Summer of Code Contributor (2024), Creative Commons — Delivered production-grade contributions to globally distributed open-source systems.
+
+- ML Alignment & Theory Scholars (MATS) — Stage 2 Clear Advanced through competitive AI safety fellowship selection, focusing on interpretability, governance, and frontier AI risk.
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR) — Represented India at an international innovation and research leadership forum.
+
+
+Technical Skills
+
+- **Languages**: Python, C++, Java, TypeScript
+
+- **Machine Learning**: Transformers, Deep Learning, Time-Series Models, Optimization, Model Evaluation
+
+- **Systems**: Distributed Systems, Cloud Infrastructure, Observability
+
+- **Tools**: PyTorch, HuggingFace, Docker, Kubernetes, AWS (EC2/S3), Terraform, PostgreSQL
+
+---
+
+## ASSISTANT
+
+30.5s
+
+---
+
+## ASSISTANT
+
+30.5s
 
 
 ---
