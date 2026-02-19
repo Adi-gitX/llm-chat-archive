@@ -1,6 +1,6 @@
 # Peter Steipete: AI CLI Tools & Agent Builder
 
-> **Platform:** GROK | **Date:** 20/02/2026, 00:34:44 | **Turns:** 14
+> **Platform:** GROK | **Date:** 20/02/2026, 00:37:46 | **Turns:** 17
 > **Source:** [Open Original](https://grok.com/c/7c947781-2c8c-4423-bf27-be05af7e1837?rid=20ee5f28-cd43-405b-865c-a00f5e0ce2c1)
 
 ---
@@ -761,8 +761,315 @@ no do a deep dive in [https://github.com/Adi-gitX?tab=repositories](https://gith
 
 ## USER
 
-Exploring GitHub projects • 25s
-- Diving into repositories at [https://github.com/Adi-gitX](https://github.com/Adi-gitX) to uncover additional projects for inclusion.
+Thought for 2m 19sDeep Dive into Adi-gitX's GitHub Repositories
+I've analyzed your GitHub repositories tab across all pages (there are 3 pages with content; page 4 and beyond are empty). You have a total of approximately 75-80 repositories, including both original projects and forks. Most have 0 stars/forks/watchers, which is common for personal or early-stage repos. Your profile shows 3 followers, 17 following, and you're a "Pro" developer with achievements like "Pull Shark" (2 pulls). Your bio: "20 y/o dev 💻 | Building products that people love 🤍 | Currently working on @DevXAnonymous | AI & web dev enthusiast". Location: "earth 00:32 - 10h30m ahead". Social links: Instagram, YouTube, LinkedIn.
+I focused on **original repositories** (non-forks) for the deep dive, as forks are typically contributions or copies of others' work. I grouped them into **Current/Recent Projects** (2025-2026, aligning with your resume and active work), **Mid-Term Projects** (2024-2025), and **Legacy/Earlier Projects** (pre-2024 or archived). For each, I included key details: name, URL, description (from GitHub), primary language, last updated, and notes (e.g., relevance to your resume, potential for README inclusion).
+This list is comprehensive based on the page data. Many repos lack detailed READMEs or stars, suggesting they're prototypes, experiments, or private tools. Your work spans web dev (JS/TS), AI/ML (Python/Jupyter), systems (Shell/C), and more—aligning with your backend/AI focus. Pinned repos aren't explicitly marked, but recent ones like DriveMerge, PEOPLE, AXIOM match your resume.
+Current/Recent Projects (2025-2026)
+These seem active and tie into your internship at Disprz, GSoC, and AI/web focus. Great for highlighting in a README.
+
+- **llm-chat-archive**[](https://github.com/Adi-gitX/llm-chat-archive): No description. Likely related to archiving LLM conversations (e.g., AI chats). Language: None. Last updated: Feb 19, 2026. Notes: Ties into your AI enthusiasm; could pair with StoreChat.
+
+- **savespace**[](https://github.com/Adi-gitX/savespace): No description. Possibly a storage optimization tool. Language: TypeScript. Last updated: Feb 19, 2026.
+
+- **colour-fun**[](https://github.com/Adi-gitX/colour-fun): "Hard finding the right solid background color? colour&fun lets you grab clean, pixel-perfect backgrounds in any color, any size — instantly." Language: TypeScript. Last updated: Feb 19, 2026. Notes: Fun utility; good for showcasing web dev skills.
+
+- **Adi-gitX**[](https://github.com/Adi-gitX/Adi-gitX): No description (this is your profile README repo). Language: None. Last updated: Feb 19, 2026. Notes: Use for your GitHub profile customization.
+
+- **Oracle**[](https://github.com/Adi-gitX/Oracle): "The truth behind every API key." Language: TypeScript. Last updated: Feb 13, 2026. Notes: Sounds like an API key analyzer; relevant to backend work.
+
+- **adityakammati-Portfolio**[](https://github.com/Adi-gitX/adityakammati-Portfolio): No description. Likely a personal portfolio site. Language: TypeScript. Last updated: Feb 12, 2026.
+
+- **cProgramme**[](https://github.com/Adi-gitX/cProgramme): "OS- operating system Codes". Language: C. Last updated: Feb 12, 2026. Notes: Systems programming; shows low-level skills.
+
+- **StoreChat**[](https://github.com/Adi-gitX/StoreChat): "Extension that saves all your llm chats at one place, and in one click saves them all into github repo". Language: JavaScript (MIT License). Last updated: Feb 11, 2026. Notes: AI-related tool; excellent for README—practical and innovative.
+
+- **MATS-Summer-2026-Preparation**[](https://github.com/Adi-gitX/MATS-Summer-2026-Preparation): "Structured preparation repo for MATS Summer 2026 — mentor-specific research notes, experiments, and interview readiness." Language: None. Last updated: Feb 9, 2026. Notes: AI research prep; highlights ambition.
+
+- **THREEMONTHSHARDCORE**[](https://github.com/Adi-gitX/THREEMONTHSHARDCORE): "hardcore plan for three freaking months!". Language: Shell (MIT). Last updated: Feb 8, 2026. Notes: Personal productivity script; fun to include in "Random Facts".
+
+- **floor-segmentation-svm**[](https://github.com/Adi-gitX/floor-segmentation-svm): "Indoor floor segmentation using SVM with multi-scale features (LBP, HSV, edge detection). Achieves 96.75% accuracy on COCO-format annotated dataset." Language: Jupyter Notebook. Last updated: Feb 8, 2026. Notes: ML project; strong for AI portfolio.
+
+- **AXIOM**[](https://github.com/Adi-gitX/AXIOM): No description (from resume: structured learning pipelines for students). Language: JavaScript. Last updated: Feb 2, 2026. Notes: Resume highlight; add emoji like 📚.
+
+- **SkillSheild**[](https://github.com/Adi-gitX/SkillSheild): "AI that Detects & Reverses Your Skill Decay from AI Overuse". Language: None. Last updated: Feb 2, 2026. Notes: Meta-AI tool; unique and timely.
+
+- **FailFast**[](https://github.com/Adi-gitX/FailFast): No description. Language: TypeScript. Last updated: Jan 29, 2026.
+
+- **ClasspilotAi**[](https://github.com/Adi-gitX/ClasspilotAi): "no more getting insecured/insulted when teacher askes a question, This app lets you answer realtime!". Language: Python (MIT). Last updated: Jan 27, 2026. Notes: Educational AI; fun student-focused project.
+
+- **Toy_Application**[](https://github.com/Adi-gitX/Toy_Application): "Codes for Python Toy application MATS". Language: Python. Last updated: Jan 26, 2026. Notes: AI experiment.
+
+- **Advanced-Mechine-Learning-**[](https://github.com/Adi-gitX/Advanced-Mechine-Learning-): "Notes and Labs". Language: None. Last updated: Jan 15, 2026. Notes: Learning resources.
+
+- **NetworkOptimizer**[](https://github.com/Adi-gitX/NetworkOptimizer): "Fix VPN config and optimize network". Language: Shell (MIT). Last updated: Jan 14, 2026. Notes: Systems tool; backend-relevant.
+
+- **imagesforurl**[](https://github.com/Adi-gitX/imagesforurl): No description. Language: None. Last updated: Jan 8, 2026.
+
+- **PEOPLE**[](https://github.com/Adi-gitX/PEOPLE): "Work begins with a problem." (from resume: developer marketplace). Language: JavaScript. Last updated: Jan 5, 2026. Notes: Resume project; 👥 emoji.
+
+- **why-this-broke**[](https://github.com/Adi-gitX/why-this-broke): No description (resume: why-broke debugging CLI). Language: TypeScript. Last updated: Dec 16, 2025. Notes: Open-source achievement.
+
+- **AetherLogo**[](https://github.com/Adi-gitX/AetherLogo): No description. Language: TypeScript. Last updated: Dec 14, 2025.
+
+- **Unmask**[](https://github.com/Adi-gitX/Unmask): No description. Language: Python. Last updated: Dec 13, 2025.
+
+- **mdfile**[](https://github.com/Adi-gitX/mdfile): No description. Language: None. Last updated: Dec 7, 2025.
+
+- **uniloop**[](https://github.com/Adi-gitX/uniloop): No description. Language: JavaScript. Last updated: Dec 5, 2025.
+
+- **Drive-merge**[](https://github.com/Adi-gitX/Drive-merge): No description. Language: None. Last updated: Nov 23, 2025.
+
+- **logan**[](https://github.com/Adi-gitX/logan): No description. Language: TypeScript. Last updated: Nov 20, 2025.
+
+- **DriveMerge**[](https://github.com/Adi-gitX/DriveMerge): No description (resume: storage abstraction over Google Drive). Language: JavaScript. Last updated: Oct 29, 2025. Notes: Key resume project; 🗄️.
+
+- **AIML-research-analysis-model**[](https://github.com/Adi-gitX/AIML-research-analysis-model): No description. Language: Python. Last updated: Oct 27, 2025.
+
+- **ZEN-pomodoro**[](https://github.com/Adi-gitX/ZEN-pomodoro): No description. Language: TypeScript. Last updated: Oct 26, 2025.
+
+- **cruses**[](https://github.com/Adi-gitX/cruses): No description. Language: TypeScript. Last updated: Oct 11, 2025.
+
+- **Adi-gitX.github.io**[](https://github.com/Adi-gitX/Adi-gitX.github.io): No description (GitHub Pages site). Language: None. Last updated: Sep 21, 2025.
+
+- **simpleresumefin**[](https://github.com/Adi-gitX/simpleresumefin): No description. Language: HTML. Last updated: Sep 20, 2025.
+
+- **resumeSimple**[](https://github.com/Adi-gitX/resumeSimple): No description. Language: HTML. Last updated: Sep 20, 2025.
+
+- **RedCard**[](https://github.com/Adi-gitX/RedCard): No description. Language: None. Last updated: Sep 17, 2025.
+
+- **Glasmrk**[](https://github.com/Adi-gitX/Glasmrk): No description. Language: TypeScript. Last updated: Aug 16, 2025.
+
+- **DevNotes**[](https://github.com/Adi-gitX/DevNotes): No description. Language: TypeScript. Last updated: Aug 15, 2025.
+
+- **DARKTRUTH**[](https://github.com/Adi-gitX/DARKTRUTH): No description. Language: None. Last updated: Aug 9, 2025.
+
+- **C-_Learnings**[](https://github.com/Adi-gitX/C-_Learnings): No description. Language: C#. Last updated: Feb 7, 2025.
+
+- **feedback-servey-disperz**[](https://github.com/Adi-gitX/feedback-servey-disperz): No description. Language: JavaScript. Last updated: Jan 23, 2025. Notes: Likely internship-related.
+
+- **disprz**[](https://github.com/Adi-gitX/disprz): No description. Language: JavaScript. Last updated: Jan 13, 2025. Notes: Internship work?
+
+
+Mid-Term Projects (2024-2025)
+These are older but still recent; good for "Legacy Work" section.
+
+- **-Omeir-Connect-**[](https://github.com/Adi-gitX/-Omeir-Connect-): No description. Language: HTML (MIT). Last updated: Dec 31, 2024.
+
+- **paeaneer-foundation**[](https://github.com/Adi-gitX/paeaneer-foundation): "Logo Design". Language: HTML (MIT). Last updated: Dec 28, 2024. Notes: Design project.
+
+- **whatsbytes**[](https://github.com/Adi-gitX/whatsbytes): No description. Language: JavaScript. Last updated: Dec 12, 2024.
+
+- **qrcode-management-system-nestjs**[](https://github.com/Adi-gitX/qrcode-management-system-nestjs): No description. Language: TypeScript. Last updated: Nov 29, 2024. Notes: Backend with NestJS; skills match resume.
+
+- **college-appointment-system**[](https://github.com/Adi-gitX/college-appointment-system): "SERVER-Backend". Language: JavaScript (1 star). Last updated: Nov 24, 2024. Notes: Your only repo with a star!
+
+- **SendX**[](https://github.com/Adi-gitX/SendX): No description. Language: JavaScript. Last updated: ~Nov 2024 (est.).
+
+- **Heartstrings**[](https://github.com/Adi-gitX/Heartstrings): "Connect, share your story, and transform cherished moments into personalized songs with our innovative music app." Language: HTML. Last updated: Oct 28, 2024. Notes: Creative project.
+
+- **Endsem-Project-Croma-Clone---...**[](https://github.com/Adi-gitX/Endsem-Project-Croma-Clone---EndSem-Projects-Croma---l09ipehja9t7): "croma-clone". Language: JavaScript. Last updated: Oct 5, 2024. Notes: Clone project for learning.
+
+- **Adi-gitX-blog-server**[](https://github.com/Adi-gitX/Adi-gitX-blog-server): No description. Language: JavaScript. Last updated: Sep 29, 2024.
+
+- **Adigitx.ai**[](https://github.com/Adi-gitX/Adigitx.ai): No description. Language: JavaScript. Last updated: Sep 26, 2024. Notes: AI-related?
+
+- **anonymous.dev**[](https://github.com/Adi-gitX/anonymous.dev): No description. Language: None. Last updated: Sep 24, 2024. Notes: Ties to @DevXAnonymous org.
+
+- **Adi-gitX-Personal-PortfolioX**[](https://github.com/Adi-gitX/Adi-gitX-Personal-PortfolioX): No description. Language: TypeScript (1 fork). Last updated: Sep 23, 2024.
+
+- **ArtifyX**[](https://github.com/Adi-gitX/ArtifyX): "refresh your childhood memories by drawing the pixel art again". Language: HTML/Other. Last updated: Sep 13, 2024. Notes: Pixel art app; 🎨 emoji.
+
+- **Google-Drive-Part-1---...**[](https://github.com/Adi-gitX/Google-Drive-Part-1---Rest-API---6sg6e1rzfzk6): No description. Language: JavaScript. Last updated: Sep 5, 2024. Notes: API practice, related to DriveMerge.
+
+- **birthdayformom**[](https://github.com/Adi-gitX/birthdayformom): No description. Language: JavaScript. Last updated: Jun 5, 2024.
+
+- **Adi-gitX-Endsem-Project-...**[](https://github.com/Adi-gitX/Adi-gitX-Endsem-Project-Croma-Clone---EndSem-Projects-Croma---l09ipehja9t7): "Adi-gitX/Endsem-Project-Croma-Clone---EndSem-Projects-Croma---l09ipehja9t7". Language: None. Last updated: May 22, 2024.
+
+- **Splitwise---Java-Web-App---...**[](https://github.com/Adi-gitX/Splitwise---Java-Web-App---Java-Project---d7rvgh3lm0nn): No description. Language: Java. Last updated: May 9, 2024. Notes: Java project; shows diversity.
+
+- **TrendX-Ecommerce-Website**[](https://github.com/Adi-gitX/TrendX-Ecommerce-Website): No description. Language: None. Last updated: May 3, 2024.
+
+- **leetcodescoreX**[](https://github.com/Adi-gitX/leetcodescoreX): "find full details of the leetcode profile here!". Language: JavaScript. Last updated: Apr 7, 2024. Notes: LeetCode tool; links to your DSA enthusiasm.
+
+- **twitterXhackathon**[](https://github.com/Adi-gitX/twitterXhackathon): No description. Language: None. Last updated: Apr 6, 2024. Notes: Hackathon entry.
+
+- **TIC-TAC-TOE-XGAME**[](https://github.com/Adi-gitX/TIC-TAC-TOE-XGAME): No description. Language: JavaScript. Last updated: Mar 21, 2024.
+
+- **LinkedInX-clone**[](https://github.com/Adi-gitX/LinkedInX-clone): "LinkedInX-clone". Language: HTML. Last updated: Mar 21, 2024. Notes: Clone for practice.
+
+- **2048-Game**[](https://github.com/Adi-gitX/2048-Game): "2048 game". Language: JavaScript. Last updated: ~Mar 2024 (est.).
+
+
+Legacy/Earlier Projects & Forks
+Earlier work (pre-2024) is mostly forks or small projects. Forks include: DriveMerge3 (from nandu-99), ImHex (hex editor from WerWolv), MAD-Lab-practice (from Newton-School), swot (from JetBrains), attacker-civilian-game (from nandu-99), ElectiveHub (education system from TechNodes2-0), Dot-Box (game from ChromeGaming), thinkyfy (from mk0904), Leave_Gatepass_Manangement_App (from nandu-99), mandapam (hackathon from nox-pie), cc-legal-tools-app and cc-resource-archive (GSoC-related from creativecommons).
+These forks show contributions (e.g., GSoC with Creative Commons). For README, mention GSoC under achievements rather than listing all forks.
+Recommendations for Your README
+To make it like the example (Peter's), add 10-15 top projects under "Current Projects" with emojis, short descs, and links. Prioritize resume ones (DriveMerge, PEOPLE, AXIOM, why-broke) and recent AI/web tools (StoreChat, floor-segmentation-svm, ClasspilotAi). Move older to "Legacy Work". Add your GitHub graph, blog if you have one, and update tech badges (add NestJS, Jupyter, etc.). If you want an updated draft README, provide more details like blog posts or random facts!
+If you need deeper info on a specific repo (e.g., README content), let me know which one. 😊
+
+---
+
+## ASSISTANT
+
+Deep Dive into Adi-gitX's GitHub Repositories
+I've analyzed your GitHub repositories tab across all pages (there are 3 pages with content; page 4 and beyond are empty). You have a total of approximately 75-80 repositories, including both original projects and forks. Most have 0 stars/forks/watchers, which is common for personal or early-stage repos. Your profile shows 3 followers, 17 following, and you're a "Pro" developer with achievements like "Pull Shark" (2 pulls). Your bio: "20 y/o dev 💻 | Building products that people love 🤍 | Currently working on @DevXAnonymous | AI & web dev enthusiast". Location: "earth 00:32 - 10h30m ahead". Social links: Instagram, YouTube, LinkedIn.
+I focused on **original repositories** (non-forks) for the deep dive, as forks are typically contributions or copies of others' work. I grouped them into **Current/Recent Projects** (2025-2026, aligning with your resume and active work), **Mid-Term Projects** (2024-2025), and **Legacy/Earlier Projects** (pre-2024 or archived). For each, I included key details: name, URL, description (from GitHub), primary language, last updated, and notes (e.g., relevance to your resume, potential for README inclusion).
+This list is comprehensive based on the page data. Many repos lack detailed READMEs or stars, suggesting they're prototypes, experiments, or private tools. Your work spans web dev (JS/TS), AI/ML (Python/Jupyter), systems (Shell/C), and more—aligning with your backend/AI focus. Pinned repos aren't explicitly marked, but recent ones like DriveMerge, PEOPLE, AXIOM match your resume.
+Current/Recent Projects (2025-2026)
+These seem active and tie into your internship at Disprz, GSoC, and AI/web focus. Great for highlighting in a README.
+
+- **llm-chat-archive**[](https://github.com/Adi-gitX/llm-chat-archive): No description. Likely related to archiving LLM conversations (e.g., AI chats). Language: None. Last updated: Feb 19, 2026. Notes: Ties into your AI enthusiasm; could pair with StoreChat.
+
+- **savespace**[](https://github.com/Adi-gitX/savespace): No description. Possibly a storage optimization tool. Language: TypeScript. Last updated: Feb 19, 2026.
+
+- **colour-fun**[](https://github.com/Adi-gitX/colour-fun): "Hard finding the right solid background color? colour&fun lets you grab clean, pixel-perfect backgrounds in any color, any size — instantly." Language: TypeScript. Last updated: Feb 19, 2026. Notes: Fun utility; good for showcasing web dev skills.
+
+- **Adi-gitX**[](https://github.com/Adi-gitX/Adi-gitX): No description (this is your profile README repo). Language: None. Last updated: Feb 19, 2026. Notes: Use for your GitHub profile customization.
+
+- **Oracle**[](https://github.com/Adi-gitX/Oracle): "The truth behind every API key." Language: TypeScript. Last updated: Feb 13, 2026. Notes: Sounds like an API key analyzer; relevant to backend work.
+
+- **adityakammati-Portfolio**[](https://github.com/Adi-gitX/adityakammati-Portfolio): No description. Likely a personal portfolio site. Language: TypeScript. Last updated: Feb 12, 2026.
+
+- **cProgramme**[](https://github.com/Adi-gitX/cProgramme): "OS- operating system Codes". Language: C. Last updated: Feb 12, 2026. Notes: Systems programming; shows low-level skills.
+
+- **StoreChat**[](https://github.com/Adi-gitX/StoreChat): "Extension that saves all your llm chats at one place, and in one click saves them all into github repo". Language: JavaScript (MIT License). Last updated: Feb 11, 2026. Notes: AI-related tool; excellent for README—practical and innovative.
+
+- **MATS-Summer-2026-Preparation**[](https://github.com/Adi-gitX/MATS-Summer-2026-Preparation): "Structured preparation repo for MATS Summer 2026 — mentor-specific research notes, experiments, and interview readiness." Language: None. Last updated: Feb 9, 2026. Notes: AI research prep; highlights ambition.
+
+- **THREEMONTHSHARDCORE**[](https://github.com/Adi-gitX/THREEMONTHSHARDCORE): "hardcore plan for three freaking months!". Language: Shell (MIT). Last updated: Feb 8, 2026. Notes: Personal productivity script; fun to include in "Random Facts".
+
+- **floor-segmentation-svm**[](https://github.com/Adi-gitX/floor-segmentation-svm): "Indoor floor segmentation using SVM with multi-scale features (LBP, HSV, edge detection). Achieves 96.75% accuracy on COCO-format annotated dataset." Language: Jupyter Notebook. Last updated: Feb 8, 2026. Notes: ML project; strong for AI portfolio.
+
+- **AXIOM**[](https://github.com/Adi-gitX/AXIOM): No description (from resume: structured learning pipelines for students). Language: JavaScript. Last updated: Feb 2, 2026. Notes: Resume highlight; add emoji like 📚.
+
+- **SkillSheild**[](https://github.com/Adi-gitX/SkillSheild): "AI that Detects & Reverses Your Skill Decay from AI Overuse". Language: None. Last updated: Feb 2, 2026. Notes: Meta-AI tool; unique and timely.
+
+- **FailFast**[](https://github.com/Adi-gitX/FailFast): No description. Language: TypeScript. Last updated: Jan 29, 2026.
+
+- **ClasspilotAi**[](https://github.com/Adi-gitX/ClasspilotAi): "no more getting insecured/insulted when teacher askes a question, This app lets you answer realtime!". Language: Python (MIT). Last updated: Jan 27, 2026. Notes: Educational AI; fun student-focused project.
+
+- **Toy_Application**[](https://github.com/Adi-gitX/Toy_Application): "Codes for Python Toy application MATS". Language: Python. Last updated: Jan 26, 2026. Notes: AI experiment.
+
+- **Advanced-Mechine-Learning-**[](https://github.com/Adi-gitX/Advanced-Mechine-Learning-): "Notes and Labs". Language: None. Last updated: Jan 15, 2026. Notes: Learning resources.
+
+- **NetworkOptimizer**[](https://github.com/Adi-gitX/NetworkOptimizer): "Fix VPN config and optimize network". Language: Shell (MIT). Last updated: Jan 14, 2026. Notes: Systems tool; backend-relevant.
+
+- **imagesforurl**[](https://github.com/Adi-gitX/imagesforurl): No description. Language: None. Last updated: Jan 8, 2026.
+
+- **PEOPLE**[](https://github.com/Adi-gitX/PEOPLE): "Work begins with a problem." (from resume: developer marketplace). Language: JavaScript. Last updated: Jan 5, 2026. Notes: Resume project; 👥 emoji.
+
+- **why-this-broke**[](https://github.com/Adi-gitX/why-this-broke): No description (resume: why-broke debugging CLI). Language: TypeScript. Last updated: Dec 16, 2025. Notes: Open-source achievement.
+
+- **AetherLogo**[](https://github.com/Adi-gitX/AetherLogo): No description. Language: TypeScript. Last updated: Dec 14, 2025.
+
+- **Unmask**[](https://github.com/Adi-gitX/Unmask): No description. Language: Python. Last updated: Dec 13, 2025.
+
+- **mdfile**[](https://github.com/Adi-gitX/mdfile): No description. Language: None. Last updated: Dec 7, 2025.
+
+- **uniloop**[](https://github.com/Adi-gitX/uniloop): No description. Language: JavaScript. Last updated: Dec 5, 2025.
+
+- **Drive-merge**[](https://github.com/Adi-gitX/Drive-merge): No description. Language: None. Last updated: Nov 23, 2025.
+
+- **logan**[](https://github.com/Adi-gitX/logan): No description. Language: TypeScript. Last updated: Nov 20, 2025.
+
+- **DriveMerge**[](https://github.com/Adi-gitX/DriveMerge): No description (resume: storage abstraction over Google Drive). Language: JavaScript. Last updated: Oct 29, 2025. Notes: Key resume project; 🗄️.
+
+- **AIML-research-analysis-model**[](https://github.com/Adi-gitX/AIML-research-analysis-model): No description. Language: Python. Last updated: Oct 27, 2025.
+
+- **ZEN-pomodoro**[](https://github.com/Adi-gitX/ZEN-pomodoro): No description. Language: TypeScript. Last updated: Oct 26, 2025.
+
+- **cruses**[](https://github.com/Adi-gitX/cruses): No description. Language: TypeScript. Last updated: Oct 11, 2025.
+
+- **Adi-gitX.github.io**[](https://github.com/Adi-gitX/Adi-gitX.github.io): No description (GitHub Pages site). Language: None. Last updated: Sep 21, 2025.
+
+- **simpleresumefin**[](https://github.com/Adi-gitX/simpleresumefin): No description. Language: HTML. Last updated: Sep 20, 2025.
+
+- **resumeSimple**[](https://github.com/Adi-gitX/resumeSimple): No description. Language: HTML. Last updated: Sep 20, 2025.
+
+- **RedCard**[](https://github.com/Adi-gitX/RedCard): No description. Language: None. Last updated: Sep 17, 2025.
+
+- **Glasmrk**[](https://github.com/Adi-gitX/Glasmrk): No description. Language: TypeScript. Last updated: Aug 16, 2025.
+
+- **DevNotes**[](https://github.com/Adi-gitX/DevNotes): No description. Language: TypeScript. Last updated: Aug 15, 2025.
+
+- **DARKTRUTH**[](https://github.com/Adi-gitX/DARKTRUTH): No description. Language: None. Last updated: Aug 9, 2025.
+
+- **C-_Learnings**[](https://github.com/Adi-gitX/C-_Learnings): No description. Language: C#. Last updated: Feb 7, 2025.
+
+- **feedback-servey-disperz**[](https://github.com/Adi-gitX/feedback-servey-disperz): No description. Language: JavaScript. Last updated: Jan 23, 2025. Notes: Likely internship-related.
+
+- **disprz**[](https://github.com/Adi-gitX/disprz): No description. Language: JavaScript. Last updated: Jan 13, 2025. Notes: Internship work?
+
+
+Mid-Term Projects (2024-2025)
+These are older but still recent; good for "Legacy Work" section.
+
+- **-Omeir-Connect-**[](https://github.com/Adi-gitX/-Omeir-Connect-): No description. Language: HTML (MIT). Last updated: Dec 31, 2024.
+
+- **paeaneer-foundation**[](https://github.com/Adi-gitX/paeaneer-foundation): "Logo Design". Language: HTML (MIT). Last updated: Dec 28, 2024. Notes: Design project.
+
+- **whatsbytes**[](https://github.com/Adi-gitX/whatsbytes): No description. Language: JavaScript. Last updated: Dec 12, 2024.
+
+- **qrcode-management-system-nestjs**[](https://github.com/Adi-gitX/qrcode-management-system-nestjs): No description. Language: TypeScript. Last updated: Nov 29, 2024. Notes: Backend with NestJS; skills match resume.
+
+- **college-appointment-system**[](https://github.com/Adi-gitX/college-appointment-system): "SERVER-Backend". Language: JavaScript (1 star). Last updated: Nov 24, 2024. Notes: Your only repo with a star!
+
+- **SendX**[](https://github.com/Adi-gitX/SendX): No description. Language: JavaScript. Last updated: ~Nov 2024 (est.).
+
+- **Heartstrings**[](https://github.com/Adi-gitX/Heartstrings): "Connect, share your story, and transform cherished moments into personalized songs with our innovative music app." Language: HTML. Last updated: Oct 28, 2024. Notes: Creative project.
+
+- **Endsem-Project-Croma-Clone---...**[](https://github.com/Adi-gitX/Endsem-Project-Croma-Clone---EndSem-Projects-Croma---l09ipehja9t7): "croma-clone". Language: JavaScript. Last updated: Oct 5, 2024. Notes: Clone project for learning.
+
+- **Adi-gitX-blog-server**[](https://github.com/Adi-gitX/Adi-gitX-blog-server): No description. Language: JavaScript. Last updated: Sep 29, 2024.
+
+- **Adigitx.ai**[](https://github.com/Adi-gitX/Adigitx.ai): No description. Language: JavaScript. Last updated: Sep 26, 2024. Notes: AI-related?
+
+- **anonymous.dev**[](https://github.com/Adi-gitX/anonymous.dev): No description. Language: None. Last updated: Sep 24, 2024. Notes: Ties to @DevXAnonymous org.
+
+- **Adi-gitX-Personal-PortfolioX**[](https://github.com/Adi-gitX/Adi-gitX-Personal-PortfolioX): No description. Language: TypeScript (1 fork). Last updated: Sep 23, 2024.
+
+- **ArtifyX**[](https://github.com/Adi-gitX/ArtifyX): "refresh your childhood memories by drawing the pixel art again". Language: HTML/Other. Last updated: Sep 13, 2024. Notes: Pixel art app; 🎨 emoji.
+
+- **Google-Drive-Part-1---...**[](https://github.com/Adi-gitX/Google-Drive-Part-1---Rest-API---6sg6e1rzfzk6): No description. Language: JavaScript. Last updated: Sep 5, 2024. Notes: API practice, related to DriveMerge.
+
+- **birthdayformom**[](https://github.com/Adi-gitX/birthdayformom): No description. Language: JavaScript. Last updated: Jun 5, 2024.
+
+- **Adi-gitX-Endsem-Project-...**[](https://github.com/Adi-gitX/Adi-gitX-Endsem-Project-Croma-Clone---EndSem-Projects-Croma---l09ipehja9t7): "Adi-gitX/Endsem-Project-Croma-Clone---EndSem-Projects-Croma---l09ipehja9t7". Language: None. Last updated: May 22, 2024.
+
+- **Splitwise---Java-Web-App---...**[](https://github.com/Adi-gitX/Splitwise---Java-Web-App---Java-Project---d7rvgh3lm0nn): No description. Language: Java. Last updated: May 9, 2024. Notes: Java project; shows diversity.
+
+- **TrendX-Ecommerce-Website**[](https://github.com/Adi-gitX/TrendX-Ecommerce-Website): No description. Language: None. Last updated: May 3, 2024.
+
+- **leetcodescoreX**[](https://github.com/Adi-gitX/leetcodescoreX): "find full details of the leetcode profile here!". Language: JavaScript. Last updated: Apr 7, 2024. Notes: LeetCode tool; links to your DSA enthusiasm.
+
+- **twitterXhackathon**[](https://github.com/Adi-gitX/twitterXhackathon): No description. Language: None. Last updated: Apr 6, 2024. Notes: Hackathon entry.
+
+- **TIC-TAC-TOE-XGAME**[](https://github.com/Adi-gitX/TIC-TAC-TOE-XGAME): No description. Language: JavaScript. Last updated: Mar 21, 2024.
+
+- **LinkedInX-clone**[](https://github.com/Adi-gitX/LinkedInX-clone): "LinkedInX-clone". Language: HTML. Last updated: Mar 21, 2024. Notes: Clone for practice.
+
+- **2048-Game**[](https://github.com/Adi-gitX/2048-Game): "2048 game". Language: JavaScript. Last updated: ~Mar 2024 (est.).
+
+
+Legacy/Earlier Projects & Forks
+Earlier work (pre-2024) is mostly forks or small projects. Forks include: DriveMerge3 (from nandu-99), ImHex (hex editor from WerWolv), MAD-Lab-practice (from Newton-School), swot (from JetBrains), attacker-civilian-game (from nandu-99), ElectiveHub (education system from TechNodes2-0), Dot-Box (game from ChromeGaming), thinkyfy (from mk0904), Leave_Gatepass_Manangement_App (from nandu-99), mandapam (hackathon from nox-pie), cc-legal-tools-app and cc-resource-archive (GSoC-related from creativecommons).
+These forks show contributions (e.g., GSoC with Creative Commons). For README, mention GSoC under achievements rather than listing all forks.
+Recommendations for Your README
+To make it like the example (Peter's), add 10-15 top projects under "Current Projects" with emojis, short descs, and links. Prioritize resume ones (DriveMerge, PEOPLE, AXIOM, why-broke) and recent AI/web tools (StoreChat, floor-segmentation-svm, ClasspilotAi). Move older to "Legacy Work". Add your GitHub graph, blog if you have one, and update tech badges (add NestJS, Jupyter, etc.). If you want an updated draft README, provide more details like blog posts or random facts!
+If you need deeper info on a specific repo (e.g., README content), let me know which one. 😊
+
+---
+
+## ASSISTANT
+
+21.5s
+
+---
+
+## ASSISTANT
+
+21.5s
 
 
 ---
