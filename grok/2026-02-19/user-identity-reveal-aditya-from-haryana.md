@@ -1,7 +1,7 @@
 # User Identity Reveal: Aditya from Haryana
 
-> **Platform:** GROK | **Date:** 19/02/2026, 21:06:19 | **Turns:** 6
-> **Source:** [Open Original](https://grok.com/c/fea6d20e-84f0-403b-8186-3ca5161d831c?rid=fdc5c859-f67a-4dba-90e4-be6c9059872a)
+> **Platform:** GROK | **Date:** 19/02/2026, 21:06:59 | **Turns:** 11
+> **Source:** [Open Original](https://grok.com/c/fea6d20e-84f0-403b-8186-3ca5161d831c?rid=3611785a-7446-4475-ad2e-434daa577270)
 
 ---
 
@@ -35,9 +35,39 @@ Based on the details I have, you're ADITYA, chatting from somewhere around Harya
 
 ---
 
+## USER
+
+full name
+
+---
+
 ## ASSISTANT
 
-908ms
+full name
+
+---
+
+## USER
+
+Based on the info I have from your account, your display name is just "ADITYA"—no additional details like a last name or anything. If that's not what you meant or if you want to share more, hit me with the deets!
+
+---
+
+## ASSISTANT
+
+Based on the info I have from your account, your display name is just "ADITYA"—no additional details like a last name or anything. If that's not what you meant or if you want to share more, hit me with the deets!
+
+---
+
+## ASSISTANT
+
+805ms
+
+---
+
+## ASSISTANT
+
+805ms
 
 
 ---
