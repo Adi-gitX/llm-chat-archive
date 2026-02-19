@@ -1,7 +1,7 @@
 # Peter Steipete: AI CLI Tools & Agent Builder
 
-> **Platform:** GROK | **Date:** 20/02/2026, 00:39:14 | **Turns:** 19
-> **Source:** [Open Original](https://grok.com/c/7c947781-2c8c-4423-bf27-be05af7e1837?rid=780462ee-907c-4112-b64e-cc6852a40b6a)
+> **Platform:** GROK | **Date:** 20/02/2026, 00:40:09 | **Turns:** 24
+> **Source:** [Open Original](https://grok.com/c/7c947781-2c8c-4423-bf27-be05af7e1837?rid=d131088b-58df-47d7-8e8a-aedeb95fbf0c)
 
 ---
 
@@ -1081,8 +1081,314 @@ some more info on me , now help me curate a best modern readme like thi s Hi, I'
 
 ## USER
 
-Enhancing README Content • 3s
-- Incorporating resume details like education, interests in AI and web3, achievements such as GSoC and delegate selections for a comprehensive profile.
+[Banner](https://github.com/Adi-gitX/Adi-gitX/assets/159440749/e51549d8-8390-46d5-939c-a937bc0f591d)
+
+Hi, I'm Adithya 👋
+📍 **Delhi, India** | 🤖 **ML Systems Builder & AI Researcher** | 🚀 **GSoC Contributor & MATS Scholar**
+[Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+[PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+[Hugging Face](https://img.shields.io/badge/-HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+[Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+[Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+[PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+[AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+Penultimate-year AI student diving deep into generative models, interpretability, and scalable ML systems. Passionate about building reliable infrastructure that powers responsible AI – from debugging distributed workflows to exploring Web3 and frontier AI safety.
+Current Projects
+
+- 🗄️ **DriveMerge** (live) - Quota-aware distributed storage abstraction over multiple Google Drive accounts, with chunking, parallel uploads, OAuth rotation, and resumable downloads.
+
+- 👥 **PEOPLE** (live) - Controlled developer marketplace with gated onboarding, role isolation, and delivery accountability for high-quality task fulfillment.
+
+- 📚 **AXIOM** (live) - Structured learning pipelines centralizing preparation, evaluation, and opportunity discovery for students across domains.
+
+- 🛠️ **why-broke** - Open-source CLI for capturing environment, dependency, and config state to reproduce non-deterministic failures in distributed systems.
+
+- 💬 **StoreChat** - Browser extension to save LLM chats and export them to a GitHub repo in one click.
+
+- 🎨 **ArtifyX** - Dynamic pixel art web app to relive childhood creativity with doodles and designs.
+
+- 🧠 **ClasspilotAi** - Real-time AI assistant for answering classroom questions confidently.
+
+- 🛡️ **SkillSheild** - AI tool to detect and reverse skill decay from over-reliance on generative models.
+
+- 🌈 **colour-fun** - Instant generator for clean, pixel-perfect solid color backgrounds in any size.
+
+- 🔮 **Oracle** - Analyzer revealing insights behind API keys and their usage.
+
+- 📊 **floor-segmentation-svm** - Indoor floor segmentation using SVM with multi-scale features, achieving 96.75% accuracy on COCO datasets.
+
+- ⚙️ **NetworkOptimizer** - Shell tool to fix VPN configs and optimize network performance.
+
+- 🔄 **uniloop** - Utility for seamless looping and automation in JS workflows.
+
+- ⏱️ **ZEN-pomodoro** - Minimalist Pomodoro timer for focused productivity.
+
+- 📝 **DevNotes** - Quick note-taking app for developers on the go.
+
+
+Research Projects
+
+- 🔍 **TransformerLens** (ongoing) - Interpretability toolkit for analyzing attention heads, neuron activations, and feature attribution in transformers; probing syntactic and semantic encoding.
+
+- 📈 **ForecastNet** - Time-series forecasting and anomaly detection system using ARIMA, LSTMs, and Temporal CNNs for real-world sequential data.
+
+- 📖 **RAG Scholar** - Retrieval-augmented generation assistant for querying academic papers with vector search, embeddings, and factual consistency metrics.
+
+- 🤖 **MATS-Summer-2026-Preparation** - Structured prep repo for MATS fellowship, including mentor-specific research notes and experiments.
+
+- 🔬 **AIML-research-analysis-model** - Python-based model for analyzing AI/ML research trends and patterns.
+
+
+Legacy Work
+
+- 🏗️ **qrcode-management-system-nestjs** - NestJS backend for QR code generation and management.
+
+- 🛒 **college-appointment-system** - Server for handling college appointments and scheduling.
+
+- ❤️ **Heartstrings** - App to transform personal stories into customized songs.
+
+- 🛍️ **Endsem-Project-Croma-Clone** - E-commerce site clone for learning full-stack development.
+
+- 💸 **Splitwise---Java-Web-App** - Java-based expense splitting web app.
+
+- 📊 **leetcodescoreX** - Tool to fetch and display detailed LeetCode profile stats.
+
+- 🎮 **TIC-TAC-TOE-XGAME** - Classic Tic-Tac-Toe game in JavaScript.
+
+- 🔗 **LinkedInX-clone** - Simple clone of LinkedIn for practice.
+
+- 🔢 **2048-Game** - Implementation of the 2048 puzzle game.
+
+
+GitHub Activity
+[GitHub Contribution Graph](https://ghchart.rshah.org/Adi-gitX)
+What I'm Doing
+
+- **Exploring frontier AI** - Building tools for interpretability, safety, and scalable ML systems.
+
+- **Contributing to open source** - From GSoC to personal CLIs for better dev workflows.
+
+- **Researching Web3 & AI** - Integrating decentralized tech with generative models.
+
+- **Rapid prototyping** - Turning research ideas into live apps in weeks.
+
+- **Preparing for MATS** - Deep dives into AI alignment and governance.
+
+
+Latest Blog Posts
+
+
+- [My Journey into AI Interpretability](https://adigitx.vercel.app/blog/ai-interpretability)
+
+- [Building Scalable ML Pipelines](https://adigitx.vercel.app/blog/ml-pipelines)
+
+- [Web3 Meets Generative AI](https://adigitx.vercel.app/blog/web3-ai)
+
+
+
+Connect
+[Website](https://adigitx.vercel.app/)
+[LinkedIn](https://linkedin.com/in/kammatiaditya)
+[GitHub](https://github.com/Adi-gitX)
+[LeetCode](https://leetcode.com/user9233qs/)
+[Instagram](https://www.instagram.com/aditya_88899/)
+[YouTube](https://www.youtube.com/channel/UCxqTwHpFew146NP7HWEKkvA)
+
+Recognition
+
+- Google Summer of Code Contributor — Creative Commons (2024)
+
+- ML Alignment & Theory Scholars (MATS) — Advanced to Stage 2 in competitive AI safety fellowship
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR) — Represented India at international research forum
+
+- 3rd Place, Stealth Fire Hackathon (2024)
+
+- Production contributions at Disprz, reducing failures by 30-40% in enterprise systems
+
+
+Media
+
+- [AI Safety Interview](https://example.com/ai-safety-interview)
+
+- [GSoC Project Spotlight](https://example.com/gsoc-spotlight)
+
+
+Philosophy
+"Innovate responsibly – build systems that scale with safety in mind. Code for impact, not just correctness."
+Random Facts
+
+---
+
+## ASSISTANT
+
+[Banner](https://github.com/Adi-gitX/Adi-gitX/assets/159440749/e51549d8-8390-46d5-939c-a937bc0f591d)
+
+Hi, I'm Adithya 👋
+📍 **Delhi, India** | 🤖 **ML Systems Builder & AI Researcher** | 🚀 **GSoC Contributor & MATS Scholar**
+[Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+[PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+[Hugging Face](https://img.shields.io/badge/-HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+[Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+[Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+[PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+[AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+Penultimate-year AI student diving deep into generative models, interpretability, and scalable ML systems. Passionate about building reliable infrastructure that powers responsible AI – from debugging distributed workflows to exploring Web3 and frontier AI safety.
+Current Projects
+
+- 🗄️ **DriveMerge** (live) - Quota-aware distributed storage abstraction over multiple Google Drive accounts, with chunking, parallel uploads, OAuth rotation, and resumable downloads.
+
+- 👥 **PEOPLE** (live) - Controlled developer marketplace with gated onboarding, role isolation, and delivery accountability for high-quality task fulfillment.
+
+- 📚 **AXIOM** (live) - Structured learning pipelines centralizing preparation, evaluation, and opportunity discovery for students across domains.
+
+- 🛠️ **why-broke** - Open-source CLI for capturing environment, dependency, and config state to reproduce non-deterministic failures in distributed systems.
+
+- 💬 **StoreChat** - Browser extension to save LLM chats and export them to a GitHub repo in one click.
+
+- 🎨 **ArtifyX** - Dynamic pixel art web app to relive childhood creativity with doodles and designs.
+
+- 🧠 **ClasspilotAi** - Real-time AI assistant for answering classroom questions confidently.
+
+- 🛡️ **SkillSheild** - AI tool to detect and reverse skill decay from over-reliance on generative models.
+
+- 🌈 **colour-fun** - Instant generator for clean, pixel-perfect solid color backgrounds in any size.
+
+- 🔮 **Oracle** - Analyzer revealing insights behind API keys and their usage.
+
+- 📊 **floor-segmentation-svm** - Indoor floor segmentation using SVM with multi-scale features, achieving 96.75% accuracy on COCO datasets.
+
+- ⚙️ **NetworkOptimizer** - Shell tool to fix VPN configs and optimize network performance.
+
+- 🔄 **uniloop** - Utility for seamless looping and automation in JS workflows.
+
+- ⏱️ **ZEN-pomodoro** - Minimalist Pomodoro timer for focused productivity.
+
+- 📝 **DevNotes** - Quick note-taking app for developers on the go.
+
+
+Research Projects
+
+- 🔍 **TransformerLens** (ongoing) - Interpretability toolkit for analyzing attention heads, neuron activations, and feature attribution in transformers; probing syntactic and semantic encoding.
+
+- 📈 **ForecastNet** - Time-series forecasting and anomaly detection system using ARIMA, LSTMs, and Temporal CNNs for real-world sequential data.
+
+- 📖 **RAG Scholar** - Retrieval-augmented generation assistant for querying academic papers with vector search, embeddings, and factual consistency metrics.
+
+- 🤖 **MATS-Summer-2026-Preparation** - Structured prep repo for MATS fellowship, including mentor-specific research notes and experiments.
+
+- 🔬 **AIML-research-analysis-model** - Python-based model for analyzing AI/ML research trends and patterns.
+
+
+Legacy Work
+
+- 🏗️ **qrcode-management-system-nestjs** - NestJS backend for QR code generation and management.
+
+- 🛒 **college-appointment-system** - Server for handling college appointments and scheduling.
+
+- ❤️ **Heartstrings** - App to transform personal stories into customized songs.
+
+- 🛍️ **Endsem-Project-Croma-Clone** - E-commerce site clone for learning full-stack development.
+
+- 💸 **Splitwise---Java-Web-App** - Java-based expense splitting web app.
+
+- 📊 **leetcodescoreX** - Tool to fetch and display detailed LeetCode profile stats.
+
+- 🎮 **TIC-TAC-TOE-XGAME** - Classic Tic-Tac-Toe game in JavaScript.
+
+- 🔗 **LinkedInX-clone** - Simple clone of LinkedIn for practice.
+
+- 🔢 **2048-Game** - Implementation of the 2048 puzzle game.
+
+
+GitHub Activity
+[GitHub Contribution Graph](https://ghchart.rshah.org/Adi-gitX)
+What I'm Doing
+
+- **Exploring frontier AI** - Building tools for interpretability, safety, and scalable ML systems.
+
+- **Contributing to open source** - From GSoC to personal CLIs for better dev workflows.
+
+- **Researching Web3 & AI** - Integrating decentralized tech with generative models.
+
+- **Rapid prototyping** - Turning research ideas into live apps in weeks.
+
+- **Preparing for MATS** - Deep dives into AI alignment and governance.
+
+
+Latest Blog Posts
+
+
+- [My Journey into AI Interpretability](https://adigitx.vercel.app/blog/ai-interpretability)
+
+- [Building Scalable ML Pipelines](https://adigitx.vercel.app/blog/ml-pipelines)
+
+- [Web3 Meets Generative AI](https://adigitx.vercel.app/blog/web3-ai)
+
+
+
+Connect
+[Website](https://adigitx.vercel.app/)
+[LinkedIn](https://linkedin.com/in/kammatiaditya)
+[GitHub](https://github.com/Adi-gitX)
+[LeetCode](https://leetcode.com/user9233qs/)
+[Instagram](https://www.instagram.com/aditya_88899/)
+[YouTube](https://www.youtube.com/channel/UCxqTwHpFew146NP7HWEKkvA)
+
+Recognition
+
+- Google Summer of Code Contributor — Creative Commons (2024)
+
+- ML Alignment & Theory Scholars (MATS) — Advanced to Stage 2 in competitive AI safety fellowship
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR) — Represented India at international research forum
+
+- 3rd Place, Stealth Fire Hackathon (2024)
+
+- Production contributions at Disprz, reducing failures by 30-40% in enterprise systems
+
+
+Media
+
+- [AI Safety Interview](https://example.com/ai-safety-interview)
+
+- [GSoC Project Spotlight](https://example.com/gsoc-spotlight)
+
+
+Philosophy
+"Innovate responsibly – build systems that scale with safety in mind. Code for impact, not just correctness."
+Random Facts
+
+---
+
+## ASSISTANT
+
+1.3s
+
+---
+
+## USER
+
+do not use things same as my resuem i neee to update that as well, i need like this modern professional and best Hi, I'm Peter 👋 📍 **Vienna ↔ London** | 🤖 **Polyagentmorous builder** | 🚀 **Ex-PSPDFKit Founder**           > Deep in vibe-coding mode – building AI-powered developer tools at ludicrous speed. After 13+ years shipping native iOS, modern web feels like a breath of fresh air. 🍭 **[sweetistics.com](https://sweetistics.com/)** (closed source) – AI-powered Twitter platform with analytics/ops stack. ## Current Projects - 🦞 **[OpenClaw](https://openclaw.ai/)** - the AI that actually does things - 🚇 **[VibeTunnel](https://github.com/amantus-ai/vibetunnel)** - Turn any browser into your terminal; command agents from the road (vt.sh) - 🎚️ **[CodexBar](https://github.com/steipete/CodexBar)** - May your tokens never run out—keep agent limits in view. - 🚀 **[Peekaboo](https://github.com/steipete/Peekaboo)** - Lightning-fast macOS screenshots & GUI automation (MCP + CLI) - 👉 **[summarize](https://github.com/steipete/summarize)** - Point at any URL or file. Get the gist. - 🚦 **[RepoBar](https://github.com/steipete/RepoBar)** - CI, PRs, releases—at a glance - 🧭 **[go-cli](https://github.com/steipete/gogcli)** - Google in your terminal (gog) (Gmail, Calendar, Drive, Contacts, Tasks, Sheets, Docs, Slides, People) - 👻 **[Poltergeist](https://github.com/steipete/poltergeist)** - The ghost that keeps your builds fresh—universal hot reload & file watcher - 🗃️ **[wacli](https://github.com/steipete/wacli)** - WhatsApp CLI: sync, search, send - 🗣️ **[sag](https://github.com/steipete/sag/)** - ElevenLabs speech with mac-style say UX; streams to speakers by default - 🎙️ **[Brabble](https://github.com/steipete/brabble)** - Wake-word voice daemon for macOS; transcribes locally and fires configurable hooks - 🔊 **[sonoscli](https://github.com/steipete/sonoscli)** - Control Sonos speakers: discover, group, queue, play Spotify - 📣 **[ElevenLabsKit](https://github.com/steipete/ElevenLabsKit)** - ElevenLabs voices on tap—SwiftPM-friendly, streaming-native. - 📍 **[goplaces](https://github.com/steipete/goplaces)** - Google Places API (New) client + CLI - 🧲 **[gifgrep](https://github.com/steipete/gifgrep)** - GIF search for terminals: CLI output + TUI with inline previews - 📸 **[camsnap](https://github.com/steipete/camsnap)** - RTSP snapshots, clips, motion CLI (Tapo-friendly) - 🎧 **[spogo](https://github.com/steipete/spogo)** - Spotify, but make it terminal - 🛵 **[ordercli](https://github.com/steipete/ordercli)** - Your takeout timeline, in the terminal - 🫐 **[blucli](https://github.com/steipete/blucli)** - Play, group, and automate BluOS - 🤖 **[macOS Automator MCP](https://github.com/steipete/macos-automator-mcp)** - Your Friendly Neighborhood RoboScripter™ - 🧑‍💻 **[Claude Code MCP](https://github.com/steipete/claude-code-mcp)** - One-shot MCP server for Claude Code (an agent inside your agent) - 🧙‍♂️ **[AXorcist](https://github.com/steipete/AXorcist)** - The power of Swift compels your UI to obey! - 🕸️ **[Tachikoma](https://github.com/steipete/Tachikoma)** - Modern Swift AI SDK - 🧮 **[tokentally](https://github.com/steipete/tokentally)** - One tiny lib for LLM token + cost math - ⏳ **[osc-progress](https://github.com/steipete/osc-progress)** - Tiny lib for OSC 9;4 terminal progress. - ✂️ **[Trimmy](https://github.com/steipete/Trimmy)** - “Paste once, run once” — flattens multi-line shell snippets so they execute - 🖥️ **[TauTUI](https://github.com/steipete/TauTUI)** - Swift-native TUI that won’t tear - 🎛️ **[Commander](https://github.com/steipete/Commander)** - Swift-first parsing, zero forks - 📝 **[remindctl](https://github.com/steipete/remindctl)** - Apple Reminders from the terminal - 🧳 **[mcporter](https://github.com/steipete/mcporter)** - Call MCPs from TypeScript or package them as a CLI - 🍪 **[Sweet Cookie](https://github.com/steipete/sweet-cookie)** - Inline-first browser cookie extraction—no native addons - 🧁 **[SweetCookieKit](https://github.com/steipete/SweetCookieKit)** - Native macOS cookie extraction for Safari, Chromium, and Firefox - 🍭 **[sweetlink](https://github.com/steipete/sweetlink)** - Playwright vibes in your current tab; close the agent loop - 🐦 **[bird](https://github.com/steipete/bird)** - Fast X CLI for tweeting, replying, and reading (had to make it private) - 🧿 **[oracle](https://github.com/steipete/oracle)** - Whispering your tokens to the silicon sage - 👀 **[tmuxwatch](https://github.com/steipete/tmuxwatch)** - Lightweight TUI to watch tmux sessions - 📜 **[agent-rules](https://github.com/steipete/agent-rules)** - Shared rules/knowledge for coding with agents - 🎨 **[Markdansi](https://github.com/steipete/Markdansi)** - Wraps, colors, links—no baggage. - 📖 **[llm.codes](https://github.com/amantus-ai/llm-codes)** - Transform developer documentation for AI agents - 📊 **[Stats Store](https://github.com/steipete/stats-store)** - Fast, privacy-first analytics for Sparkle (stats.store) - 🧽 **[Demark](https://github.com/steipete/demark)** - Mark My Words, HTML to Markdown! - 🛏️ **[eightctl](https://github.com/steipete/eightctl)** - Control your sleep, from the terminal - 💬 **[imsg](https://github.com/steipete/imsg)** - Send, read, stream iMessage & SMS - 🍺 **[homebrew-tap](https://github.com/steipete/homebrew-tap)** - Brew tap for shipping my CLI tools fast ### Legacy Work - 🔄 **[CodeLooper](https://github.com/steipete/CodeLooper)** - macOS menubar app for Cursor workflow monitoring and automation - 🧩 **[InterposeKit](https://github.com/steipete/InterposeKit)** - Modern Swift method swizzling - 🪝 **[Aspects](https://github.com/steipete/Aspects)** - AOP for Objective-C (10k+ stars) - 📄 **[PSPDFKit](https://pspdfkit.com/)** - Industry-leading PDF SDK <a href="https://gist.github.com/steipete/8344756e51df68406eb5302d4c19d6ea" target="_blank" rel="noopener noreferrer nofollow"></a> ### Model Status - **What model is Peter using?** Check the live blurb at [whatmodelispeterusing.com](https://whatmodelispeterusing.com/) ### Philosophy > "Ship beats perfect" - I build tools to solve my own problems, then share them with the world. Currently exploring how AI changes everything about software development. <details> <summary>Random Facts</summary> - Treat AI agents as "slot machines for programmers" - Run 3-6 Claude instances concurrently - Powered by Vienna coffee culture - Gym enthusiast (when not coding) - Coaches LGBTQ+ folks at [Out In Tech](https://outintech.com/) </details>
+
+---
+
+## ASSISTANT
+
+do not use things same as my resuem i neee to update that as well, i need like this modern professional and best Hi, I'm Peter 👋 📍 **Vienna ↔ London** | 🤖 **Polyagentmorous builder** | 🚀 **Ex-PSPDFKit Founder**           > Deep in vibe-coding mode – building AI-powered developer tools at ludicrous speed. After 13+ years shipping native iOS, modern web feels like a breath of fresh air. 🍭 **[sweetistics.com](https://sweetistics.com/)** (closed source) – AI-powered Twitter platform with analytics/ops stack. ## Current Projects - 🦞 **[OpenClaw](https://openclaw.ai/)** - the AI that actually does things - 🚇 **[VibeTunnel](https://github.com/amantus-ai/vibetunnel)** - Turn any browser into your terminal; command agents from the road (vt.sh) - 🎚️ **[CodexBar](https://github.com/steipete/CodexBar)** - May your tokens never run out—keep agent limits in view. - 🚀 **[Peekaboo](https://github.com/steipete/Peekaboo)** - Lightning-fast macOS screenshots & GUI automation (MCP + CLI) - 👉 **[summarize](https://github.com/steipete/summarize)** - Point at any URL or file. Get the gist. - 🚦 **[RepoBar](https://github.com/steipete/RepoBar)** - CI, PRs, releases—at a glance - 🧭 **[go-cli](https://github.com/steipete/gogcli)** - Google in your terminal (gog) (Gmail, Calendar, Drive, Contacts, Tasks, Sheets, Docs, Slides, People) - 👻 **[Poltergeist](https://github.com/steipete/poltergeist)** - The ghost that keeps your builds fresh—universal hot reload & file watcher - 🗃️ **[wacli](https://github.com/steipete/wacli)** - WhatsApp CLI: sync, search, send - 🗣️ **[sag](https://github.com/steipete/sag/)** - ElevenLabs speech with mac-style say UX; streams to speakers by default - 🎙️ **[Brabble](https://github.com/steipete/brabble)** - Wake-word voice daemon for macOS; transcribes locally and fires configurable hooks - 🔊 **[sonoscli](https://github.com/steipete/sonoscli)** - Control Sonos speakers: discover, group, queue, play Spotify - 📣 **[ElevenLabsKit](https://github.com/steipete/ElevenLabsKit)** - ElevenLabs voices on tap—SwiftPM-friendly, streaming-native. - 📍 **[goplaces](https://github.com/steipete/goplaces)** - Google Places API (New) client + CLI - 🧲 **[gifgrep](https://github.com/steipete/gifgrep)** - GIF search for terminals: CLI output + TUI with inline previews - 📸 **[camsnap](https://github.com/steipete/camsnap)** - RTSP snapshots, clips, motion CLI (Tapo-friendly) - 🎧 **[spogo](https://github.com/steipete/spogo)** - Spotify, but make it terminal - 🛵 **[ordercli](https://github.com/steipete/ordercli)** - Your takeout timeline, in the terminal - 🫐 **[blucli](https://github.com/steipete/blucli)** - Play, group, and automate BluOS - 🤖 **[macOS Automator MCP](https://github.com/steipete/macos-automator-mcp)** - Your Friendly Neighborhood RoboScripter™ - 🧑‍💻 **[Claude Code MCP](https://github.com/steipete/claude-code-mcp)** - One-shot MCP server for Claude Code (an agent inside your agent) - 🧙‍♂️ **[AXorcist](https://github.com/steipete/AXorcist)** - The power of Swift compels your UI to obey! - 🕸️ **[Tachikoma](https://github.com/steipete/Tachikoma)** - Modern Swift AI SDK - 🧮 **[tokentally](https://github.com/steipete/tokentally)** - One tiny lib for LLM token + cost math - ⏳ **[osc-progress](https://github.com/steipete/osc-progress)** - Tiny lib for OSC 9;4 terminal progress. - ✂️ **[Trimmy](https://github.com/steipete/Trimmy)** - “Paste once, run once” — flattens multi-line shell snippets so they execute - 🖥️ **[TauTUI](https://github.com/steipete/TauTUI)** - Swift-native TUI that won’t tear - 🎛️ **[Commander](https://github.com/steipete/Commander)** - Swift-first parsing, zero forks - 📝 **[remindctl](https://github.com/steipete/remindctl)** - Apple Reminders from the terminal - 🧳 **[mcporter](https://github.com/steipete/mcporter)** - Call MCPs from TypeScript or package them as a CLI - 🍪 **[Sweet Cookie](https://github.com/steipete/sweet-cookie)** - Inline-first browser cookie extraction—no native addons - 🧁 **[SweetCookieKit](https://github.com/steipete/SweetCookieKit)** - Native macOS cookie extraction for Safari, Chromium, and Firefox - 🍭 **[sweetlink](https://github.com/steipete/sweetlink)** - Playwright vibes in your current tab; close the agent loop - 🐦 **[bird](https://github.com/steipete/bird)** - Fast X CLI for tweeting, replying, and reading (had to make it private) - 🧿 **[oracle](https://github.com/steipete/oracle)** - Whispering your tokens to the silicon sage - 👀 **[tmuxwatch](https://github.com/steipete/tmuxwatch)** - Lightweight TUI to watch tmux sessions - 📜 **[agent-rules](https://github.com/steipete/agent-rules)** - Shared rules/knowledge for coding with agents - 🎨 **[Markdansi](https://github.com/steipete/Markdansi)** - Wraps, colors, links—no baggage. - 📖 **[llm.codes](https://github.com/amantus-ai/llm-codes)** - Transform developer documentation for AI agents - 📊 **[Stats Store](https://github.com/steipete/stats-store)** - Fast, privacy-first analytics for Sparkle (stats.store) - 🧽 **[Demark](https://github.com/steipete/demark)** - Mark My Words, HTML to Markdown! - 🛏️ **[eightctl](https://github.com/steipete/eightctl)** - Control your sleep, from the terminal - 💬 **[imsg](https://github.com/steipete/imsg)** - Send, read, stream iMessage & SMS - 🍺 **[homebrew-tap](https://github.com/steipete/homebrew-tap)** - Brew tap for shipping my CLI tools fast ### Legacy Work - 🔄 **[CodeLooper](https://github.com/steipete/CodeLooper)** - macOS menubar app for Cursor workflow monitoring and automation - 🧩 **[InterposeKit](https://github.com/steipete/InterposeKit)** - Modern Swift method swizzling - 🪝 **[Aspects](https://github.com/steipete/Aspects)** - AOP for Objective-C (10k+ stars) - 📄 **[PSPDFKit](https://pspdfkit.com/)** - Industry-leading PDF SDK <a href="https://gist.github.com/steipete/8344756e51df68406eb5302d4c19d6ea" target="_blank" rel="noopener noreferrer nofollow"></a> ### Model Status - **What model is Peter using?** Check the live blurb at [whatmodelispeterusing.com](https://whatmodelispeterusing.com/) ### Philosophy > "Ship beats perfect" - I build tools to solve my own problems, then share them with the world. Currently exploring how AI changes everything about software development. <details> <summary>Random Facts</summary> - Treat AI agents as "slot machines for programmers" - Run 3-6 Claude instances concurrently - Powered by Vienna coffee culture - Gym enthusiast (when not coding) - Coaches LGBTQ+ folks at [Out In Tech](https://outintech.com/) </details>
+
+---
+
+## USER
+
+Updating resume • 3s
+- Revise resume to align with modern professional README style, avoiding resume overlaps.
 
 
 ---
