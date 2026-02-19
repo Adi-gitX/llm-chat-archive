@@ -1,7 +1,7 @@
 # Peter Steipete: AI CLI Tools & Agent Builder
 
-> **Platform:** GROK | **Date:** 20/02/2026, 00:32:34 | **Turns:** 8
-> **Source:** [Open Original](https://grok.com/c/7c947781-2c8c-4423-bf27-be05af7e1837?rid=d09536b5-1825-442a-8671-e5c79b4a8abb)
+> **Platform:** GROK | **Date:** 20/02/2026, 00:34:44 | **Turns:** 14
+> **Source:** [Open Original](https://grok.com/c/7c947781-2c8c-4423-bf27-be05af7e1837?rid=20ee5f28-cd43-405b-865c-a00f5e0ce2c1)
 
 ---
 
@@ -567,8 +567,202 @@ my name is adithya kammati and my usernames in mostof the handles is adi-gitX, i
 
 ## USER
 
-Updating README details • 4s
-- User requests fetching projects from GitHub profile for inclusion in README.
+Thought for 1m 0sHi, I'm Adithya 👋
+📍 **Delhi, India** | 💻 **Backend Software Engineer & AI Builder** | 🚀 **GSoC Contributor & Hackathon Winner**
+[Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+[React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+[SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+[Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+[Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+[Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+[Adobe Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white)
+Backend-focused engineer with a passion for building reliable, scalable systems. From debugging distributed workflows to creating AI-powered tools, I'm all about correctness, reliability, and innovation in software development.
+Current Projects
+
+- 🗄️ **DriveMerge** (live) - Quota-aware storage abstraction over multiple Google Drive accounts, handling limits via chunking, parallel uploads, OAuth token rotation, and resumable streaming downloads.
+
+- 👥 **PEOPLE** (live) - Controlled developer marketplace with gated onboarding, role isolation, and delivery accountability to ensure high-quality task fulfillment.
+
+- 📚 **AXIOM** (live) - Structured learning and opportunity pipelines to centralize preparation, evaluation, and discovery for students across domains.
+
+- 🛠️ **why-broke** - Open-source debugging CLI that captures environment, dependency, and configuration state to reproduce non-deterministic build and runtime failures.
+
+- 🎨 **ArtifyX** - Dynamic pixel art web application to unleash creativity for doodlers and enthusiasts.
+
+- 🤝 **DevXAnonymous** - Building collaborative developer tools and products (org project).
+
+
+Legacy Projects
+
+- (Add older projects here if applicable, e.g., from earlier contributions or forks.)
+
+
+GitHub Activity
+[GitHub Contribution Graph](https://ghchart.rshah.org/Adi-gitX)
+What I'm Doing
+
+- **Building scalable backends** - Focusing on authentication, file handling, and failure-prone workflows.
+
+- **Exploring AI & Web Dev** - Prototyping tools for developers and students.
+
+- **Contributing to open source** - Via GSoC and personal CLIs.
+
+- **Rapid prototyping** - Turning ideas into live products quickly.
+
+
+Latest Blog Posts
+
+
+- (Add your recent blog posts here with titles and links, e.g., [My AI Workflow](https://example.com/post1))
+
+
+
+Connect
+[Website](https://adigitx.vercel.app/)
+[LinkedIn](https://www.linkedin.com/in/kammatiaditya/)
+[LeetCode](https://leetcode.com/user9233qs/)
+[Instagram](https://www.instagram.com/aditya_88899/)
+[GitHub](https://github.com/Adi-gitX)
+[YouTube](https://www.youtube.com/channel/UCxqTwHpFew146NP7HWEKkvA)
+
+Recognition
+
+- Google Summer of Code Contributor — Creative Commons (2024)
+
+- 3rd Place, Stealth Fire Hackathon (2024)
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR)
+
+- Building projects with real-world impact, including enterprise-level fixes at Disprz internship
+
+
+Media
+
+- (Add any podcasts, articles, or videos featuring you here)
+
+
+Philosophy
+"Build reliable systems that scale – correctness over speed, but ship fast."
+Random Facts
+
+---
+
+## ASSISTANT
+
+Hi, I'm Adithya 👋
+📍 **Delhi, India** | 💻 **Backend Software Engineer & AI Builder** | 🚀 **GSoC Contributor & Hackathon Winner**
+[Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+[React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+[SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+[Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+[Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+[Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+[Adobe Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white)
+Backend-focused engineer with a passion for building reliable, scalable systems. From debugging distributed workflows to creating AI-powered tools, I'm all about correctness, reliability, and innovation in software development.
+Current Projects
+
+- 🗄️ **DriveMerge** (live) - Quota-aware storage abstraction over multiple Google Drive accounts, handling limits via chunking, parallel uploads, OAuth token rotation, and resumable streaming downloads.
+
+- 👥 **PEOPLE** (live) - Controlled developer marketplace with gated onboarding, role isolation, and delivery accountability to ensure high-quality task fulfillment.
+
+- 📚 **AXIOM** (live) - Structured learning and opportunity pipelines to centralize preparation, evaluation, and discovery for students across domains.
+
+- 🛠️ **why-broke** - Open-source debugging CLI that captures environment, dependency, and configuration state to reproduce non-deterministic build and runtime failures.
+
+- 🎨 **ArtifyX** - Dynamic pixel art web application to unleash creativity for doodlers and enthusiasts.
+
+- 🤝 **DevXAnonymous** - Building collaborative developer tools and products (org project).
+
+
+Legacy Projects
+
+- (Add older projects here if applicable, e.g., from earlier contributions or forks.)
+
+
+GitHub Activity
+[GitHub Contribution Graph](https://ghchart.rshah.org/Adi-gitX)
+What I'm Doing
+
+- **Building scalable backends** - Focusing on authentication, file handling, and failure-prone workflows.
+
+- **Exploring AI & Web Dev** - Prototyping tools for developers and students.
+
+- **Contributing to open source** - Via GSoC and personal CLIs.
+
+- **Rapid prototyping** - Turning ideas into live products quickly.
+
+
+Latest Blog Posts
+
+
+- (Add your recent blog posts here with titles and links, e.g., [My AI Workflow](https://example.com/post1))
+
+
+
+Connect
+[Website](https://adigitx.vercel.app/)
+[LinkedIn](https://www.linkedin.com/in/kammatiaditya/)
+[LeetCode](https://leetcode.com/user9233qs/)
+[Instagram](https://www.instagram.com/aditya_88899/)
+[GitHub](https://github.com/Adi-gitX)
+[YouTube](https://www.youtube.com/channel/UCxqTwHpFew146NP7HWEKkvA)
+
+Recognition
+
+- Google Summer of Code Contributor — Creative Commons (2024)
+
+- 3rd Place, Stealth Fire Hackathon (2024)
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR)
+
+- Building projects with real-world impact, including enterprise-level fixes at Disprz internship
+
+
+Media
+
+- (Add any podcasts, articles, or videos featuring you here)
+
+
+Philosophy
+"Build reliable systems that scale – correctness over speed, but ship fast."
+Random Facts
+
+---
+
+## ASSISTANT
+
+1.1s
+
+---
+
+## ASSISTANT
+
+10 sources
+
+---
+
+## USER
+
+no do a deep dive in [https://github.com/Adi-gitX?tab=repositories](https://github.com/Adi-gitX?tab=repositories) and find more info o fprojects and all i have many more projects so check
+
+---
+
+## ASSISTANT
+
+no do a deep dive in [https://github.com/Adi-gitX?tab=repositories](https://github.com/Adi-gitX?tab=repositories) and find more info o fprojects and all i have many more projects so check
+
+---
+
+## USER
+
+Exploring GitHub projects • 25s
+- Diving into repositories at [https://github.com/Adi-gitX](https://github.com/Adi-gitX) to uncover additional projects for inclusion.
 
 
 ---
