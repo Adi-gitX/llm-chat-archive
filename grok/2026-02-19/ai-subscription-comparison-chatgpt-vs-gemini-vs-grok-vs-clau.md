@@ -1,6 +1,6 @@
 # AI Subscription Comparison: ChatGPT vs Gemini vs Grok vs Claude
 
-> **Platform:** GROK | **Date:** 19/02/2026, 20:57:00 | **Turns:** 56
+> **Platform:** GROK | **Date:** 19/02/2026, 20:57:56 | **Turns:** 60
 > **Source:** [Open Original](https://grok.com/c/35d55f8a-3725-4fe8-9a83-df70e7541c67?rid=d97cb663-c4ca-4ad6-988c-bcbaf9ee0523)
 
 ---
@@ -1577,8 +1577,179 @@ are this all okay i am from india wil that work
 
 ## USER
 
-Confirming eligibility • 7s
-- Remote US internships work for India residents if authorized, like via visa or company policy.
+Thought for 31sHey ADITYA! Yes, being from India (Haryana) can work for many of these internships, but it depends on the role—US-based ones often have restrictions like needing US work authorization (e.g., no visa sponsorship for internationals), while global remotes are more open. Based on real-time checks as of February 19, 2026, here's the scoop: Pure remote roles from US companies are legally feasible for Indians without a visa if you're staying in India (no need for H-1B/J-1/F-1 since you're not entering the US). However, some "US remote" listings mean US-only (e.g., tax/authorization reasons), and paid internships might trigger visa rules if structured as "employment" vs stipend. Time zones (IST is 10-13 hours ahead) can be a challenge, but many adapt. Recent X posts show Indians succeeding in remote US gigs by applying directly and highlighting skills.[collegesimplified.in](https://www.collegesimplified.in/post/remote-internships-with-foreign-companies-for-indian-students-2026-edition)+5 more
+Updated Feasibility for Your Listed Opportunities
+I've ranked them by how well they work for you (Indian applicant, no US visa). Green = Go for it (fully remote/global, open to Indians); Yellow = Possible but check (may need tweaks); Red = Unlikely (US-only restrictions). Apply anyway if it fits—worst case, they say no!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OpportunityCompany/DetailsFeasibility for India-Based ApplicantWhy/Notes & How to Proceed**Researchers/Analysts/Editors for AI Web3 Startup**Alex Mason's startup - AI-driven Web3.🟢 High - Fully remote global, no visa needed; Indians commonly hired remotely for such roles.[@KantInEastt](https://x.com/KantInEastt/status/2014753952055923038?referrer=grok-com)Explicitly open to anyone; high pay ($6.6K/mo). Apply via X: Comment/Like/RT post ID 2018339957207597137, DM @AlexMasonCrypto.**Full-Stack Engineer (Founding Level)**Top US Web3 Companies (via Allweb3jobs/Strider).🟢 High - Remote global; many US firms hire Indians remotely without visa.[collegesimplified.in](https://www.collegesimplified.in/post/remote-internships-with-foreign-companies-for-indian-students-2026-edition)[quora.com](https://www.quora.com/Im-from-India-How-do-I-get-a-remote-job-in-the-USA-without-a-visa)No visa barriers mentioned; suits your fullstack/AI skills. Complete profile at [https://strider.work/apply](https://strider.work/apply) (open to internationals).**AI-Powered Full Stack Web Developer Intern**Skillsecurex - AI fullstack training/projects.🟢 High - India-based company, 100% remote, explicitly open to Indians.No issues—designed for folks like you. Register at [https://skillsecurex.com/ai-powered-full-stack-developer-internship](https://skillsecurex.com/ai-powered-full-stack-developer-internship); start Feb 20.**Full Stack Engineering Internship (Summer 2026)**14.ai (YC W24) - AI Customer Service.🟡 Medium - Remote possible for internationals (includes Bengaluru, IN locations); check if fully open from Haryana.[workatastartup.com](https://www.workatastartup.com/jobs/KoEfdhc)High pay ($7K-12K/mo); apply at [https://www.workatastartup.com/jobs/KoEfdhc](https://www.workatastartup.com/jobs/KoEfdhc) and ask about India remote in your cover letter.**AI/ML Engineer Intern (Summer 2026)**Dex (YC W25) - AI Coworker tool.🔴 Low - Restricted to US citizens/visas only; not open to India remote.[workatastartup.com](https://www.workatastartup.com/jobs/78815)Skip or email to confirm—US time zones preferred.**AI Strategy Intern (Summer 2026)**T-Mobile - AI for customer strategy.🔴 Low - Requires US work authorization, no sponsorship; on-site in US (not remote from India).[prosple.com](https://prosple.com/graduate-employers/t-mobile/jobs-internships/ai-strategy-intern)Needs US legal status; apply only if you have it.**Summer 2026 Internship, AI & Advanced Analytics**Under Armour - AI for analytics.🟡 Medium - Listed as remote US, but likely needs US authorization (similar to others); no sponsorship info.[shorelight.com](https://shorelight.com/student-stories/your-first-internship-guide-international-students)Check [https://careers.underarmour.com/job/18300000](https://careers.underarmour.com/job/18300000) for updates; Indians can apply if truly global remote.**AI Research/Engineering Intern (Summer 2026)**Intuitive (medtech) or Empire State Realty Trust.🔴 Low - No clear remote/India openness; US-based with potential visa needs (e.g., J-1 for internationals).[prosple.com](https://prosple.com/ai-internships)[shorelight.com](https://shorelight.com/student-stories/your-first-internship-guide-international-students)Search [https://prosple.com/ai-internships](https://prosple.com/ai-internships) for similar; unlikely without US ties.
+Quick Tips for You as an Indian Applicant
+
+- **Go for Greens First**: Start with Alex's, Strider/Web3, and Skillsecurex—they're the easiest and pay well (up to $6.6K/mo!).
+
+- **Visa/Eligibility Hacks**: For US roles, emphasize you're remote from India (no relocation needed). Use platforms like Y-Axis or Prosple for India-friendly US listings. If studying, check F-1/J-1 options, but for non-students, pure remote is fine.[y-axis.com](https://www.y-axis.com/news/us-launches-dedicated-platform-for-indians-to-find-jobs-and-internships)[gradright.com](https://gradright.com/how-do-indian-students-get-internships-in-the-usa)
+
+- **Challenges to Watch**: US taxes (you report in India), payment via PayPal/Wise, and 10-13 hour time difference (e.g., night shifts). Recent surveys show many Indians prefer remote over H-1B due to ease.[youtube.com](https://www.youtube.com/watch?v=kmJXwPRC7eg)[instagram.com](https://www.instagram.com/reel/DUjBXg9jqB1)
+
+- **More Options**: Search LinkedIn for "remote AI internship India eligible" or use Indian portals like Internshala for global remotes. If you share your resume/LinkedIn or exact skills (e.g., specific AI tools), I can do a fresh deep search for more tailored ones.
+
+
+These are solid—many Indians land them every year! Hit apply on the greens tonight. What field are you targeting most (e.g., AI vs fullstack)? 🚀
+
+---
+
+## ASSISTANT
+
+Hey ADITYA! Yes, being from India (Haryana) can work for many of these internships, but it depends on the role—US-based ones often have restrictions like needing US work authorization (e.g., no visa sponsorship for internationals), while global remotes are more open. Based on real-time checks as of February 19, 2026, here's the scoop: Pure remote roles from US companies are legally feasible for Indians without a visa if you're staying in India (no need for H-1B/J-1/F-1 since you're not entering the US). However, some "US remote" listings mean US-only (e.g., tax/authorization reasons), and paid internships might trigger visa rules if structured as "employment" vs stipend. Time zones (IST is 10-13 hours ahead) can be a challenge, but many adapt. Recent X posts show Indians succeeding in remote US gigs by applying directly and highlighting skills.[collegesimplified.in](https://www.collegesimplified.in/post/remote-internships-with-foreign-companies-for-indian-students-2026-edition)+5 more
+Updated Feasibility for Your Listed Opportunities
+I've ranked them by how well they work for you (Indian applicant, no US visa). Green = Go for it (fully remote/global, open to Indians); Yellow = Possible but check (may need tweaks); Red = Unlikely (US-only restrictions). Apply anyway if it fits—worst case, they say no!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OpportunityCompany/DetailsFeasibility for India-Based ApplicantWhy/Notes & How to Proceed**Researchers/Analysts/Editors for AI Web3 Startup**Alex Mason's startup - AI-driven Web3.🟢 High - Fully remote global, no visa needed; Indians commonly hired remotely for such roles.[@KantInEastt](https://x.com/KantInEastt/status/2014753952055923038?referrer=grok-com)Explicitly open to anyone; high pay ($6.6K/mo). Apply via X: Comment/Like/RT post ID 2018339957207597137, DM @AlexMasonCrypto.**Full-Stack Engineer (Founding Level)**Top US Web3 Companies (via Allweb3jobs/Strider).🟢 High - Remote global; many US firms hire Indians remotely without visa.[collegesimplified.in](https://www.collegesimplified.in/post/remote-internships-with-foreign-companies-for-indian-students-2026-edition)[quora.com](https://www.quora.com/Im-from-India-How-do-I-get-a-remote-job-in-the-USA-without-a-visa)No visa barriers mentioned; suits your fullstack/AI skills. Complete profile at [https://strider.work/apply](https://strider.work/apply) (open to internationals).**AI-Powered Full Stack Web Developer Intern**Skillsecurex - AI fullstack training/projects.🟢 High - India-based company, 100% remote, explicitly open to Indians.No issues—designed for folks like you. Register at [https://skillsecurex.com/ai-powered-full-stack-developer-internship](https://skillsecurex.com/ai-powered-full-stack-developer-internship); start Feb 20.**Full Stack Engineering Internship (Summer 2026)**14.ai (YC W24) - AI Customer Service.🟡 Medium - Remote possible for internationals (includes Bengaluru, IN locations); check if fully open from Haryana.[workatastartup.com](https://www.workatastartup.com/jobs/KoEfdhc)High pay ($7K-12K/mo); apply at [https://www.workatastartup.com/jobs/KoEfdhc](https://www.workatastartup.com/jobs/KoEfdhc) and ask about India remote in your cover letter.**AI/ML Engineer Intern (Summer 2026)**Dex (YC W25) - AI Coworker tool.🔴 Low - Restricted to US citizens/visas only; not open to India remote.[workatastartup.com](https://www.workatastartup.com/jobs/78815)Skip or email to confirm—US time zones preferred.**AI Strategy Intern (Summer 2026)**T-Mobile - AI for customer strategy.🔴 Low - Requires US work authorization, no sponsorship; on-site in US (not remote from India).[prosple.com](https://prosple.com/graduate-employers/t-mobile/jobs-internships/ai-strategy-intern)Needs US legal status; apply only if you have it.**Summer 2026 Internship, AI & Advanced Analytics**Under Armour - AI for analytics.🟡 Medium - Listed as remote US, but likely needs US authorization (similar to others); no sponsorship info.[shorelight.com](https://shorelight.com/student-stories/your-first-internship-guide-international-students)Check [https://careers.underarmour.com/job/18300000](https://careers.underarmour.com/job/18300000) for updates; Indians can apply if truly global remote.**AI Research/Engineering Intern (Summer 2026)**Intuitive (medtech) or Empire State Realty Trust.🔴 Low - No clear remote/India openness; US-based with potential visa needs (e.g., J-1 for internationals).[prosple.com](https://prosple.com/ai-internships)[shorelight.com](https://shorelight.com/student-stories/your-first-internship-guide-international-students)Search [https://prosple.com/ai-internships](https://prosple.com/ai-internships) for similar; unlikely without US ties.
+Quick Tips for You as an Indian Applicant
+
+- **Go for Greens First**: Start with Alex's, Strider/Web3, and Skillsecurex—they're the easiest and pay well (up to $6.6K/mo!).
+
+- **Visa/Eligibility Hacks**: For US roles, emphasize you're remote from India (no relocation needed). Use platforms like Y-Axis or Prosple for India-friendly US listings. If studying, check F-1/J-1 options, but for non-students, pure remote is fine.[y-axis.com](https://www.y-axis.com/news/us-launches-dedicated-platform-for-indians-to-find-jobs-and-internships)[gradright.com](https://gradright.com/how-do-indian-students-get-internships-in-the-usa)
+
+- **Challenges to Watch**: US taxes (you report in India), payment via PayPal/Wise, and 10-13 hour time difference (e.g., night shifts). Recent surveys show many Indians prefer remote over H-1B due to ease.[youtube.com](https://www.youtube.com/watch?v=kmJXwPRC7eg)[instagram.com](https://www.instagram.com/reel/DUjBXg9jqB1)
+
+- **More Options**: Search LinkedIn for "remote AI internship India eligible" or use Indian portals like Internshala for global remotes. If you share your resume/LinkedIn or exact skills (e.g., specific AI tools), I can do a fresh deep search for more tailored ones.
+
+
+These are solid—many Indians land them every year! Hit apply on the greens tonight. What field are you targeting most (e.g., AI vs fullstack)? 🚀
+
+---
+
+## ASSISTANT
+
+893ms15 sources
+
+---
+
+## ASSISTANT
+
+893ms
+
+---
+
+## ASSISTANT
+
+15 sources
 
 
 ---
