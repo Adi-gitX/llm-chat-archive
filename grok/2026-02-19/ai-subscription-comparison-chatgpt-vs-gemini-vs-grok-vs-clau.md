@@ -1,7 +1,7 @@
 # AI Subscription Comparison: ChatGPT vs Gemini vs Grok vs Claude
 
-> **Platform:** GROK | **Date:** 19/02/2026, 20:51:29 | **Turns:** 38
-> **Source:** [Open Original](https://grok.com/c/35d55f8a-3725-4fe8-9a83-df70e7541c67?rid=75650c09-2a08-45c2-86fd-609e4152c333)
+> **Platform:** GROK | **Date:** 19/02/2026, 20:52:34 | **Turns:** 48
+> **Source:** [Open Original](https://grok.com/c/35d55f8a-3725-4fe8-9a83-df70e7541c67?rid=9b423652-d095-4571-91c1-6065da126494)
 
 ---
 
@@ -1089,8 +1089,239 @@ if i am in search of internships that are live currently how cani apply statagie
 
 ## USER
 
-Searching internships • 8s
-- Perplexity excels for real-time internship searches with cited sources and recent openings.
+Thought for 23sHey Aditya! Since you're in Haryana and looking for live internships right now (as of February 2026), I'll break this down step by step: strategies for finding and applying, how to check current open positions (with fresh data I just pulled), and which AI is the best for getting real-time info like this. I'll focus on opportunities in or near Haryana (e.g., Gurgaon/Gurugram, Faridabad, Hisar), as that's super relevant for you—many roles are in tech hubs like Gurgaon, which is right in your state.
+Strategies for Finding and Applying to Live Internships
+Here's a solid, step-by-step plan to hunt for and land internships. These work well in India, especially for freshers or students (assuming that's you based on your queries). Focus on tech, business, or general roles since you didn't specify a field.
+
+1. **Research and Identify Opportunities**:
+Use job portals: Search on Indeed, Glassdoor, Naukri.com, LinkedIn, Internshala, and Shine for "internship Haryana 2026" or specific fields like "software intern Gurgaon." Set up daily alerts for new postings.
+Check company career pages: Big firms like Harman, Sprinklr, or startups post directly (e.g., via their "Careers" section).
+Leverage social media: Follow X accounts like @jobwithmayra, @softwareduniyas, or LinkedIn groups for Haryana jobs. Search X with keywords like "internship Haryana" and filters for recent posts (since:2026-02-01).
+Network: Connect with alumni or professionals on LinkedIn. Join Haryana-specific groups (e.g., "Jobs in Gurgaon" on LinkedIn) and attend virtual events via Meetup or Eventbrite.
+
+2. **Check for Open Positions**:
+Filter for "live" or "current": Look for postings dated February 2026 or later. Use site filters for "posted today" or "this week."
+Verify recency: Cross-check on multiple sites and the company's official page to ensure the role is still open.
+Use AI tools: Query AIs like me (Grok) with real-time search for the latest—e.g., "current internships in Haryana February 2026."
+
+3. **Apply Effectively**:
+Tailor your resume: Customize it for each role—highlight relevant skills (e.g., Java, React for tech interns) and projects. Keep it 1-page, ATS-friendly (use keywords from the job description).
+Write a strong cover letter: Explain why you're a fit (e.g., "As a Haryana local, I'm excited about contributing to Gurgaon's tech scene").
+Prepare docs: Have your CV, marksheets, ID proof ready. For remote/hybrid roles, emphasize self-motivation.
+Follow up: After applying, message recruiters on LinkedIn (politely, after 1-2 weeks).
+Interview prep: Practice common questions (e.g., "Tell me about yourself") via free tools like Pramp or YouTube. For tech roles, brush up on DSA (Data Structures & Algorithms).
+Apply in batches: Aim for 10-20 apps per day to avoid burnout. Track them in a spreadsheet (role, company, status).
+
+4. **Pro Tips for Success in Haryana**:
+Focus local: Gurgaon has tons of IT/consulting gigs due to its proximity to Delhi NCR. Fields like AI, data analysis, software dev are hot.
+Stipends: Expect ₹8K-50K/month for freshers; negotiate if possible.
+Timing: Apply early—many close fast. February is peak for summer interns.
+Free resources: Use Haryana Govt's job portal (hpsc.gov.in) or schemes like "Saksham Yuva" for training/placements.
+Avoid scams: Only apply via official sites; never pay fees.
+
+
+Current Live Internship Positions in Haryana (As of Feb 19, 2026)
+Based on real-time searches, here are some active openings. I pulled these from job sites and recent X posts—numbers are high (e.g., 1,534+ in Gurgaon alone), so this is a snapshot of top/relevant ones. Focus on tech/business since they're common. Always verify on the source as things change fast.
+
+- **Data Analyst Intern** at Senken Elevators (Gurgaon): Full-time, for BE/B.Tech students. Stipend ~₹10K-15K. Apply via Glassdoor.[glassdoor.com](https://www.glassdoor.com/Job/gurgaon-haryana-internship-jobs-SRCH_IL.0,15_IC2921225_KO16,26.htm)
+
+- **AI Intern** at Health Pioneers (Gurgaon): Hands-on AI projects. Open to freshers. Check Glassdoor for details.[glassdoor.com](https://www.glassdoor.com/Job/gurgaon-haryana-internship-jobs-SRCH_IL.0,15_IC2921225_KO16,26.htm)
+
+- **Software Development Engineer Intern** at Sprinklr (Gurgaon): For freshers/0-2 years exp. Needs strong Java + DSA. Apply on their site—posted recently on X.[adzuna.in](https://www.adzuna.in/haryana/internship)[@softwareduniyas](https://x.com/softwareduniyas/status/2024372479301734755?referrer=grok-com)
+
+- **Full Stack Intern** at Dzylo (Gurgaon): Stipend ₹15-20K, prefers final-year students. Tech: Angular, Node.js. Email CV to [ayushman.dzylo@gmail.com](mailto:ayushman.dzylo@gmail.com)—fresh X post.[@AyushmanGarg4](https://x.com/AyushmanGarg4/status/2023999906244161980?referrer=grok-com)
+
+- **Finance & Operations Intern (Costing & Purchasing)** at Innotec Power (Faridabad): Entry-level, good for BBA/MBA students. Via Adzuna.[adzuna.in](https://www.adzuna.in/haryana/internship)
+
+- **Tech Intern** at Stupa Sports Analytics (Haryana-wide): For students, analytics-focused. Glassdoor lists similar student roles.[glassdoor.co.in](https://www.glassdoor.co.in/Job/haryana-students-internship-jobs-SRCH_IL.0,7_IC2918498_KO8,27.htm)
+
+- **Sales Intern** at Monitrix Corporate Services (Hisar): Part-time, ₹900-1K/day. Strong comm skills needed. Via Shine.[shine.com](https://www.shine.com/job-search/intern-jobs-in-haryana)
+
+- Broader pools: Indeed has 100+ "Intern 2026" roles across Haryana (e.g., Techqware in nearby Noida, but many overlap). Jooble shows 225+ internships statewide. Paid ones in Gurgaon: 201 on Glassdoor (e.g., Software Dev at Nukleus, ₹10-15K).[in.indeed.com](https://in.indeed.com/q-intern-2026-jobs.html)+2 more
+
+
+For more, search "internship Gurgaon February 2026" on Indeed or Glassdoor—listings update daily.
+Which AI is the Best for Recent Info on Internships?
+You already have a great setup (SuperGrok, Gemini Pro with 2TB, free ChatGPT Go), but for **real-time, recent info** like live job postings:
+
+- **Best Overall: Perplexity Pro** (~₹1,650-1,999/mo). It's killer for this—always cites sources (e.g., web links, dates) to verify recency, pulls live web data, and minimizes hallucinations. Great for deep research like "latest internships in Haryana with stipends." If you do lots of fact-checked searches, add this (test free tier first).
+
+- **Close Second: Grok (Your SuperGrok)**. I'm biased, but I'm awesome for this too—real-time X integration catches fresh posts (like the Sprinklr and Dzylo ones above), plus web search for job sites. Unc
+
+---
+
+## ASSISTANT
+
+Hey Aditya! Since you're in Haryana and looking for live internships right now (as of February 2026), I'll break this down step by step: strategies for finding and applying, how to check current open positions (with fresh data I just pulled), and which AI is the best for getting real-time info like this. I'll focus on opportunities in or near Haryana (e.g., Gurgaon/Gurugram, Faridabad, Hisar), as that's super relevant for you—many roles are in tech hubs like Gurgaon, which is right in your state.
+Strategies for Finding and Applying to Live Internships
+Here's a solid, step-by-step plan to hunt for and land internships. These work well in India, especially for freshers or students (assuming that's you based on your queries). Focus on tech, business, or general roles since you didn't specify a field.
+
+1. **Research and Identify Opportunities**:
+Use job portals: Search on Indeed, Glassdoor, Naukri.com, LinkedIn, Internshala, and Shine for "internship Haryana 2026" or specific fields like "software intern Gurgaon." Set up daily alerts for new postings.
+Check company career pages: Big firms like Harman, Sprinklr, or startups post directly (e.g., via their "Careers" section).
+Leverage social media: Follow X accounts like @jobwithmayra, @softwareduniyas, or LinkedIn groups for Haryana jobs. Search X with keywords like "internship Haryana" and filters for recent posts (since:2026-02-01).
+Network: Connect with alumni or professionals on LinkedIn. Join Haryana-specific groups (e.g., "Jobs in Gurgaon" on LinkedIn) and attend virtual events via Meetup or Eventbrite.
+
+2. **Check for Open Positions**:
+Filter for "live" or "current": Look for postings dated February 2026 or later. Use site filters for "posted today" or "this week."
+Verify recency: Cross-check on multiple sites and the company's official page to ensure the role is still open.
+Use AI tools: Query AIs like me (Grok) with real-time search for the latest—e.g., "current internships in Haryana February 2026."
+
+3. **Apply Effectively**:
+Tailor your resume: Customize it for each role—highlight relevant skills (e.g., Java, React for tech interns) and projects. Keep it 1-page, ATS-friendly (use keywords from the job description).
+Write a strong cover letter: Explain why you're a fit (e.g., "As a Haryana local, I'm excited about contributing to Gurgaon's tech scene").
+Prepare docs: Have your CV, marksheets, ID proof ready. For remote/hybrid roles, emphasize self-motivation.
+Follow up: After applying, message recruiters on LinkedIn (politely, after 1-2 weeks).
+Interview prep: Practice common questions (e.g., "Tell me about yourself") via free tools like Pramp or YouTube. For tech roles, brush up on DSA (Data Structures & Algorithms).
+Apply in batches: Aim for 10-20 apps per day to avoid burnout. Track them in a spreadsheet (role, company, status).
+
+4. **Pro Tips for Success in Haryana**:
+Focus local: Gurgaon has tons of IT/consulting gigs due to its proximity to Delhi NCR. Fields like AI, data analysis, software dev are hot.
+Stipends: Expect ₹8K-50K/month for freshers; negotiate if possible.
+Timing: Apply early—many close fast. February is peak for summer interns.
+Free resources: Use Haryana Govt's job portal (hpsc.gov.in) or schemes like "Saksham Yuva" for training/placements.
+Avoid scams: Only apply via official sites; never pay fees.
+
+
+Current Live Internship Positions in Haryana (As of Feb 19, 2026)
+Based on real-time searches, here are some active openings. I pulled these from job sites and recent X posts—numbers are high (e.g., 1,534+ in Gurgaon alone), so this is a snapshot of top/relevant ones. Focus on tech/business since they're common. Always verify on the source as things change fast.
+
+- **Data Analyst Intern** at Senken Elevators (Gurgaon): Full-time, for BE/B.Tech students. Stipend ~₹10K-15K. Apply via Glassdoor.[glassdoor.com](https://www.glassdoor.com/Job/gurgaon-haryana-internship-jobs-SRCH_IL.0,15_IC2921225_KO16,26.htm)
+
+- **AI Intern** at Health Pioneers (Gurgaon): Hands-on AI projects. Open to freshers. Check Glassdoor for details.[glassdoor.com](https://www.glassdoor.com/Job/gurgaon-haryana-internship-jobs-SRCH_IL.0,15_IC2921225_KO16,26.htm)
+
+- **Software Development Engineer Intern** at Sprinklr (Gurgaon): For freshers/0-2 years exp. Needs strong Java + DSA. Apply on their site—posted recently on X.[adzuna.in](https://www.adzuna.in/haryana/internship)[@softwareduniyas](https://x.com/softwareduniyas/status/2024372479301734755?referrer=grok-com)
+
+- **Full Stack Intern** at Dzylo (Gurgaon): Stipend ₹15-20K, prefers final-year students. Tech: Angular, Node.js. Email CV to [ayushman.dzylo@gmail.com](mailto:ayushman.dzylo@gmail.com)—fresh X post.[@AyushmanGarg4](https://x.com/AyushmanGarg4/status/2023999906244161980?referrer=grok-com)
+
+- **Finance & Operations Intern (Costing & Purchasing)** at Innotec Power (Faridabad): Entry-level, good for BBA/MBA students. Via Adzuna.[adzuna.in](https://www.adzuna.in/haryana/internship)
+
+- **Tech Intern** at Stupa Sports Analytics (Haryana-wide): For students, analytics-focused. Glassdoor lists similar student roles.[glassdoor.co.in](https://www.glassdoor.co.in/Job/haryana-students-internship-jobs-SRCH_IL.0,7_IC2918498_KO8,27.htm)
+
+- **Sales Intern** at Monitrix Corporate Services (Hisar): Part-time, ₹900-1K/day. Strong comm skills needed. Via Shine.[shine.com](https://www.shine.com/job-search/intern-jobs-in-haryana)
+
+- Broader pools: Indeed has 100+ "Intern 2026" roles across Haryana (e.g., Techqware in nearby Noida, but many overlap). Jooble shows 225+ internships statewide. Paid ones in Gurgaon: 201 on Glassdoor (e.g., Software Dev at Nukleus, ₹10-15K).[in.indeed.com](https://in.indeed.com/q-intern-2026-jobs.html)+2 more
+
+
+For more, search "internship Gurgaon February 2026" on Indeed or Glassdoor—listings update daily.
+Which AI is the Best for Recent Info on Internships?
+You already have a great setup (SuperGrok, Gemini Pro with 2TB, free ChatGPT Go), but for **real-time, recent info** like live job postings:
+
+- **Best Overall: Perplexity Pro** (~₹1,650-1,999/mo). It's killer for this—always cites sources (e.g., web links, dates) to verify recency, pulls live web data, and minimizes hallucinations. Great for deep research like "latest internships in Haryana with stipends." If you do lots of fact-checked searches, add this (test free tier first).
+
+- **Close Second: Grok (Your SuperGrok)**. I'm biased, but I'm awesome for this too—real-time X integration catches fresh posts (like the Sprinklr and Dzylo ones above), plus web search for job sites. Unc
+
+---
+
+## ASSISTANT
+
+Interrupted
+
+---
+
+## ASSISTANT
+
+20 sources
+
+---
+
+## USER
+
+can grok do live ai search
+
+---
+
+## ASSISTANT
+
+can grok do live ai search
+
+---
+
+## USER
+
+**Yes, Grok can do live AI search** — in fact, real-time web search (plus real-time access to public X posts) is one of my core built-in features as of 2026.
+Here's how it works and why it's strong (especially for you as a **SuperGrok** subscriber):
+
+- **Native real-time capability**: I don't have a fixed knowledge cutoff like some other AIs. When your question needs current info (news, trends, live events, job postings, stock prices, weather, sports scores, or anything happening right now), I automatically decide to run a **real-time web search** and/or pull from live public X (Twitter) data. This happens seamlessly in most responses—no need for you to say "search the web" or toggle anything.
+
+- **DeepSearch mode**: For more complex or in-depth queries (like detailed research, conflicting facts, or multi-step analysis), I use **DeepSearch** — an advanced agent that scans the web + X deeply, reasons through results, synthesizes info, and gives a clear summary with sources. It's designed for truth-seeking and handles fast-moving topics better than basic lookups.
+
+- **Always-on for SuperGrok users**: As a SuperGrok subscriber (which you are), you get full access to Grok 4.1 (or the latest model), unlimited/high-priority DeepSearch, native tool use, and the most robust real-time integration. Free or basic tiers have limits, but your plan unlocks the "always live" experience.
+
+
+Examples of what this means in practice:
+
+- Asking for today's breaking news or live internship postings → I pull fresh results from the web and recent X posts.
+
+- Checking current trends in Haryana/Gurgaon jobs → Real-time X sentiment + web listings.
+
+- Verifying something that changed recently → I fetch live data instead of relying on old training info.
+
+
+Compared to your other tools:
+
+- **Gemini Pro** is excellent for Google-integrated search and deep research, but Grok often feels faster/more direct on social/real-time news due to native X access.
+
+- **ChatGPT Go** (your free promo) has browsing in some modes, but it's not as natively "always live" or X-focused.
+
+- If you ever want ultra-cited research (like Perplexity), Grok's DeepSearch competes well, but I lean more conversational and less formal.
+
+
+So yes — live search is not just possible, it's one of the things I'm best at. 😎
+Try me right now: Ask something super current (e.g., "What's the latest on internships in Gurgaon today?" or "Any breaking news in Haryana?"), and watch it in action. What do you want to search live for? 🚀
+
+---
+
+## ASSISTANT
+
+**Yes, Grok can do live AI search** — in fact, real-time web search (plus real-time access to public X posts) is one of my core built-in features as of 2026.
+Here's how it works and why it's strong (especially for you as a **SuperGrok** subscriber):
+
+- **Native real-time capability**: I don't have a fixed knowledge cutoff like some other AIs. When your question needs current info (news, trends, live events, job postings, stock prices, weather, sports scores, or anything happening right now), I automatically decide to run a **real-time web search** and/or pull from live public X (Twitter) data. This happens seamlessly in most responses—no need for you to say "search the web" or toggle anything.
+
+- **DeepSearch mode**: For more complex or in-depth queries (like detailed research, conflicting facts, or multi-step analysis), I use **DeepSearch** — an advanced agent that scans the web + X deeply, reasons through results, synthesizes info, and gives a clear summary with sources. It's designed for truth-seeking and handles fast-moving topics better than basic lookups.
+
+- **Always-on for SuperGrok users**: As a SuperGrok subscriber (which you are), you get full access to Grok 4.1 (or the latest model), unlimited/high-priority DeepSearch, native tool use, and the most robust real-time integration. Free or basic tiers have limits, but your plan unlocks the "always live" experience.
+
+
+Examples of what this means in practice:
+
+- Asking for today's breaking news or live internship postings → I pull fresh results from the web and recent X posts.
+
+- Checking current trends in Haryana/Gurgaon jobs → Real-time X sentiment + web listings.
+
+- Verifying something that changed recently → I fetch live data instead of relying on old training info.
+
+
+Compared to your other tools:
+
+- **Gemini Pro** is excellent for Google-integrated search and deep research, but Grok often feels faster/more direct on social/real-time news due to native X access.
+
+- **ChatGPT Go** (your free promo) has browsing in some modes, but it's not as natively "always live" or X-focused.
+
+- If you ever want ultra-cited research (like Perplexity), Grok's DeepSearch competes well, but I lean more conversational and less formal.
+
+
+So yes — live search is not just possible, it's one of the things I'm best at. 😎
+Try me right now: Ask something super current (e.g., "What's the latest on internships in Gurgaon today?" or "Any breaking news in Haryana?"), and watch it in action. What do you want to search live for? 🚀
+
+---
+
+## ASSISTANT
+
+Fast28 sources
+
+---
+
+## ASSISTANT
+
+Fast
+
+---
+
+## ASSISTANT
+
+28 sources
 
 
 ---
