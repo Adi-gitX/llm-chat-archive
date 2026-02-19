@@ -1,6 +1,6 @@
 # Peter Steipete: AI CLI Tools & Agent Builder
 
-> **Platform:** GROK | **Date:** 20/02/2026, 00:40:09 | **Turns:** 24
+> **Platform:** GROK | **Date:** 20/02/2026, 00:41:00 | **Turns:** 27
 > **Source:** [Open Original](https://grok.com/c/7c947781-2c8c-4423-bf27-be05af7e1837?rid=d131088b-58df-47d7-8e8a-aedeb95fbf0c)
 
 ---
@@ -1387,8 +1387,321 @@ do not use things same as my resuem i neee to update that as well, i need like t
 
 ## USER
 
-Updating resume • 3s
-- Revise resume to align with modern professional README style, avoiding resume overlaps.
+[Banner](https://github.com/Adi-gitX/Adi-gitX/assets/159440749/e51549d8-8390-46d5-939c-a937bc0f591d)
+
+Hi, I'm Adithya 👋
+📍 **Delhi, India** | 🤖 **AI Systems Architect & Research Explorer** | 🚀 **GSoC Alum & AI Safety Advocate**
+[Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+[PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+[Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+[Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+[AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+[PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+[Terraform](https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
+Third-year AI undergrad pushing boundaries in scalable ML infrastructure, generative models, and ethical AI. With a knack for turning complex systems into robust solutions, I'm bridging research and real-world impact through innovative tools and open-source contributions.
+🍭 **DevXAnonymous** (org) – Collaborative hub for developer tools and AI experiments.
+Current Projects
+
+- 🗄️ **DriveMerge** (live) - Smart cloud storage aggregator that shards data across providers for seamless, fault-tolerant transfers and quota management.
+
+- 👥 **PEOPLE** (live) - Secure platform connecting devs with vetted opportunities, emphasizing quality control and fair task distribution.
+
+- 📚 **AXIOM** (live) - Integrated ecosystem for student growth, streamlining skill-building, assessments, and career pathways.
+
+- 🛠️ **why-broke** - CLI powerhouse for diagnosing elusive bugs by snapshotting runtime states in distributed environments.
+
+- 💬 **StoreChat** - Effortless extension to archive and sync AI conversations directly to repos for easy reference.
+
+- 🎨 **ArtifyX** - Interactive canvas for pixel-perfect digital art, sparking creativity with intuitive tools.
+
+- 🧠 **ClasspilotAi** - On-the-fly AI tutor that boosts classroom confidence with instant, accurate responses.
+
+- 🛡️ **SkillSheild** - Intelligent monitor to counteract AI dependency by tracking and rebuilding core competencies.
+
+- 🌈 **colour-fun** - Quick generator for flawless solid backgrounds, customizable for any design need.
+
+- 🔮 **Oracle** - Insightful scanner demystifying API keys and their hidden potentials.
+
+- 📊 **floor-segmentation-svm** - High-precision ML model for indoor mapping, leveraging advanced features for top-tier accuracy.
+
+- ⚙️ **NetworkOptimizer** - Script suite to tweak and enhance network setups for peak performance.
+
+- 🔄 **uniloop** - Versatile JS library for efficient automation loops in dynamic apps.
+
+- ⏱️ **ZEN-pomodoro** - Zen-inspired timer app promoting deep focus and balanced breaks.
+
+- 📝 **DevNotes** - Streamlined note system tailored for coders, with quick search and integration.
+
+
+Research Projects
+
+- 🔍 **TransformerLens** (ongoing) - Framework dissecting transformer internals to uncover how models process language nuances.
+
+- 📈 **ForecastNet** - Advanced suite for predicting trends and spotting anomalies in time-based data streams.
+
+- 📖 **RAG Scholar** - AI-powered query engine over scholarly works, ensuring grounded and reliable insights.
+
+- 🤖 **MATS-Summer-2026-Preparation** - Curated resources and experiments gearing up for AI alignment challenges.
+
+- 🔬 **AIML-research-analysis-model** - Toolset for dissecting emerging AI trends through data-driven analysis.
+
+
+Legacy Work
+
+- 🏗️ **qrcode-management-system-nestjs** - Robust backend for handling QR operations at scale.
+
+- 🛒 **college-appointment-system** - Efficient scheduling server for academic environments.
+
+- ❤️ **Heartstrings** - Creative app weaving narratives into bespoke musical experiences.
+
+- 🛍️ **Endsem-Project-Croma-Clone** - Full-featured e-commerce prototype honing stack skills.
+
+- 💸 **Splitwise---Java-Web-App** - Java app simplifying group expense tracking.
+
+- 📊 **leetcodescoreX** - Analyzer pulling comprehensive LeetCode metrics.
+
+- 🎮 **TIC-TAC-TOE-XGAME** - Engaging JS take on the timeless game.
+
+- 🔗 **LinkedInX-clone** - Practice build mimicking professional networking features.
+
+- 🔢 **2048-Game** - Addictive puzzle recreation in pure JS.
+
+
+GitHub Activity
+[GitHub Contribution Graph](https://ghchart.rshah.org/Adi-gitX)
+What I'm Doing
+
+- **Advancing AI frontiers** - Crafting infrastructure for safe, interpretable models.
+
+- **Open-source innovation** - Enhancing global projects with practical contributions.
+
+- **Web3 integration** - Experimenting with decentralized AI for transparent systems.
+
+- **Prototyping swiftly** - From concept to deployment in record time.
+
+- **MATS prep** - Honing skills in alignment and governance for impactful research.
+
+
+Latest Blog Posts
+
+
+- [Demystifying Transformer Attention](https://adigitx.vercel.app/blog/transformer-attention)
+
+- [Scaling ML for Real-World Anomalies](https://adigitx.vercel.app/blog/ml-anomalies)
+
+- [Ethical AI in Web3 Ecosystems](https://adigitx.vercel.app/blog/ai-web3)
+
+- [Debugging Distributed Nightmares](https://adigitx.vercel.app/blog/distributed-debugging)
+
+- [From GSoC to AI Safety](https://adigitx.vercel.app/blog/gsoc-ai-safety)
+
+
+
+Connect
+[Website](https://adigitx.vercel.app/)
+[LinkedIn](https://www.linkedin.com/in/kammatiaditya/)
+[GitHub](https://github.com/Adi-gitX)
+[LeetCode](https://leetcode.com/user9233qs/)
+[Instagram](https://www.instagram.com/aditya_88899/)
+[YouTube](https://www.youtube.com/channel/UCxqTwHpFew146NP7HWEKkvA)
+
+Recognition
+
+- Google Summer of Code Contributor — Creative Commons (2024)
+
+- ML Alignment & Theory Scholars (MATS) — Progressed to Stage 2 in elite AI safety program
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR) — Championed innovation on global stage
+
+- 3rd Place, Stealth Fire Hackathon (2024)
+
+- Engineered reliability boosts at Disprz, slashing enterprise downtimes significantly
+
+
+Media
+
+- **AI Interpretability Deep Dive** - Exploring model mechanics (placeholder; add real links)
+
+- **GSoC Experience Talk** - Sharing open-source journeys
+
+
+Model Status
+
+- **What model is Adithya tinkering with?** Peek at live updates on [adigitx.vercel.app/models](https://adigitx.vercel.app/models)
+
+
+Philosophy
+"Scale with integrity – engineer solutions that empower without compromise. Innovation thrives at the intersection of curiosity and caution."
+Random Facts
+
+---
+
+## ASSISTANT
+
+[Banner](https://github.com/Adi-gitX/Adi-gitX/assets/159440749/e51549d8-8390-46d5-939c-a937bc0f591d)
+
+Hi, I'm Adithya 👋
+📍 **Delhi, India** | 🤖 **AI Systems Architect & Research Explorer** | 🚀 **GSoC Alum & AI Safety Advocate**
+[Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+[PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+[Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+[Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+[AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+[PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+[Terraform](https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
+Third-year AI undergrad pushing boundaries in scalable ML infrastructure, generative models, and ethical AI. With a knack for turning complex systems into robust solutions, I'm bridging research and real-world impact through innovative tools and open-source contributions.
+🍭 **DevXAnonymous** (org) – Collaborative hub for developer tools and AI experiments.
+Current Projects
+
+- 🗄️ **DriveMerge** (live) - Smart cloud storage aggregator that shards data across providers for seamless, fault-tolerant transfers and quota management.
+
+- 👥 **PEOPLE** (live) - Secure platform connecting devs with vetted opportunities, emphasizing quality control and fair task distribution.
+
+- 📚 **AXIOM** (live) - Integrated ecosystem for student growth, streamlining skill-building, assessments, and career pathways.
+
+- 🛠️ **why-broke** - CLI powerhouse for diagnosing elusive bugs by snapshotting runtime states in distributed environments.
+
+- 💬 **StoreChat** - Effortless extension to archive and sync AI conversations directly to repos for easy reference.
+
+- 🎨 **ArtifyX** - Interactive canvas for pixel-perfect digital art, sparking creativity with intuitive tools.
+
+- 🧠 **ClasspilotAi** - On-the-fly AI tutor that boosts classroom confidence with instant, accurate responses.
+
+- 🛡️ **SkillSheild** - Intelligent monitor to counteract AI dependency by tracking and rebuilding core competencies.
+
+- 🌈 **colour-fun** - Quick generator for flawless solid backgrounds, customizable for any design need.
+
+- 🔮 **Oracle** - Insightful scanner demystifying API keys and their hidden potentials.
+
+- 📊 **floor-segmentation-svm** - High-precision ML model for indoor mapping, leveraging advanced features for top-tier accuracy.
+
+- ⚙️ **NetworkOptimizer** - Script suite to tweak and enhance network setups for peak performance.
+
+- 🔄 **uniloop** - Versatile JS library for efficient automation loops in dynamic apps.
+
+- ⏱️ **ZEN-pomodoro** - Zen-inspired timer app promoting deep focus and balanced breaks.
+
+- 📝 **DevNotes** - Streamlined note system tailored for coders, with quick search and integration.
+
+
+Research Projects
+
+- 🔍 **TransformerLens** (ongoing) - Framework dissecting transformer internals to uncover how models process language nuances.
+
+- 📈 **ForecastNet** - Advanced suite for predicting trends and spotting anomalies in time-based data streams.
+
+- 📖 **RAG Scholar** - AI-powered query engine over scholarly works, ensuring grounded and reliable insights.
+
+- 🤖 **MATS-Summer-2026-Preparation** - Curated resources and experiments gearing up for AI alignment challenges.
+
+- 🔬 **AIML-research-analysis-model** - Toolset for dissecting emerging AI trends through data-driven analysis.
+
+
+Legacy Work
+
+- 🏗️ **qrcode-management-system-nestjs** - Robust backend for handling QR operations at scale.
+
+- 🛒 **college-appointment-system** - Efficient scheduling server for academic environments.
+
+- ❤️ **Heartstrings** - Creative app weaving narratives into bespoke musical experiences.
+
+- 🛍️ **Endsem-Project-Croma-Clone** - Full-featured e-commerce prototype honing stack skills.
+
+- 💸 **Splitwise---Java-Web-App** - Java app simplifying group expense tracking.
+
+- 📊 **leetcodescoreX** - Analyzer pulling comprehensive LeetCode metrics.
+
+- 🎮 **TIC-TAC-TOE-XGAME** - Engaging JS take on the timeless game.
+
+- 🔗 **LinkedInX-clone** - Practice build mimicking professional networking features.
+
+- 🔢 **2048-Game** - Addictive puzzle recreation in pure JS.
+
+
+GitHub Activity
+[GitHub Contribution Graph](https://ghchart.rshah.org/Adi-gitX)
+What I'm Doing
+
+- **Advancing AI frontiers** - Crafting infrastructure for safe, interpretable models.
+
+- **Open-source innovation** - Enhancing global projects with practical contributions.
+
+- **Web3 integration** - Experimenting with decentralized AI for transparent systems.
+
+- **Prototyping swiftly** - From concept to deployment in record time.
+
+- **MATS prep** - Honing skills in alignment and governance for impactful research.
+
+
+Latest Blog Posts
+
+
+- [Demystifying Transformer Attention](https://adigitx.vercel.app/blog/transformer-attention)
+
+- [Scaling ML for Real-World Anomalies](https://adigitx.vercel.app/blog/ml-anomalies)
+
+- [Ethical AI in Web3 Ecosystems](https://adigitx.vercel.app/blog/ai-web3)
+
+- [Debugging Distributed Nightmares](https://adigitx.vercel.app/blog/distributed-debugging)
+
+- [From GSoC to AI Safety](https://adigitx.vercel.app/blog/gsoc-ai-safety)
+
+
+
+Connect
+[Website](https://adigitx.vercel.app/)
+[LinkedIn](https://www.linkedin.com/in/kammatiaditya/)
+[GitHub](https://github.com/Adi-gitX)
+[LeetCode](https://leetcode.com/user9233qs/)
+[Instagram](https://www.instagram.com/aditya_88899/)
+[YouTube](https://www.youtube.com/channel/UCxqTwHpFew146NP7HWEKkvA)
+
+Recognition
+
+- Google Summer of Code Contributor — Creative Commons (2024)
+
+- ML Alignment & Theory Scholars (MATS) — Progressed to Stage 2 in elite AI safety program
+
+- Delegate, Harvard Project for Asian and International Relations (HPAIR) — Championed innovation on global stage
+
+- 3rd Place, Stealth Fire Hackathon (2024)
+
+- Engineered reliability boosts at Disprz, slashing enterprise downtimes significantly
+
+
+Media
+
+- **AI Interpretability Deep Dive** - Exploring model mechanics (placeholder; add real links)
+
+- **GSoC Experience Talk** - Sharing open-source journeys
+
+
+Model Status
+
+- **What model is Adithya tinkering with?** Peek at live updates on [adigitx.vercel.app/models](https://adigitx.vercel.app/models)
+
+
+Philosophy
+"Scale with integrity – engineer solutions that empower without compromise. Innovation thrives at the intersection of curiosity and caution."
+Random Facts
+
+---
+
+## ASSISTANT
+
+1.9s
+
+---
+
+## ASSISTANT
+
+1.9s
 
 
 ---
